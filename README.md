@@ -36,5 +36,5 @@ $ psql -h localhost -p 5432 -U godot -d aphp -W
 
 # Execute first part
 ```
-$ mkdir covidom_csv                                                                                  (covidom$ source txt2sql_covidum.bash
+$ source txt2sql_covidum.bash
 ```
