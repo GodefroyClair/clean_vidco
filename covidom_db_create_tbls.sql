@@ -37,6 +37,16 @@ CREATE TABLE clinic (
 	"Clinic name" VARCHAR NOT NULL, 
 	"Has medical department" BOOLEAN NOT NULL
 );
+CREATE TABLE clinic_doctor_hospit_followup (
+	"#Clinic" BOOLEAN NOT NULL, 
+	"Clinic" VARCHAR NOT NULL, 
+	"#Doctor" DECIMAL NOT NULL, 
+	"Doctor" VARCHAR NOT NULL, 
+	"#Hospitalization reason" DECIMAL NOT NULL, 
+	"Hospitalization reason" VARCHAR NOT NULL, 
+	"#Follow up reason" DECIMAL NOT NULL, 
+	"Follow up reason" VARCHAR NOT NULL
+);
 CREATE TABLE clinic_followup_reason (
 	"#Clinic" BOOLEAN NOT NULL, 
 	"Clinic" VARCHAR NOT NULL, 
@@ -89,30 +99,6 @@ CREATE TABLE data_alert_notresponding (
 	"Première prise en charge" TIMESTAMP WITHOUT TIME ZONE, 
 	"Alerte close le" TIMESTAMP WITHOUT TIME ZONE, 
 	"Commentiaire de clôture" VARCHAR NOT NULL
-);
-CREATE TABLE data_alert_notresponding_cor (
-	"#Alert" VARCHAR NOT NULL, 
-	"#Clinic" BOOLEAN NOT NULL, 
-	"Clinique" VARCHAR NOT NULL, 
-	"#Medical_Dept" DECIMAL NOT NULL, 
-	"Service" VARCHAR, 
-	"#Doctor" DECIMAL NOT NULL, 
-	"Médecin" VARCHAR NOT NULL, 
-	"#Patient" VARCHAR NOT NULL, 
-	"#Séjour" VARCHAR NOT NULL, 
-	"Séjour_no" BOOLEAN, 
-	"Date_d'intervention" TIMESTAMP WITHOUT TIME ZONE, 
-	"#HospitalizationReason" DECIMAL NOT NULL, 
-	"Motif_d'hospitalisation" VARCHAR NOT NULL, 
-	"#FollowUpReason" DECIMAL NOT NULL, 
-	"Motif_de_suivi" VARCHAR NOT NULL, 
-	"Phase" VARCHAR NOT NULL, 
-	"Evènement_à_I+X" VARCHAR NOT NULL, 
-	"Evènement_à_S+X" VARCHAR NOT NULL, 
-	"Alerte_déclenchée_le" TIMESTAMP WITHOUT TIME ZONE, 
-	"Première_prise_en_charge" TIMESTAMP WITHOUT TIME ZONE, 
-	"Alerte_close_le" TIMESTAMP WITHOUT TIME ZONE, 
-	"Commentiaire_de_clôture" VARCHAR NOT NULL
 );
 CREATE TABLE data_demography (
 	"Year" DECIMAL NOT NULL, 
@@ -307,23 +293,4 @@ CREATE TABLE patient_stay (
 	"PatientStay_FollowUpReasonName" VARCHAR NOT NULL, 
 	"PatientStay_HospitalizationReasonName" VARCHAR NOT NULL, 
 	"PatientStay_MedicalDepartmentName" VARCHAR NOT NULL
-);
-CREATE TABLE patient_stay_evolution (
-	"Date de début des symptômes" DATE NOT NULL, 
-	"Année de début des symptômes" DECIMAL NOT NULL, 
-	"Mois de début des symptômes" DECIMAL NOT NULL, 
-	"No Semaine de début des symptômes" DECIMAL NOT NULL, 
-	"Quinzaine de début des symptômes" DECIMAL NOT NULL, 
-	"Jour du mois de début des symptômes" DECIMAL NOT NULL, 
-	"Jour de l'année de début des symptômes" DECIMAL NOT NULL, 
-	"Id. Région" BOOLEAN NOT NULL, 
-	"Région" VARCHAR NOT NULL, 
-	"Id. Etablissement" DECIMAL NOT NULL, 
-	"Etablissement" VARCHAR NOT NULL, 
-	"Id. Médecin" DECIMAL NOT NULL, 
-	"Id. Type de patient" DECIMAL NOT NULL, 
-	"Type de patient" VARCHAR NOT NULL, 
-	"Id. Type de suivi" DECIMAL NOT NULL, 
-	"Type de suivi" VARCHAR NOT NULL, 
-	"Nombre de suivi" DECIMAL NOT NULL
 );

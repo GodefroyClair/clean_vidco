@@ -2,15 +2,16 @@ COPY alert FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/alert.csv' DELIM
 
 COPY alert_subitem FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/alert_subitem.csv' DELIMITER ',' CSV HEADER;
 
+-- NO DATA in checklist_* tables
 /* COPY checklist_answer FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/checklist_answer.csv' DELIMITER ',' CSV HEADER; */
 /* COPY checklist_definition FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/checklist_definition.csv' DELIMITER ',' CSV HEADER; */
 /* COPY checklist_definition_preop FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/checklist_definition_preop.csv' DELIMITER ',' CSV HEADER; */
 /* COPY checklist_item FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/checklist_item.csv' DELIMITER ',' CSV HEADER; */
 /* COPY checklist_option FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/checklist_option.csv' DELIMITER ',' CSV HEADER; */
 
-COPY clinic FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/clinic.csv' DELIMITER ',' CSV HEADER;
-COPY clinic_doctor_hospit_followup FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/clinic_followup_reason.csv' DELIMITER ',' CSV HEADER;
-COPY clinic_followup_reason FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/clinic_followup_reason.csv' DELIMITER ',' CSV HEADER;
+/* COPY clinic FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/clinic.csv' DELIMITER ',' CSV HEADER; */
+/* COPY clinic_doctor_hospit_followup FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/clinic_followup_reason.csv' DELIMITER ',' CSV HEADER; */
+/* COPY clinic_followup_reason FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/clinic_followup_reason.csv' DELIMITER ',' CSV HEADER; */
 
 /* COPY data_alert_delay FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/data_alert_delay.csv' DELIMITER ',' CSV HEADER; */
 /* COPY data_alert_notresponding FROM '/Users/clair_godefroy/APHP/covidom/covidom_csv/data_alert_notresponding.csv' DELIMITER ',' CSV HEADER; */
