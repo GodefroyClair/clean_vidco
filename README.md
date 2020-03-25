@@ -17,14 +17,14 @@ export PWD=XXXX
 
 export DB=XXX
 
-# Create postgres db in a docker
+# Create postgres db docker container
 ```
-$ docker run --name covidum -v `pwd`:`pwd` -e POSTGRES_USER=$USER -e POSTGRES_PASSWORD=$PWD -e POSTGRES_DB=$DB -p 5432:5432 -d postgres
+$ docker run --name covidom -v `pwd`/covidom_csv:/covidom_csv -e POSTGRES_USER=$USER -e POSTGRES_PASSWORD=$PWD -e POSTGRES_DB=$DB -p 5432:5432 -d postgres
 ```
 
-# Create postgres db in a docker
+# Delete postgres db docker container
 ```
-$ docker rm -f covidum
+$ docker rm -f covidom
 ```
 
 # Connect
@@ -36,5 +36,5 @@ $ psql -h localhost -p 5432 -U godot -d aphp -W
 
 # Execute first part
 ```
-$ source txt2sql_covidum.bash
+$ source txt2sql_covidom.bash
 ```
