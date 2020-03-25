@@ -1,4 +1,0 @@
-#Clinic,Clinic,#Follow up reason,Follow up reason code,Follow up reason
-1,Région Ile de France,1,MOTIF_DE_SUIVI,Patient à risque
-1,Région Ile de France,2,PATIENT_SANS_FACTEUR_DE_RISQUE,Patient sans facteur de risque
-1,Région Ile de France,3,SUIVI_PROLONGE,Suivi prolongé

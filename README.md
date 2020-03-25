@@ -1,3 +1,8 @@
+# Dependencies
+
+csvkit
+docker
+conda
 
 # Create a .env file
 ```
