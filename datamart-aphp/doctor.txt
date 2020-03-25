@@ -1,0 +1,2007 @@
+#Clinic|Clinic|#Medical Dept|Medical Dept|#Doctor|Doctor Full Name
+1|Région Ile de France|11|Lariboisière|287|BUGAREL-HELLEQUIN Clara
+1|Région Ile de France|11|Lariboisière|288|CAJEE Nawra
+1|Région Ile de France|11|Lariboisière|290|CAPUT Charles
+1|Région Ile de France|11|Lariboisière|291|CAZENAVE Michel Gabriel
+1|Région Ile de France|11|Lariboisière|292|CHERPIN Elisa
+1|Région Ile de France|11|Lariboisière|294|CHIM Vanessa
+1|Région Ile de France|11|Lariboisière|295|COHEN Yonathan
+1|Région Ile de France|11|Lariboisière|296|CORDA Morgane
+1|Région Ile de France|11|Lariboisière|298|COUTON Charline
+1|Région Ile de France|11|Lariboisière|299|CUAU Samuel
+1|Région Ile de France|11|Lariboisière|300|DA ROCHA MIRANDA Maria Claudia
+1|Région Ile de France|11|Lariboisière|302|DAMIEN ANGO Doreen
+1|Région Ile de France|11|Lariboisière|303|DANG Christophe
+1|Région Ile de France|11|Lariboisière|304|FRIQUET Marion
+1|Région Ile de France|11|Lariboisière|305|GIOLITO Anna
+1|Région Ile de France|11|Lariboisière|307|GOEMANS Armelle
+1|Région Ile de France|11|Lariboisière|308|GRANDE LOGEON Alexandre
+1|Région Ile de France|11|Lariboisière|310|HADDAB Sonia
+1|Région Ile de France|4|Médecins généralistes|1911|LAHAM Edouard
+1|Région Ile de France|11|Lariboisière|311|MARROUA Rachida
+1|Région Ile de France|11|Lariboisière|320|MAZET Rose
+1|Région Ile de France|4|Médecins généralistes|1895|WILTHIEN Francois
+1|Région Ile de France|||1251|Dr A Supprimer
+1|Région Ile de France|33|Centre Richerand|1491|Dr A Supprimer
+1|Région Ile de France|10|Henri Mondor|1066|Dr AARON Emmanuelle
+1|Région Ile de France|11|Lariboisière|184|Dr ABBAS Leila
+1|Région Ile de France|13|St Antoine|184|Dr ABBAS Leila
+1|Région Ile de France|24|Bicêtre|1834|Dr ABBOU Aziz
+1|Région Ile de France|13|St Antoine|322|Dr ABDEL AL Anas
+1|Région Ile de France|10|Henri Mondor|1067|Dr ABDEL WAHAB Hakim
+1|Région Ile de France|6|Ambroise Paré|623|Dr ABEL Anne
+1|Région Ile de France|7|Antoine Béclère|1305|Dr ABGRALL Sophie
+1|Région Ile de France|13|St Antoine|429|Dr ABISROR Noemie
+1|Région Ile de France|8|Avicenne|1783|Dr ADDOU Sarah
+1|Région Ile de France|13|St Antoine|324|Dr ADDOU Beghdad
+1|Région Ile de France|8|Avicenne|1813|Dr ADNET Frédéric
+1|Région Ile de France|13|St Antoine|326|Dr AGATHE NERINE Nais
+1|Région Ile de France|3|Pitié-Salpêtrière|471|Dr AGRANAT Pascal
+1|Région Ile de France|15|Jean Verdier|471|Dr AGRANAT Pascal
+1|Région Ile de France|8|Avicenne|1784|Dr AGUADISCH Elise Elene
+1|Région Ile de France|18|Beaujon|1816|Dr AGUILERA MUNOZ Lina
+1|Région Ile de France|17|Tenon|689|Dr AGUT Sophie
+1|Région Ile de France|10|Henri Mondor|1609|Dr AHMADI Mahsa
+1|Région Ile de France|36|Hôpital Louis Mourier|1745|Dr AIELLO Tommaso Francesco
+1|Région Ile de France|20|SAMU 75|911|Dr AILLERES Philippe
+1|Région Ile de France|4|Médecins généralistes|84|Dr AIM-EUSEBI Amélie
+1|Région Ile de France|13|St Antoine|84|Dr AIM-EUSEBI Amélie
+1|Région Ile de France|11|Lariboisière|203|Dr AIT MOULA Lisa
+1|Région Ile de France|10|Henri Mondor|1456|Dr AJZENBERG Christiane
+1|Région Ile de France|24|Bicêtre|1818|Dr AKEKE Marion
+1|Région Ile de France|4|Médecins généralistes|1501|Dr AKNIN Sophie
+1|Région Ile de France|8|Avicenne|1785|Dr AKODAD Hayatte
+1|Région Ile de France|10|Henri Mondor|1571|Dr AKOU'OU Jean-Florent
+1|Région Ile de France|11|Lariboisière|171|Dr AKROUR Yanis
+1|Région Ile de France|21|Saint-Louis|1893|Dr AL FAOUR Firas
+1|Région Ile de France|6|Ambroise Paré|580|Dr AL HENNAWI Mohamed Raed
+1|Région Ile de France|17|Tenon|690|Dr AL WARAGLI Noha
+1|Région Ile de France|||1835|Dr ALAOUI Hafid
+1|Région Ile de France|3|Pitié-Salpêtrière|893|Dr ALAUZY Virginie
+1|Région Ile de France|24|Bicêtre|1826|Dr ALAZRA Bernard
+1|Région Ile de France|||553|Dr ALBY Marie-Laure
+1|Région Ile de France|4|Médecins généralistes|553|Dr ALBY Marie-Laure
+1|Région Ile de France|2|Necker|1279|Dr ALBY LAURENT Fanny
+1|Région Ile de France|||178|Dr ALDANDACHI Ghanima
+1|Région Ile de France|11|Lariboisière|178|Dr ALDANDACHI Ghanima
+1|Région Ile de France|29|SAMU 92|1245|Dr ALFANDARI Marie-Elise
+1|Région Ile de France|||521|Dr ALHERITIERE Armelle
+1|Région Ile de France|20|SAMU 75|912|Dr ALIKHTYAR Inaya
+1|Région Ile de France|18|Beaujon|1549|Dr ALLAHAM Wassim
+1|Région Ile de France|10|Henri Mondor|468|Dr ALLEMAND Aude
+1|Région Ile de France|10|Henri Mondor|1068|Dr ALLIEL Celine
+1|Région Ile de France|3|Pitié-Salpêtrière|790|Dr ALMAYRAC Agnès
+1|Région Ile de France|5|HEGP|1197|Dr ALMOSNI Jennifer
+1|Région Ile de France|24|Bicêtre|1836|Dr ALNASER Feras
+1|Région Ile de France|10|Henri Mondor|1594|Dr ALOUI Khouloud
+1|Région Ile de France|11|Lariboisière|179|Dr AMADOR BORRERO Blanca
+1|Région Ile de France|13|St Antoine|414|Dr AMANN Caroline
+1|Région Ile de France|7|Antoine Béclère|1304|Dr AMAR KHODJA Safia
+1|Région Ile de France|10|Henri Mondor|1426|Dr AMARA Brahim
+1|Région Ile de France|11|Lariboisière|1076|Dr AMARSY Rishma
+1|Région Ile de France|8|Avicenne|1786|Dr AMEUR Lydia
+1|Région Ile de France|15|Jean Verdier|472|Dr AMMAR Kamal
+1|Région Ile de France|15|Jean Verdier|473|Dr AMOR CHELIHI Lahoueri
+1|Région Ile de France|17|Tenon|1274|Dr AMRIOUI Fatima
+1|Région Ile de France|20|SAMU 75|913|Dr AN Kim
+1|Région Ile de France|13|St Antoine|406|Dr ANDEL AMIEL Audrey
+1|Région Ile de France|9|Cochin|965|Dr ANDREOTTI Christophe
+1|Région Ile de France|7|Antoine Béclère|1306|Dr ANDRONIKOF Marc
+1|Région Ile de France|11|Lariboisière|155|Dr ANTONIETTI Julien
+1|Région Ile de France|1|Bichat|1724|Dr ANTONIOL POSTIC Stéphanie
+1|Région Ile de France|1|Bichat|1|Dr ANTOUN Zeina
+1|Région Ile de France|3|Pitié-Salpêtrière|791|Dr AOUIDAD Aveline
+1|Région Ile de France|11|Lariboisière|180|Dr APARICIO Caroline
+1|Région Ile de France|11|Lariboisière|131|Dr ARCELLI Matteo
+1|Région Ile de France|10|Henri Mondor|1069|Dr ARNOULD Thomas Alain
+1|Région Ile de France|3|Pitié-Salpêtrière|792|Dr ARNULF Isabelle
+1|Région Ile de France|11|Lariboisière|189|Dr ARRIGONI MAROCCO Stefano
+1|Région Ile de France|11|Lariboisière|181|Dr ARROUBI Alham
+1|Région Ile de France|6|Ambroise Paré|578|Dr ARROUY Laurence
+1|Région Ile de France|8|Avicenne|1802|Dr ARROYO Isabel
+1|Région Ile de France|10|Henri Mondor|1431|Dr ARTIS Carolie
+1|Région Ile de France|3|Pitié-Salpêtrière|793|Dr ARZOINE Jeremy
+1|Région Ile de France|||1958|Dr ARZOUK Nadia
+1|Région Ile de France|13|St Antoine|328|Dr ASCIONE Sophia
+1|Région Ile de France|9|Cochin|1125|Dr ASLANBEKOVA Natella
+1|Région Ile de France|36|Hôpital Louis Mourier|1746|Dr ASLANGUL Elisabeth
+1|Région Ile de France|18|Beaujon|1534|Dr ASSELAH Tarif
+1|Région Ile de France|6|Ambroise Paré|594|Dr ASSEMAT Laura
+1|Région Ile de France|10|Henri Mondor|1593|Dr ASSER Laetitia
+1|Région Ile de France|10|Henri Mondor|1561|Dr ASSIER Haudrey
+1|Région Ile de France|5|HEGP|1201|Dr ATTIAS Rebecca
+1|Région Ile de France|18|Beaujon|1350|Dr AUBERT Alain
+1|Région Ile de France|3|Pitié-Salpêtrière|794|Dr AUBRY Alexandra
+1|Région Ile de France|3|Pitié-Salpêtrière|871|Dr AUBRY Adeline
+1|Région Ile de France|10|Henri Mondor|1698|Dr AUDARD Vincent
+1|Région Ile de France|13|St Antoine|418|Dr AUDIFFRED Laeticia
+1|Région Ile de France|3|Pitié-Salpêtrière|2|Dr AUFFRAY J Christian
+1|Région Ile de France|8|Avicenne|1803|Dr AUFFREDOU François Pierre
+1|Région Ile de France|3|Pitié-Salpêtrière|795|Dr AUGER Yvain
+1|Région Ile de France|15|Jean Verdier|474|Dr AUPIAIS Camille
+1|Région Ile de France|18|Beaujon|1367|Dr AUSSILHOU Beatrice
+1|Région Ile de France|13|St Antoine|409|Dr AVANTURIER Judith
+1|Région Ile de France|11|Lariboisière|182|Dr AVENEAU Clement
+1|Région Ile de France|3|Pitié-Salpêtrière|875|Dr AVONDO Aurélie
+1|Région Ile de France|13|St Antoine|403|Dr AWDE Ali
+1|Région Ile de France|11|Lariboisière|186|Dr AYASSE Timothee
+1|Région Ile de France|9|Cochin|966|Dr AYLLON MILLA Sonia
+1|Région Ile de France|6|Ambroise Paré|600|Dr AZEMAR Laurene
+1|Région Ile de France|8|Avicenne|1296|Dr AZOULAY Levi-Dan
+1|Région Ile de France|9|Cochin|1126|Dr AZOULAY Célia
+1|Région Ile de France|17|Tenon|691|Dr AZOYAN Loris
+1|Région Ile de France|9|Cochin|1127|Dr BABER Alistair Sylvain
+1|Région Ile de France|1|Bichat|3|Dr BACHELARD Antoine
+1|Région Ile de France|10|Henri Mondor|1580|Dr BACHELLEZ Jordan Nady
+1|Région Ile de France|10|Henri Mondor|1469|Dr BACHIR Dora
+1|Région Ile de France|17|Tenon|692|Dr BACHMEYER Claude
+1|Région Ile de France|8|Avicenne|1299|Dr BADARANI Oumama
+1|Région Ile de France|8|Avicenne|1267|Dr BADORO Hamdani Boulfa
+1|Région Ile de France|11|Lariboisière|185|Dr BADSI Esma
+1|Région Ile de France|29|SAMU 92|1234|Dr BAER Michel
+1|Région Ile de France|3|Pitié-Salpêtrière|905|Dr BAGNIS Corinne
+1|Région Ile de France|15|Jean Verdier|475|Dr BAKER Catherine
+1|Région Ile de France|8|Avicenne|1804|Dr BAKIRLI Birol
+1|Région Ile de France|11|Lariboisière|191|Dr BAKKOUCH Abderrahmane
+1|Région Ile de France|||1765|Dr BAKOPOULOS Sofia
+1|Région Ile de France|6|Ambroise Paré|1766|Dr BAKOPOULOU Sofia
+1|Région Ile de France|9|Cochin|1766|Dr BAKOPOULOU Sofia
+1|Région Ile de France|11|Lariboisière|193|Dr BALKAN Suna
+1|Région Ile de France|3|Pitié-Salpêtrière|796|Dr BANNEVILLE Béatrice
+1|Région Ile de France|11|Lariboisière|195|Dr BARBEAU Guillaume Paul
+1|Région Ile de France|24|Bicêtre|1833|Dr BARBEROUX Vincent
+1|Région Ile de France|13|St Antoine|330|Dr BARD Anne Sophie
+1|Région Ile de France|31|CHIV|1354|Dr BARD Claudine
+1|Région Ile de France|18|Beaujon|1496|Dr BARDET Pascal
+1|Région Ile de France|20|SAMU 75|914|Dr BARDON Jean
+1|Région Ile de France|17|Tenon|693|Dr BARD-REBOUL Sacha
+1|Région Ile de France|10|Henri Mondor|1071|Dr BARGHOUT Majed
+1|Région Ile de France|3|Pitié-Salpêtrière|797|Dr BARON Marine
+1|Région Ile de France|3|Pitié-Salpêtrière|883|Dr BARROS DE FREITAS Marta
+1|Région Ile de France|||1968|Dr BARROU Benoit
+1|Région Ile de France|11|Lariboisière|139|Dr BARTHELEMY Romain
+1|Région Ile de France|13|St Antoine|438|Dr BARTHELEMY Pierre Ludovic
+1|Région Ile de France|6|Ambroise Paré|599|Dr BARTHEMENT Noemie
+1|Région Ile de France|10|Henri Mondor|1598|Dr BARTHES Laura
+1|Région Ile de France|7|Antoine Béclère|1326|Dr BARTHIER Sophie
+1|Région Ile de France|10|Henri Mondor|1663|Dr BARTOLUCCI Pablo
+1|Région Ile de France|11|Lariboisière|192|Dr BASSE Pierre
+1|Région Ile de France|10|Henri Mondor|464|Dr BASSES Sarah
+1|Région Ile de France|7|Antoine Béclère|1327|Dr BASTIANI Sophie
+1|Région Ile de France|16|Hôtel Dieu|628|Dr BATISSE Dominique
+1|Région Ile de France|33|Centre Richerand|1483|Dr BATISTA Cecile
+1|Région Ile de France|4|Médecins généralistes|789|Dr BAUDANT Simon
+1|Région Ile de France|11|Lariboisière|528|Dr BAUDOUIN Clemence
+1|Région Ile de France|17|Tenon|694|Dr BAUDRON Flora
+1|Région Ile de France|||1952|Dr BAUMANN Clarisse
+1|Région Ile de France|||1956|Dr BAUMELOU Alain
+1|Région Ile de France|6|Ambroise Paré|593|Dr BAUVOIS Adeline
+1|Région Ile de France|15|Jean Verdier|476|Dr BAYEH Pierre
+1|Région Ile de France|13|St Antoine|331|Dr BAYLAC Pierre
+1|Région Ile de France|24|Bicêtre|1837|Dr BAYOUB Hasna
+1|Région Ile de France|11|Lariboisière|169|Dr BEAUCOTE Victor
+1|Région Ile de France|9|Cochin|1128|Dr BEAUDEAU Lauren Marylin
+1|Région Ile de France|9|Cochin|1129|Dr BEAUDEQUIN Nausicaa
+1|Région Ile de France|18|Beaujon|1363|Dr BEAUFRERE Aurelie
+1|Région Ile de France|6|Ambroise Paré|579|Dr BEAUNE Sebastien
+1|Région Ile de France|18|Beaujon|1460|Dr BEDBEDER Marion
+1|Région Ile de France|8|Avicenne|1787|Dr BEGGAZ Yasmine
+1|Région Ile de France|13|St Antoine|333|Dr BEHTASH Ariana
+1|Région Ile de France|11|Lariboisière|196|Dr BEITZ Marie
+1|Région Ile de France|13|St Antoine|335|Dr BELAN Adrien
+1|Région Ile de France|10|Henri Mondor|1390|Dr BELATTAR Amira
+1|Région Ile de France|17|Tenon|695|Dr BELAUBE Nicolas
+1|Région Ile de France|10|Henri Mondor|1567|Dr BELGHITH Imen
+1|Région Ile de France|3|Pitié-Salpêtrière|4|Dr BELHOUARI Katia
+1|Région Ile de France|31|CHIV|1347|Dr BELKACEM Anna
+1|Région Ile de France|10|Henri Mondor|1072|Dr BELLAICHE Guy
+1|Région Ile de France|11|Lariboisière|161|Dr BELLARD Julie
+1|Région Ile de France|11|Lariboisière|159|Dr BELLET Anna
+1|Région Ile de France|3|Pitié-Salpêtrière|798|Dr BELLOCQ Agnès
+1|Région Ile de France|18|Beaujon|1477|Dr BELMATOUG Nadia
+1|Région Ile de France|18|Beaujon|1537|Dr BELPOMME Vanessa
+1|Région Ile de France|24|Bicêtre|1838|Dr BEN ABDESSALEM Kaouthar
+1|Région Ile de France|10|Henri Mondor|1645|Dr BEN KAHLA Marouane
+1|Région Ile de France|3|Pitié-Salpêtrière|799|Dr BEN SALAH Elyes
+1|Région Ile de France|10|Henri Mondor|1425|Dr BEN TAARIT Boutheina
+1|Région Ile de France|11|Lariboisière|194|Dr BEN YAKHLEF Yassine
+1|Région Ile de France|4|Médecins généralistes|1699|Dr BENAINOUS Olivier
+1|Région Ile de France|21|Saint-Louis|902|Dr BENATTIA Amira
+1|Région Ile de France|10|Henri Mondor|1589|Dr BENCHETRIT Kevin
+1|Région Ile de France|3|Pitié-Salpêtrière|5|Dr BENHARD Johan
+1|Région Ile de France|11|Lariboisière|197|Dr BENKEMOUN Fanny
+1|Région Ile de France|36|Hôpital Louis Mourier|1747|Dr BENKIRANE Faycal
+1|Région Ile de France|9|Cochin|967|Dr BENMAYOUF Thiziri
+1|Région Ile de France|24|Bicêtre|1819|Dr BENZADON Judith
+1|Région Ile de France|4|Médecins généralistes|1253|Dr BERCHERIE Julie
+1|Région Ile de France|||162|Dr BERGER Sarah
+1|Région Ile de France|17|Tenon|696|Dr BERGER Ingrid
+1|Région Ile de France|10|Henri Mondor|1073|Dr BERGERON Corinne
+1|Région Ile de France|21|Saint-Louis|897|Dr BERGERON Anne
+1|Région Ile de France|4|Médecins généralistes|643|Dr BERLET Sabine
+1|Région Ile de France|1|Bichat|6|Dr BERNARD Laurène
+1|Région Ile de France|3|Pitié-Salpêtrière|800|Dr BERNARD Remy
+1|Région Ile de France|10|Henri Mondor|1450|Dr BERNIGAUD Charlotte
+1|Région Ile de France|13|St Antoine|337|Dr BERREBI Paul
+1|Région Ile de France|4|Médecins généralistes|1707|Dr BERREUR Sylvie
+1|Région Ile de France|9|Cochin|968|Dr BERREZAG Walid
+1|Région Ile de France|17|Tenon|697|Dr BERTHAUX Lise
+1|Région Ile de France|||1889|Dr BERTHELOT Gael
+1|Région Ile de France|37|Centres Marie Thérèse|1929|Dr BERTHIER Servane
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1929|Dr BERTHIER Servane
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1929|Dr BERTHIER Servane
+1|Région Ile de France|17|Tenon|698|Dr BERTIN Lise
+1|Région Ile de France|20|SAMU 75|915|Dr BERTOZZI Nicolas
+1|Région Ile de France|10|Henri Mondor|1074|Dr BERTRAND Catherine
+1|Région Ile de France|34|Begin|1582|Dr BESSELERE Renaud
+1|Région Ile de France|12|Raymond Poincaré|574|Dr BESSIS Simon
+1|Région Ile de France|9|Cochin|969|Dr BEVILACQUA Marie-Charlotte
+1|Région Ile de France|3|Pitié-Salpêtrière|877|Dr BIBAS Jordan
+1|Région Ile de France|18|Beaujon|1479|Dr BIBI NGOYI Natacha
+1|Région Ile de France|13|St Antoine|338|Dr BIDEAULT Herve
+1|Région Ile de France|9|Cochin|1130|Dr BIDET Béatrice
+1|Région Ile de France|4|Médecins généralistes|626|Dr BIJON PERRET Amelie
+1|Région Ile de France|21|Saint-Louis|1890|Dr BILGAR Antonella
+1|Région Ile de France|18|Beaujon|1438|Dr BILLIAUWS Lore
+1|Région Ile de France|19|SAMU 94|767|Dr BINETRUY Charles
+1|Région Ile de France|10|Henri Mondor|1521|Dr BISMUTH Emy Keren
+1|Région Ile de France|4|Médecins généralistes|1338|Dr BITTAN Jerome
+1|Région Ile de France|24|Bicêtre|1016|Dr BLANC Arnaud
+1|Région Ile de France|9|Cochin|1131|Dr BLANCHE Philippe
+1|Région Ile de France|8|Avicenne|1700|Dr BLANDIN Constance
+1|Région Ile de France|10|Henri Mondor|1075|Dr BLED Quentin
+1|Région Ile de France|3|Pitié-Salpêtrière|7|Dr BLEIBTREU Alexandre
+1|Région Ile de France|17|Tenon|699|Dr BLIN Emmanuelle
+1|Région Ile de France|9|Cochin|970|Dr BLOCH-LAINE Emmanuel
+1|Région Ile de France|6|Ambroise Paré|1921|Dr BLOM Astrid
+1|Région Ile de France|11|Lariboisière|176|Dr BLOT Pierre Louis
+1|Région Ile de France|10|Henri Mondor|1077|Dr BOCHE Thevy
+1|Région Ile de France|10|Henri Mondor|1562|Dr BOCQUET Helene
+1|Région Ile de France|11|Lariboisière|199|Dr BOGHEZ Loredana
+1|Région Ile de France|18|Beaujon|1524|Dr BOIXEL Sophi
+1|Région Ile de France|13|St Antoine|341|Dr BOIZE Julien
+1|Région Ile de France|9|Cochin|971|Dr BOKOBZA Jerome
+1|Région Ile de France|18|Beaujon|1441|Dr BOLIGNANO Lucie
+1|Région Ile de France|13|St Antoine|343|Dr BOLLENS Diane
+1|Région Ile de France|17|Tenon|700|Dr BOMPARD Rudy Pierre
+1|Région Ile de France|21|Saint-Louis|899|Dr BONDEELLE Louise
+1|Région Ile de France|13|St Antoine|345|Dr BONIER Colombine
+1|Région Ile de France|11|Lariboisière|202|Dr BONNAMOUR Beatrix
+1|Région Ile de France|10|Henri Mondor|1556|Dr BONNARD Guillaume
+1|Région Ile de France|18|Beaujon|1365|Dr BONNET Baptiste
+1|Région Ile de France|13|St Antoine|346|Dr BONNETON Marion
+1|Région Ile de France|18|Beaujon|1413|Dr BONVALET Fanny
+1|Région Ile de France|11|Lariboisière|212|Dr BORDERIOU Alix
+1|Région Ile de France|||166|Dr BORDIER Raphaelle
+1|Région Ile de France|1|Bichat|1907|Dr BORIE Raphael
+1|Région Ile de France|||145|Dr BORSALI Ainsil Beaouda
+1|Région Ile de France|5|HEGP|665|Dr BORY Olivier Marie
+1|Région Ile de France|17|Tenon|701|Dr BOSREDON Clotilde
+1|Région Ile de France|10|Henri Mondor|1592|Dr BOUACHI Khedidja
+1|Région Ile de France|18|Beaujon|1474|Dr BOUATTOUR Mohamed
+1|Région Ile de France|3|Pitié-Salpêtrière|8|Dr BOUBEZARI Imane
+1|Région Ile de France|8|Avicenne|1258|Dr BOUCHAUD Olivier
+1|Région Ile de France|24|Bicêtre|1017|Dr BOUCLY Athenais
+1|Région Ile de France|11|Lariboisière|213|Dr BOUDAA Moussa
+1|Région Ile de France|24|Bicêtre|1839|Dr BOUDDAHAB Hanane
+1|Région Ile de France|10|Henri Mondor|1586|Dr BOUDERAH Karima
+1|Région Ile de France|13|St Antoine|348|Dr BOUDJEMIA Ferroudja
+1|Région Ile de France|7|Antoine Béclère|1307|Dr BOUE François
+1|Région Ile de France|10|Henri Mondor|1395|Dr BOUEILH Anna
+1|Région Ile de France|3|Pitié-Salpêtrière|801|Dr BOUGLE Adrien
+1|Région Ile de France|8|Avicenne|1788|Dr BOUGUENNA Idriss
+1|Région Ile de France|18|Beaujon|1553|Dr BOUHNIK Yoram
+1|Région Ile de France|10|Henri Mondor|1414|Dr BOUIDIDA Bayane
+1|Région Ile de France|||117|Dr BOUJLEL-BAKHTAOUI Sihem
+1|Région Ile de France|8|Avicenne|1789|Dr BOUKANGA NKOULOU Nina Prisca
+1|Région Ile de France|18|Beaujon|1366|Dr BOUKEBOUS Baptiste
+1|Région Ile de France|6|Ambroise Paré|613|Dr BOUKHEDDOUMA Iziya
+1|Région Ile de France|20|SAMU 75|916|Dr BOUKRICHE Abdel
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1925|Dr BOULATE David
+1|Région Ile de France|10|Henri Mondor|1610|Dr BOUNOUA Malika
+1|Région Ile de France|11|Lariboisière|214|Dr BOURAS Leila
+1|Région Ile de France|11|Lariboisière|158|Dr BOURASSI Nadia
+1|Région Ile de France|10|Henri Mondor|1078|Dr BOURDET-MATHIS Maxence
+1|Région Ile de France|10|Henri Mondor|477|Dr BOURGARIT DURAND Anne
+1|Région Ile de France|15|Jean Verdier|477|Dr BOURGARIT DURAND Anne
+1|Région Ile de France|17|Tenon|702|Dr BOURGEOIS Melanie
+1|Région Ile de France|7|Antoine Béclère|1308|Dr BOURGEON GHITTORI Muriel
+1|Région Ile de France|20|SAMU 75|917|Dr BOURLET Pauline
+1|Région Ile de France|10|Henri Mondor|1568|Dr BOURNERIAS Irina
+1|Région Ile de France|3|Pitié-Salpêtrière|802|Dr BOURRON Olivier
+1|Région Ile de France|5|HEGP|663|Dr BOURZAM-BEN REDOUANE Mouna
+1|Région Ile de France|10|Henri Mondor|1079|Dr BOUSSARIE Lucas
+1|Région Ile de France|9|Cochin|1060|Dr BOUSSAUD Veronique
+1|Région Ile de France|21|Saint-Louis|771|Dr BOUSSEN Ines
+1|Région Ile de France|29|SAMU 92|1235|Dr BOUTET Jeremie
+1|Région Ile de France|11|Lariboisière|153|Dr BOUTIN Louis
+1|Région Ile de France|17|Tenon|703|Dr BOUVARD Eric
+1|Région Ile de France|1|Bichat|1725|Dr BOUZID Donia
+1|Région Ile de France|10|Henri Mondor|1382|Dr BOUZIT Abdeslame
+1|Région Ile de France|15|Jean Verdier|479|Dr BOZIC Marjana
+1|Région Ile de France|10|Henri Mondor|1459|Dr BRAESCH Clément
+1|Région Ile de France|21|Saint-Louis|1867|Dr BRAGANCA Adélia
+1|Région Ile de France|10|Henri Mondor|1673|Dr BRAHAM Rim
+1|Région Ile de France|7|Antoine Béclère|1335|Dr BRAHEM Dorra
+1|Région Ile de France|24|Bicêtre|1820|Dr BRANCHEREAU Louise
+1|Région Ile de France|33|Centre Richerand|1490|Dr BRASSIER Julia
+1|Région Ile de France|6|Ambroise Paré|595|Dr BRAULT Melanie
+1|Région Ile de France|13|St Antoine|415|Dr BRAVAIS Juliette
+1|Région Ile de France|16|Hôtel Dieu|1640|Dr BRAZILLE Patricia
+1|Région Ile de France|10|Henri Mondor|1385|Dr BREHON Alice
+1|Région Ile de France|9|Cochin|1132|Dr BREILLAT Paul
+1|Région Ile de France|10|Henri Mondor|1677|Dr BRESSAND Sabine
+1|Région Ile de France|17|Tenon|704|Dr BRET Judith
+1|Région Ile de France|6|Ambroise Paré|1764|Dr BRETAULT Marion
+1|Région Ile de France|||349|Dr BRIGANT Fabien
+1|Région Ile de France|13|St Antoine|349|Dr BRIGANT Fabien
+1|Région Ile de France|35|Hôpital Américain|1718|Dr BRON Camille
+1|Région Ile de France|11|Lariboisière|137|Dr BROUNS Kelly
+1|Région Ile de France|11|Lariboisière|284|Dr BRULE Sophie
+1|Région Ile de France|6|Ambroise Paré|557|Dr BRUN NEY Dominique
+1|Région Ile de France|9|Cochin|972|Dr BRUNEAU Marie
+1|Région Ile de France|3|Pitié-Salpêtrière|803|Dr BRUNELLE Julie
+1|Région Ile de France|10|Henri Mondor|1697|Dr BUFFARD Valerie
+1|Région Ile de France|3|Pitié-Salpêtrière|804|Dr BUFFET Camille
+1|Région Ile de France|9|Cochin|973|Dr BUFFO Milene
+1|Région Ile de France|13|St Antoine|421|Dr BUI PHAN Thi Eida
+1|Région Ile de France|9|Cochin|1133|Dr BUI QUANG Thach
+1|Région Ile de France|16|Hôtel Dieu|1612|Dr BUISSON Martin
+1|Région Ile de France|24|Bicêtre|1018|Dr BUKREYEVA Iryna
+1|Région Ile de France|24|Bicêtre|1019|Dr BULIFON Sophie
+1|Région Ile de France|10|Henri Mondor|467|Dr BULTEAU Juliette
+1|Région Ile de France|17|Tenon|705|Dr BUNG Kheravy
+1|Région Ile de France|9|Cochin|1134|Dr BURBAN Pauline
+1|Région Ile de France|11|Lariboisière|1014|Dr BURCIN Cecilia
+1|Région Ile de France|9|Cochin|1135|Dr BURGEL Pierre-Régis
+1|Région Ile de France|17|Tenon|706|Dr BURGGRAFF Eric
+1|Région Ile de France|11|Lariboisière|109|Dr BURG-MAYEUR Claire
+1|Région Ile de France|11|Lariboisière|215|Dr BURLACU Ruxandra
+1|Région Ile de France|7|Antoine Béclère|1318|Dr BUSSONE Guillaume
+1|Région Ile de France|18|Beaujon|1342|Dr CACHIER Agnes
+1|Région Ile de France|17|Tenon|707|Dr CADRANEL Jacques
+1|Région Ile de France|8|Avicenne|1260|Dr CAILHOL Johann
+1|Région Ile de France|11|Lariboisière|123|Dr CAILLARD Anais
+1|Région Ile de France|10|Henri Mondor|1383|Dr CALAS Albane
+1|Région Ile de France|16|Hôtel Dieu|1613|Dr CALBOREANU PINTA Alexandrina
+1|Région Ile de France|9|Cochin|1136|Dr CAMBOULIVE Alice
+1|Région Ile de France|13|St Antoine|351|Dr CAMPA Pauline
+1|Région Ile de France|17|Tenon|708|Dr CAMUSET Juliette
+1|Région Ile de France|3|Pitié-Salpêtrière|887|Dr CANAVAGGIO Pauline
+1|Région Ile de France|17|Tenon|709|Dr CANELLAS Anthony
+1|Région Ile de France|9|Cochin|1742|Dr CANOUÏ Etienne
+1|Région Ile de France|16|Hôtel Dieu|627|Dr CANTIN Delphine
+1|Région Ile de France|8|Avicenne|1294|Dr CARADEC Emmanuella
+1|Région Ile de France|31|CHIV|1344|Dr CARAUX PAZ Pauline
+1|Région Ile de France|5|HEGP|1920|Dr CARETTE Claire
+1|Région Ile de France|3|Pitié-Salpêtrière|805|Dr CARILLION Aude
+1|Région Ile de France|10|Henri Mondor|1643|Dr CARIOT Marie Ange
+1|Région Ile de France|9|Cochin|1059|Dr CARLIER Nicolas
+1|Région Ile de France|35|Hôpital Américain|1719|Dr CARMOI Thierry
+1|Région Ile de France|9|Cochin|1137|Dr CARON Maxime
+1|Région Ile de France|3|Pitié-Salpêtrière|806|Dr CARRIE Alain
+1|Région Ile de France|9|Cochin|1138|Dr CASADEVALL Marion
+1|Région Ile de France|1|Bichat|1726|Dr CASALINO Enrique
+1|Région Ile de France|18|Beaujon|1404|Dr CASALS HATEM Dominique
+1|Région Ile de France|22|Robert Debré|785|Dr CASERIS Marion
+1|Région Ile de France|18|Beaujon|1360|Dr CASSAGNE Angele
+1|Région Ile de France|3|Pitié-Salpêtrière|876|Dr CASSARD Clementine
+1|Région Ile de France|10|Henri Mondor|1444|Dr CASSIANIDES Cédric
+1|Région Ile de France|17|Tenon|1631|Dr CASSIAUX Audrey
+1|Région Ile de France|29|SAMU 92|1236|Dr CASSUTO Margot
+1|Région Ile de France|1|Bichat|9|Dr CASTANEDO Gerald
+1|Région Ile de France|10|Henri Mondor|1574|Dr CASTELNEAU Jean-Pierre
+1|Région Ile de France|16|Hôtel Dieu|1614|Dr CASTIEL Philippe
+1|Région Ile de France|9|Cochin|1139|Dr CATANO Jennifer
+1|Région Ile de France|10|Henri Mondor|1578|Dr CATHALA Joanna
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1947|Dr CAUCANAS Clemence
+1|Région Ile de France|3|Pitié-Salpêtrière|10|Dr CAUMES Eric
+1|Région Ile de France|15|Jean Verdier|480|Dr CAVASINO Thomas
+1|Région Ile de France|5|HEGP|1187|Dr CAZEAU Ariane
+1|Région Ile de France|||1962|Dr CAZENAVE Maud
+1|Région Ile de France|5|HEGP|683|Dr CEDILE Johane
+1|Région Ile de France|18|Beaujon|1454|Dr CERTIN Marie
+1|Région Ile de France|4|Médecins généralistes|1866|Dr CESCON Laure
+1|Région Ile de France|13|St Antoine|435|Dr CHA Olivier
+1|Région Ile de France|9|Cochin|1140|Dr CHAABANE Nouha
+1|Région Ile de France|10|Henri Mondor|1674|Dr CHAABANE Rim
+1|Région Ile de France|10|Henri Mondor|1394|Dr CHABA Anis
+1|Région Ile de France|5|HEGP|646|Dr CHADAD Alex Ali
+1|Région Ile de France|5|HEGP|1191|Dr CHAHIM Maxime
+1|Région Ile de France|29|SAMU 92|1237|Dr CHAHUNEAU Julien
+1|Région Ile de France|5|HEGP|531|Dr CHAIBI Serine
+1|Région Ile de France|9|Cochin|1141|Dr CHAIGNE Benjamin
+1|Région Ile de France|13|St Antoine|353|Dr CHAILLET Muriel
+1|Région Ile de France|7|Antoine Béclère|1315|Dr CHAMBRIN Veronique
+1|Région Ile de France|18|Beaujon|1497|Dr CHAMBRIN Pauline
+1|Région Ile de France|24|Bicêtre|1020|Dr CHANSON Noemie
+1|Région Ile de France|24|Bicêtre|1021|Dr CHANTALAT AUGER Christelle
+1|Région Ile de France|5|HEGP|532|Dr CHANTELOT Louise
+1|Région Ile de France|18|Beaujon|1440|Dr CHANTEUX Lucas
+1|Région Ile de France|35|Hôpital Américain|1717|Dr CHAPON Christophe
+1|Région Ile de France|9|Cochin|1142|Dr CHAPRON Jeanne
+1|Région Ile de France|2|Necker|1277|Dr CHARLIER Caroline
+1|Région Ile de France|4|Médecins généralistes|958|Dr CHARPENTIER Camille
+1|Région Ile de France|10|Henri Mondor|1452|Dr CHARPENTIER Chloé
+1|Région Ile de France|7|Antoine Béclère|1309|Dr CHARY Isabelle
+1|Région Ile de France|17|Tenon|710|Dr CHAS Julie
+1|Région Ile de France|1|Bichat|11|Dr CHASPOUL M Madeleine
+1|Région Ile de France|3|Pitié-Salpêtrière|807|Dr CHASTRE Jean
+1|Région Ile de France|13|St Antoine|425|Dr CHAUCHARD Maria
+1|Région Ile de France|1|Bichat|1727|Dr CHAULET Anne Sophie
+1|Région Ile de France|8|Avicenne|1295|Dr CHAUVEAU Simon
+1|Région Ile de France|||221|Dr CHAUVIN Anthony
+1|Région Ile de France|11|Lariboisière|221|Dr CHAUVIN Anthony
+1|Région Ile de France|1|Bichat|1728|Dr CHAVANCE Paul
+1|Région Ile de France|17|Tenon|711|Dr CHAY Yves
+1|Région Ile de France|14|Trousseau|1065|Dr CHELOUFI Meryam
+1|Région Ile de France|10|Henri Mondor|1546|Dr CHEMINET Geoffrey
+1|Région Ile de France|24|Bicêtre|1715|Dr CHEN MIAO Catarina
+1|Région Ile de France|4|Médecins généralistes|1509|Dr CHEN ZEE Estelle
+1|Région Ile de France|5|HEGP|1190|Dr CHENG Charles
+1|Région Ile de France|18|Beaujon|1559|Dr CHENGUEL Zied
+1|Région Ile de France|3|Pitié-Salpêtrière|83|Dr CHERMAK Aziza
+1|Région Ile de France|10|Henri Mondor|1080|Dr CHERVET Delphine
+1|Région Ile de France|3|Pitié-Salpêtrière|888|Dr CHEVALIER Pauline
+1|Région Ile de France|9|Cochin|974|Dr CHEVALIER Amélie
+1|Région Ile de France|13|St Antoine|355|Dr CHIARABINI Thibault
+1|Région Ile de France|6|Ambroise Paré|620|Dr CHINET Thierry
+1|Région Ile de France|17|Tenon|712|Dr CHOINIER Pascaline
+1|Région Ile de France|10|Henri Mondor|1252|Dr CHOLLET-XEMARD Charlotte
+1|Région Ile de France|13|St Antoine|1716|Dr CHOPIN Dorothée
+1|Région Ile de France|1|Bichat|1729|Dr CHOQUET Christophe
+1|Région Ile de France|10|Henri Mondor|1658|Dr CHOSIDOW Olivier
+1|Région Ile de France|18|Beaujon|1358|Dr CHOUARD Amelie
+1|Région Ile de France|||119|Dr CHOUSTERMAN Benjamin Glenn
+1|Région Ile de France|6|Ambroise Paré|610|Dr CHUNG Vinh-An-Julie
+1|Région Ile de France|9|Cochin|975|Dr CIOVICA Gilda-Alina
+1|Région Ile de France|11|Lariboisière|174|Dr CLAPIN Sixtine
+1|Région Ile de France|5|HEGP|1206|Dr CLEOFORT Vincent
+1|Région Ile de France|5|HEGP|534|Dr CLERC Sebastien
+1|Région Ile de France|1|Bichat|1772|Dr CLERY Richard
+1|Région Ile de France|3|Pitié-Salpêtrière|808|Dr CLOVET Olivier
+1|Région Ile de France|9|Cochin|1143|Dr COEZ Laure
+1|Région Ile de France|17|Tenon|1632|Dr COGNAT BRAGEOT Mathilde
+1|Région Ile de France|3|Pitié-Salpêtrière|809|Dr COHEN Fleur
+1|Région Ile de France|9|Cochin|1144|Dr COHEN Pascal
+1|Région Ile de France|23|Paul Brousse |961|Dr COILLY Audrey
+1|Région Ile de France|10|Henri Mondor|1646|Dr COLARD Martin
+1|Région Ile de France|24|Bicêtre|1022|Dr COLAS DES FRANCS Veronique
+1|Région Ile de France|24|Bicêtre|1035|Dr COLLARINO Rocco
+1|Région Ile de France|18|Beaujon|1409|Dr COLLE Elise
+1|Région Ile de France|3|Pitié-Salpêtrière|810|Dr COLLET Jean-Philippe
+1|Région Ile de France|11|Lariboisière|133|Dr COLLET Magalie
+1|Région Ile de France|29|SAMU 92|1246|Dr COLOMES Abel
+1|Région Ile de France|1|Bichat|1730|Dr COLOSI Luisa
+1|Région Ile de France|24|Bicêtre|1712|Dr COMBET Margot
+1|Région Ile de France|24|Bicêtre|1830|Dr COMMIEN Laura
+1|Région Ile de France|9|Cochin|1145|Dr COMPAGNUCCI SEGUENOT Maria
+1|Région Ile de France|29|SAMU 92|1238|Dr CONINX Pierre
+1|Région Ile de France|3|Pitié-Salpêtrière|811|Dr CONSOLI Angèle
+1|Région Ile de France|9|Cochin|1273|Dr CONTEJEAN Adrien
+1|Région Ile de France|11|Lariboisière|225|Dr CONWAY Paul
+1|Région Ile de France|11|Lariboisière|118|Dr COPIE Alban
+1|Région Ile de France|18|Beaujon|1492|Dr CORCOS Olivier
+1|Région Ile de France|8|Avicenne|1262|Dr CORDEL Hugues
+1|Région Ile de France|10|Henri Mondor|449|Dr CORLOUER Camille
+1|Région Ile de France|20|SAMU 75|918|Dr CORROCHER Romain
+1|Région Ile de France|10|Henri Mondor|1604|Dr CORSIN Lola
+1|Région Ile de France|9|Cochin|1146|Dr CORTIER Marie
+1|Région Ile de France|3|Pitié-Salpêtrière|812|Dr CORVOL Jean-Christophe
+1|Région Ile de France|17|Tenon|713|Dr COSNARD Clemence
+1|Région Ile de France|9|Cochin|1147|Dr COSTEDOAT-CHALUMEAU Nathalie
+1|Région Ile de France|13|St Antoine|357|Dr COSTES Yolaine
+1|Région Ile de France|11|Lariboisière|150|Dr COSTEY Coralie
+1|Région Ile de France|5|HEGP|1202|Dr COUDERC Estelle
+1|Région Ile de France|18|Beaujon|1498|Dr COUEROIS Pauline
+1|Région Ile de France|10|Henri Mondor|1081|Dr COULIBALY Kadiba
+1|Région Ile de France|29|SAMU 92|1247|Dr COULOMB Audrey
+1|Région Ile de France|10|Henri Mondor|1680|Dr COURTADE BROUARD Sandrine
+1|Région Ile de France|3|Pitié-Salpêtrière|813|Dr COURTIN Thomas
+1|Région Ile de France|||1703|Dr COURTOIS Pauline
+1|Région Ile de France|6|Ambroise Paré|587|Dr COUTTE Leatitia
+1|Région Ile de France|13|St Antoine|359|Dr COUTURE Priscille
+1|Région Ile de France|10|Henri Mondor|1525|Dr CRICKX Etienne
+1|Région Ile de France|18|Beaujon|1522|Dr CURAC Sonja
+1|Région Ile de France|4|Médecins généralistes|959|Dr CURINO LAGARDE Chiara
+1|Région Ile de France|13|St Antoine|361|Dr CURY Nicolas
+1|Région Ile de France|10|Henri Mondor|1082|Dr DA SILVA Melissa
+1|Région Ile de France|18|Beaujon|1514|Dr DABBAGH Sami
+1|Région Ile de France|11|Lariboisière|226|Dr DAFFOS Quentin
+1|Région Ile de France|11|Lariboisière|127|Dr DAGOIS Sophie
+1|Région Ile de France|20|SAMU 75|919|Dr DAGRON Christelle
+1|Région Ile de France|5|HEGP|659|Dr DAHAN Laura
+1|Région Ile de France|11|Lariboisière|138|Dr DAHDOUH Souheila
+1|Région Ile de France|8|Avicenne|1270|Dr DAHMANE Lotfi
+1|Région Ile de France|10|Henri Mondor|1465|Dr DAHMANE Djamal
+1|Région Ile de France|18|Beaujon|1543|Dr DAMAS Victor
+1|Région Ile de France|9|Cochin|976|Dr DAMAS-PERRICHET Clara
+1|Région Ile de France|18|Beaujon|1424|Dr DANA Jeremy
+1|Région Ile de France|11|Lariboisière|227|Dr DANCIU Elena Roxana
+1|Région Ile de France|10|Henri Mondor|1388|Dr DANGIEN Ambre
+1|Région Ile de France|5|HEGP|675|Dr DANO Catherine
+1|Région Ile de France|11|Lariboisière|187|Dr DARRASSE Sophia
+1|Région Ile de France|10|Henri Mondor|469|Dr DASKALEROU Markella
+1|Région Ile de France|17|Tenon|714|Dr DAUTHEVILLE Sandrine
+1|Région Ile de France|10|Henri Mondor|1648|Dr DAUVERGNE Maxime
+1|Région Ile de France|1|Bichat|1902|Dr DAVID Clemence
+1|Région Ile de France|10|Henri Mondor|1573|Dr DAVID Jean-Philippe
+1|Région Ile de France|10|Henri Mondor|1687|Dr DAVID Steven
+1|Région Ile de France|11|Lariboisière|152|Dr DAVID Chloe
+1|Région Ile de France|11|Lariboisière|1709|Dr DAVID Stephane
+1|Région Ile de France|12|Raymond Poincaré|560|Dr DAVIDO Benjamin
+1|Région Ile de France|4|Médecins généralistes|788|Dr DAYAN Léa
+1|Région Ile de France|||440|Dr DE BASTARD Laurent
+1|Région Ile de France|4|Médecins généralistes|440|Dr DE BASTARD Laurent
+1|Région Ile de France|||167|Dr DE CARRERE Wandrille
+1|Région Ile de France|21|Saint-Louis|777|Dr DE CASTRO Nathalie
+1|Région Ile de France|4|Médecins généralistes|1504|Dr DE GOUVELLO Amaury
+1|Région Ile de France|6|Ambroise Paré|592|Dr DE LAROCHE Marine
+1|Région Ile de France|10|Henri Mondor|1554|Dr DE LUNA CARDENAL Gonzalo
+1|Région Ile de France|24|Bicêtre|1036|Dr DE MENTHON Mathilde
+1|Région Ile de France|18|Beaujon|1817|Dr DE MESTIER DU BOURG Louis
+1|Région Ile de France|||522|Dr DE PONTUAL Loic
+1|Région Ile de France|12|Raymond Poincaré|910|Dr DE TRUCHIS Pierre
+1|Région Ile de France|13|St Antoine|362|Dr DEBUC Erwan
+1|Région Ile de France|1|Bichat|12|Dr DECONINCK Laurene
+1|Région Ile de France|10|Henri Mondor|442|Dr DECOUSSER Jean Winoc
+1|Région Ile de France|18|Beaujon|1502|Dr DECQ Philippe
+1|Région Ile de France|10|Henri Mondor|1608|Dr DEDIER Luce
+1|Région Ile de France|3|Pitié-Salpêtrière|814|Dr DEGOS Vincent
+1|Région Ile de France|3|Pitié-Salpêtrière|815|Dr DEHAIS Caroline
+1|Région Ile de France|3|Pitié-Salpêtrière|889|Dr DELANNOY Quentin
+1|Région Ile de France|3|Pitié-Salpêtrière|13|Dr DELANOE Clelia
+1|Région Ile de France|2|Necker|1282|Dr DELAPORTE DESVAUX Clémentine
+1|Région Ile de France|5|HEGP|1204|Dr DELARUE Audrey
+1|Région Ile de France|3|Pitié-Salpêtrière|820|Dr DELATOUR Charlotte
+1|Région Ile de France|4|Médecins généralistes|1255|Dr DELAVAUX Christine
+1|Région Ile de France|3|Pitié-Salpêtrière|885|Dr DELAY Mathieu
+1|Région Ile de France|11|Lariboisière|229|Dr DELCEY Veronique
+1|Région Ile de France|3|Pitié-Salpêtrière|895|Dr DELERME Samuel
+1|Région Ile de France|36|Hôpital Louis Mourier|1748|Dr DELFORGE Juliette
+1|Région Ile de France|||163|Dr DELIERE Maxime
+1|Région Ile de France|10|Henri Mondor|1401|Dr DELUNEL Arnaud
+1|Région Ile de France|20|SAMU 75|920|Dr DELUZE Thibault
+1|Région Ile de France|13|St Antoine|364|Dr DEMEESTER Antoine
+1|Région Ile de France|3|Pitié-Salpêtrière|816|Dr DEMERET Sophie
+1|Région Ile de France|5|HEGP|1070|Dr DEMORY Nathalie
+1|Région Ile de France|5|HEGP|1194|Dr DENARIE Nicolas
+1|Région Ile de France|9|Cochin|977|Dr DENIAU Nicolas
+1|Région Ile de France|21|Saint-Louis|773|Dr DENIS Blandine
+1|Région Ile de France|11|Lariboisière|260|Dr DEPIL DUVAL Arnaud
+1|Région Ile de France|11|Lariboisière|261|Dr DEPOND Audrey
+1|Région Ile de France|24|Bicêtre|1840|Dr DEPRET VASSAL Jacqueline
+1|Région Ile de France|||1955|Dr DERAY Gilbert
+1|Région Ile de France|4|Médecins généralistes|779|Dr DEROCHEBRUNE Charlotte
+1|Région Ile de France|20|SAMU 75|921|Dr DEROSSI Arnaud
+1|Région Ile de France|16|Hôtel Dieu|1615|Dr DEROUINEAU Jean
+1|Région Ile de France|24|Bicêtre|1037|Dr DERRADJI Ouda
+1|Région Ile de France|3|Pitié-Salpêtrière|817|Dr DESCHAMPS Claire
+1|Région Ile de France|9|Cochin|1148|Dr DESSAIX Kathleen
+1|Région Ile de France|8|Avicenne|1805|Dr DEVALLIERE Emilie
+1|Région Ile de France|13|St Antoine|365|Dr DEVRED Ines
+1|Région Ile de France|11|Lariboisière|88|Dr DEYE Nicolas
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1949|Dr DHORDAIN Catherine
+1|Région Ile de France|31|CHIV|1345|Dr DIALLO Kévin
+1|Région Ile de France|10|Henri Mondor|1519|Dr DIAZ Emmanuelle
+1|Région Ile de France|18|Beaujon|1470|Dr DIAZ Maxime
+1|Région Ile de France|8|Avicenne|1290|Dr DIDIER MARCELOT Morgane
+1|Région Ile de France|5|HEGP|681|Dr DIEHL Mathilde
+1|Région Ile de France|6|Ambroise Paré|598|Dr DIEME Aicha
+1|Région Ile de France|11|Lariboisière|262|Dr DIEMER Myriam
+1|Région Ile de France|10|Henri Mondor|1653|Dr DIENG Mouhamed
+1|Région Ile de France|10|Henri Mondor|1430|Dr DIET Carine
+1|Région Ile de France|24|Bicêtre|1841|Dr DIEZ Stéphane
+1|Région Ile de France|3|Pitié-Salpêtrière|818|Dr DIMARIA Sophie
+1|Région Ile de France|1|Bichat|565|Dr DINH Aurélien
+1|Région Ile de France|12|Raymond Poincaré|565|Dr DINH Aurélien
+1|Région Ile de France|17|Tenon|715|Dr DJAMOURI-MONNORY Fatima
+1|Région Ile de France|6|Ambroise Paré|608|Dr DJEBBAR Radia
+1|Région Ile de France|24|Bicêtre|1842|Dr DJEBBAR Yamina
+1|Région Ile de France|10|Henri Mondor|1389|Dr DJEDDI Amina
+1|Région Ile de France|9|Cochin|482|Dr DJOUDI Abderrahmane
+1|Région Ile de France|15|Jean Verdier|482|Dr DJOUDI Abderrahmane
+1|Région Ile de France|2|Necker|1280|Dr DOMAN Marc
+1|Région Ile de France|18|Beaujon|1415|Dr DONDERO POZZO Federica
+1|Région Ile de France|18|Beaujon|1539|Dr DOR DE LASTOURS Victoire
+1|Région Ile de France|1|Bichat|14|Dr D'ORTENZIO Eric
+1|Région Ile de France|5|HEGP|542|Dr DOUADI BELLAHOUEL Amel
+1|Région Ile de France|18|Beaujon|1368|Dr DOUAY Benedicte
+1|Région Ile de France|7|Antoine Béclère|1310|Dr DOUEDARI Fadia
+1|Région Ile de France|29|SAMU 92|1182|Dr DOUGE Guillaume
+1|Région Ile de France|9|Cochin|978|Dr DOUMENC Benoit
+1|Région Ile de France|8|Avicenne|1261|Dr DOURNON Nathalie
+1|Région Ile de France|12|Raymond Poincaré|571|Dr DRILHON Nathalie
+1|Région Ile de France|10|Henri Mondor|1536|Dr DRISS Francoise
+1|Région Ile de France|3|Pitié-Salpêtrière|894|Dr DROGREY Marie
+1|Région Ile de France|3|Pitié-Salpêtrière|819|Dr DROUIN Sarah
+1|Région Ile de France|10|Henri Mondor|1446|Dr DROUMAGUET Céline
+1|Région Ile de France|1|Bichat|15|Dr DUBERT Marie
+1|Région Ile de France|10|Henri Mondor|1548|Dr DUBOS LASCU Georgeta
+1|Région Ile de France|17|Tenon|716|Dr DUBOSQ Valerie
+1|Région Ile de France|3|Pitié-Salpêtrière|821|Dr DUBOURG GORY Geneviève
+1|Région Ile de France|6|Ambroise Paré|559|Dr DUBRUJEAUD Gael
+1|Région Ile de France|9|Cochin|1149|Dr DUBUT GIRAUD Fréderique
+1|Région Ile de France|8|Avicenne|1300|Dr DUCHEMANN Boris
+1|Région Ile de France|9|Cochin|979|Dr DUCHENOY Thibault
+1|Région Ile de France|15|Jean Verdier|517|Dr DUFAU Romain
+1|Région Ile de France|6|Ambroise Paré|618|Dr DUFEU Virginie
+1|Région Ile de France|13|St Antoine|368|Dr DUGUET Theo
+1|Région Ile de France|1|Bichat|1781|Dr DUJARDIN Leila
+1|Région Ile de France|3|Pitié-Salpêtrière|822|Dr DUJARDIN Olivier
+1|Région Ile de France|9|Cochin|980|Dr DUMAS Florence
+1|Région Ile de France|4|Médecins généralistes|1510|Dr DUMASY Pierre
+1|Région Ile de France|3|Pitié-Salpêtrière|823|Dr DUMITRU Laura Ileana
+1|Région Ile de France|3|Pitié-Salpêtrière|881|Dr DUMONT Margaux
+1|Région Ile de France|9|Cochin|1150|Dr DUNOGUE Bertrand
+1|Région Ile de France|3|Pitié-Salpêtrière|892|Dr DUNOYER Violaine
+1|Région Ile de France|1|Bichat|1731|Dr DUPEYRAT Elise
+1|Région Ile de France|21|Saint-Louis|898|Dr DUPIN Clairelyne
+1|Région Ile de France|||485|Dr DUPONT Abdellatif
+1|Région Ile de France|11|Lariboisière|205|Dr DUPOUX Aurelie
+1|Région Ile de France|11|Lariboisière|263|Dr DUPRE LA TOUR Alexandra
+1|Région Ile de France|18|Beaujon|1485|Dr DUQUESNOY Nicolas
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1934|Dr DURAND GASSELIN Bernard
+1|Région Ile de France|5|HEGP|1211|Dr DURIVAGE Andreanne
+1|Région Ile de France|9|Cochin|1151|Dr DUSSER Daniel
+1|Région Ile de France|7|Antoine Béclère|1333|Dr DUSSOURT Alix
+1|Région Ile de France|10|Henri Mondor|1083|Dr DYENS Julia
+1|Région Ile de France|17|Tenon|1628|Dr DZIERZYNSKI Nathalie
+1|Région Ile de France|10|Henri Mondor|1695|Dr EBADI Vahid
+1|Région Ile de France|10|Henri Mondor|1084|Dr ECHARD Alexandre
+1|Région Ile de France|10|Henri Mondor|1694|Dr ECLANCHER Cam Tu Anh
+1|Région Ile de France|5|HEGP|1210|Dr ED-DEMRI Youssef
+1|Région Ile de France|11|Lariboisière|90|Dr EKHERIAN Jean Michel
+1|Région Ile de France|||657|Dr EL AHMAR HAMADE Jihad
+1|Région Ile de France|3|Pitié-Salpêtrière|16|Dr EL AMINE DEMNATI Hind
+1|Région Ile de France|20|SAMU 75|922|Dr EL HAGE Christelle
+1|Région Ile de France|15|Jean Verdier|486|Dr EL HARRIF Selim
+1|Région Ile de France|9|Cochin|1152|Dr EL HUSSEINI Kinan
+1|Région Ile de France|10|Henri Mondor|1591|Dr EL KAROUI Khalil
+1|Région Ile de France|17|Tenon|717|Dr EL SHARKAWI Chanez
+1|Région Ile de France|21|Saint-Louis|1868|Dr ELEZI Arben
+1|Région Ile de France|15|Jean Verdier|488|Dr EL-KHOURY Jean
+1|Région Ile de France|20|SAMU 75|923|Dr ELLINGER Alexandre
+1|Région Ile de France|21|Saint-Louis|1869|Dr ELLOUZE Sami
+1|Région Ile de France|8|Avicenne|1806|Dr EMONT Renaud
+1|Région Ile de France|||625|Dr EMY Sylvain
+1|Région Ile de France|4|Médecins généralistes|625|Dr EMY Sylvain
+1|Région Ile de France|24|Bicêtre|1038|Dr ENACHE ANGOULVANT Adela
+1|Région Ile de France|20|SAMU 75|924|Dr ENCLOS Sophie
+1|Région Ile de France|5|HEGP|1185|Dr ENOMOTO Tomoki
+1|Région Ile de France|17|Tenon|718|Dr EPAUD Christelle
+1|Région Ile de France|9|Cochin|1153|Dr ERNY Khamelia
+1|Région Ile de France|11|Lariboisière|144|Dr ERRABIH Zaccaria
+1|Région Ile de France|24|Bicêtre|1039|Dr ESCAUT Lelia
+1|Région Ile de France|13|St Antoine|369|Dr ESHAGH Deborah
+1|Région Ile de France|10|Henri Mondor|1672|Dr ESSER Remi
+1|Région Ile de France|3|Pitié-Salpêtrière|824|Dr ESTEREZ Cedric
+1|Région Ile de France|10|Henri Mondor|1611|Dr ESTRUCH Manon
+1|Région Ile de France|16|Hôtel Dieu|630|Dr ETIENNE Nicolas
+1|Région Ile de France|11|Lariboisière|140|Dr EVANO Malorie
+1|Région Ile de France|3|Pitié-Salpêtrière|825|Dr EWENCZYK Claire
+1|Région Ile de France|11|Lariboisière|264|Dr EYER Xavier
+1|Région Ile de France|10|Henri Mondor|1590|Dr EZZEDINE Khaled
+1|Région Ile de France|10|Henri Mondor|1575|Dr FABRE Jean-Pierre
+1|Région Ile de France|18|Beaujon|1535|Dr FAILLOT Thierry
+1|Région Ile de France|13|St Antoine|437|Dr FAIN Olivier
+1|Région Ile de France|20|SAMU 75|925|Dr FAIVRE Florence
+1|Région Ile de France|17|Tenon|719|Dr FALLET Vincent
+1|Région Ile de France|1|Bichat|1732|Dr FALQUE Laure
+1|Région Ile de France|10|Henri Mondor|1601|Dr FARDET Laurence
+1|Région Ile de France|33|Centre Richerand|1478|Dr FAUCHER Sylvie
+1|Région Ile de France|3|Pitié-Salpêtrière|826|Dr FAUTREL Bruno
+1|Région Ile de France|7|Antoine Béclère|1323|Dr FAVIER Marion
+1|Région Ile de France|13|St Antoine|371|Dr FAYAND Antoine
+1|Région Ile de France|3|Pitié-Salpêtrière|17|Dr FAYCAL Antoine
+1|Région Ile de France|22|Robert Debré|780|Dr FAYE Albert
+1|Région Ile de France|18|Beaujon|1473|Dr FELCE Michele
+1|Région Ile de France|24|Bicêtre|1843|Dr FELLAG CHEBRA Fatima
+1|Région Ile de France|5|HEGP|651|Dr FEMY Florent
+1|Région Ile de France|10|Henri Mondor|1678|Dr FERKAL Salah
+1|Région Ile de France|18|Beaujon|1371|Dr FERNET Charlotte
+1|Région Ile de France|11|Lariboisière|265|Dr FERRAGUTI Aurelia
+1|Région Ile de France|21|Saint-Louis|776|Dr FEYEUX Delphine
+1|Région Ile de France|10|Henri Mondor|1432|Dr FIANI Caroline
+1|Région Ile de France|34|Begin|1581|Dr FICKO Cecile
+1|Région Ile de France|10|Henri Mondor|441|Dr FIHMAN Vincent
+1|Région Ile de France|7|Antoine Béclère|1303|Dr FIOR Renato
+1|Région Ile de France|11|Lariboisière|266|Dr FISZBIN Maurice
+1|Région Ile de France|18|Beaujon|1471|Dr FLACS Meredith
+1|Région Ile de France|10|Henri Mondor|1085|Dr FLAUDER Elodie
+1|Région Ile de France|29|SAMU 92|1239|Dr FLEISCHEL Catherine
+1|Région Ile de France|24|Bicêtre|1827|Dr FLEURET Clément
+1|Région Ile de France|20|SAMU 75|926|Dr FOGEL Stephanie
+1|Région Ile de France|10|Henri Mondor|1517|Dr FOIS Elena Judith
+1|Région Ile de France|17|Tenon|1629|Dr FOLIGNE Marine
+1|Région Ile de France|3|Pitié-Salpêtrière|827|Dr FOLTZ Violaine
+1|Région Ile de France|13|St Antoine|373|Dr FONQUERNIE Laurent
+1|Région Ile de France|5|HEGP|652|Dr FONS Guillaume
+1|Région Ile de France|11|Lariboisière|156|Dr FONT Fabien Georges
+1|Région Ile de France|21|Saint-Louis|1870|Dr FONTAINE Jean-Paul
+1|Région Ile de France|6|Ambroise Paré|611|Dr FONTENILLE Frederic
+1|Région Ile de France|3|Pitié-Salpêtrière|884|Dr FORNASARI Marta
+1|Région Ile de France|21|Saint-Louis|1899|Dr FORTIN Guillaume
+1|Région Ile de France|8|Avicenne|1913|Dr FOUDI Farid
+1|Région Ile de France|35|Hôpital Américain|1723|Dr FOULON Guillaume
+1|Région Ile de France|13|St Antoine|374|Dr FOULON GRUMBACH Lorraine
+1|Région Ile de France|6|Ambroise Paré|612|Dr FOURNIER Marie-Gabrielle
+1|Région Ile de France|10|Henri Mondor|445|Dr FOURREAU Frederic
+1|Région Ile de France|1|Bichat|1733|Dr FRACHON Alix
+1|Région Ile de France|21|Saint-Louis|1871|Dr FRANCHITTI Jessica
+1|Région Ile de France|11|Lariboisière|267|Dr FRAPPA Murielle
+1|Région Ile de France|10|Henri Mondor|1116|Dr FRATTINI Benoit
+1|Région Ile de France|10|Henri Mondor|1117|Dr FRAUDIN Adrien
+1|Région Ile de France|6|Ambroise Paré|569|Dr FREIRE MARESCA Maresca
+1|Région Ile de France|||1063|Dr FREUND Yonathan
+1|Région Ile de France|4|Médecins généralistes|1625|Dr FREY Carole
+1|Région Ile de France|8|Avicenne|1288|Dr FREYNET Olivia
+1|Région Ile de France|11|Lariboisière|200|Dr FRIBERG Andreas
+1|Région Ile de France|18|Beaujon|1355|Dr FRONTALI Alice
+1|Région Ile de France|10|Henri Mondor|1649|Dr FURTADO LEAL Meg
+1|Région Ile de France|9|Cochin|981|Dr GABILLARD Zoé
+1|Région Ile de France|10|Henri Mondor|1552|Dr GABISON Germaine
+1|Région Ile de France|24|Bicêtre|1844|Dr GACEMI Djalila
+1|Région Ile de France|5|HEGP|648|Dr GAGEY Antonin
+1|Région Ile de France|10|Henri Mondor|1541|Dr GALACTEROS Frederic
+1|Région Ile de France|||490|Dr GALERNE Aurelien
+1|Région Ile de France|||1967|Dr GALICHON Pierre
+1|Région Ile de France|11|Lariboisière|268|Dr GALICHON Bertrand
+1|Région Ile de France|11|Lariboisière|141|Dr GALLAIS Pauline
+1|Région Ile de France|11|Lariboisière|269|Dr GALLAND Joris
+1|Région Ile de France|10|Henri Mondor|458|Dr GALLIEN Sebastien
+1|Région Ile de France|3|Pitié-Salpêtrière|828|Dr GALLO Antonio
+1|Région Ile de France|5|HEGP|664|Dr GALOUZEAU DE VILLEPIN Nathan
+1|Région Ile de France|11|Lariboisière|270|Dr GALTIER Veronique
+1|Région Ile de France|11|Lariboisière|157|Dr GALY Raphaelle
+1|Région Ile de France|18|Beaujon|1340|Dr GALY Adrien
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1941|Dr GANANSIA Olivier
+1|Région Ile de France|17|Tenon|720|Dr GARANDEAU Elzbieta
+1|Région Ile de France|||1964|Dr GARCIA Hugo
+1|Région Ile de France|3|Pitié-Salpêtrière|829|Dr GARDERET Laurent
+1|Région Ile de France|1|Bichat|1702|Dr GARNIER Virginie
+1|Région Ile de France|5|HEGP|1702|Dr GARNIER Virginie
+1|Région Ile de France|6|Ambroise Paré|1702|Dr GARNIER Virginie
+1|Région Ile de France|7|Antoine Béclère|1702|Dr GARNIER Virginie
+1|Région Ile de France|8|Avicenne|1702|Dr GARNIER Virginie
+1|Région Ile de France|9|Cochin|1702|Dr GARNIER Virginie
+1|Région Ile de France|10|Henri Mondor|1702|Dr GARNIER Virginie
+1|Région Ile de France|11|Lariboisière|1702|Dr GARNIER Virginie
+1|Région Ile de France|15|Jean Verdier|1702|Dr GARNIER Virginie
+1|Région Ile de France|16|Hôtel Dieu|1702|Dr GARNIER Virginie
+1|Région Ile de France|18|Beaujon|1702|Dr GARNIER Virginie
+1|Région Ile de France|24|Bicêtre|1702|Dr GARNIER Virginie
+1|Région Ile de France|24|Bicêtre|1845|Dr GARNIER Clarisse
+1|Région Ile de France|31|CHIV|1702|Dr GARNIER Virginie
+1|Région Ile de France|32|Institut Mutualiste Montsouris|1702|Dr GARNIER Virginie
+1|Région Ile de France|33|Centre Richerand|1702|Dr GARNIER Virginie
+1|Région Ile de France|34|Begin|1702|Dr GARNIER Virginie
+1|Région Ile de France|6|Ambroise Paré|609|Dr GAROFOLI Nina
+1|Région Ile de France|15|Jean Verdier|786|Dr GASCHIGNARD Jean
+1|Région Ile de France|22|Robert Debré|786|Dr GASCHIGNARD Jean
+1|Région Ile de France|||491|Dr GASMI Sheila
+1|Région Ile de France|13|St Antoine|424|Dr GATFOSSE Marc
+1|Région Ile de France|17|Tenon|1630|Dr GAUBE Geraud
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1933|Dr GAUDILLAT Christophe
+1|Région Ile de France|10|Henri Mondor|1660|Dr GAUDIN Olivier
+1|Région Ile de France|11|Lariboisière|121|Dr GAUGAIN Samuel
+1|Région Ile de France|20|SAMU 75|927|Dr GAULT Theotime
+1|Région Ile de France|10|Henri Mondor|1644|Dr GAUTIER Marie Sophie
+1|Région Ile de France|11|Lariboisière|271|Dr GAUTIER Maxime
+1|Région Ile de France|18|Beaujon|1455|Dr GAUTRON Marie Astrid
+1|Région Ile de France|18|Beaujon|1468|Dr GAY Matthieu
+1|Région Ile de France|11|Lariboisière|110|Dr GAYAT Etienne
+1|Région Ile de France|9|Cochin|1154|Dr GAYRAUD Martine
+1|Région Ile de France|10|Henri Mondor|1086|Dr GAZIN Nicolas
+1|Région Ile de France|13|St Antoine|376|Dr GEFFRIER Felicite
+1|Région Ile de France|5|HEGP|673|Dr GEISS Romain
+1|Région Ile de France|10|Henri Mondor|1558|Dr GENER Gwendoline
+1|Région Ile de France|17|Tenon|721|Dr GEORGIN LAVIALLE Sophie
+1|Région Ile de France|10|Henri Mondor|1087|Dr GERARD David
+1|Région Ile de France|18|Beaujon|1503|Dr GERARD Philippe
+1|Région Ile de France|36|Hôpital Louis Mourier|1749|Dr GERARD Charlotte
+1|Région Ile de France|1|Bichat|963|Dr GERVAIS HASENKNOPF Anne
+1|Région Ile de France|3|Pitié-Salpêtrière|830|Dr GHANDER Cecile
+1|Région Ile de France|1|Bichat|1734|Dr GHAZALI Aiham
+1|Région Ile de France|1|Bichat|18|Dr GHOSN Jad
+1|Région Ile de France|8|Avicenne|1918|Dr GHOUILES Sabrina
+1|Région Ile de France|13|St Antoine|422|Dr GHRENASSIA Etienne
+1|Région Ile de France|18|Beaujon|1463|Dr GIACCA Massimo
+1|Région Ile de France|10|Henri Mondor|1691|Dr GIBAULT Thierry
+1|Région Ile de France|4|Médecins généralistes|1708|Dr GIESI Clémence
+1|Région Ile de France|37|Centres Marie Thérèse|1930|Dr GIGANDON Anne
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1930|Dr GIGANDON Anne
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1930|Dr GIGANDON Anne
+1|Région Ile de France|1|Bichat|1773|Dr GIGOT Swanie
+1|Région Ile de France|1|Bichat|1735|Dr GIL Yoan
+1|Région Ile de France|1|Bichat|19|Dr GILBERT Marie
+1|Région Ile de France|4|Médecins généralistes|960|Dr GILBERT Raphaël
+1|Région Ile de France|8|Avicenne|1302|Dr GILLE Thomas
+1|Région Ile de France|10|Henri Mondor|1665|Dr GILLERON Pauline
+1|Région Ile de France|21|Saint-Louis|1872|Dr GILLET Ariane-Zoya
+1|Région Ile de France|9|Cochin|982|Dr GIRARD Cécile
+1|Région Ile de France|13|St Antoine|378|Dr GIRARD Pierre Marie
+1|Région Ile de France|14|Trousseau|282|Dr GIRARD Guillaume
+1|Région Ile de France|24|Bicêtre|1821|Dr GIRARD Paul
+1|Région Ile de France|10|Henri Mondor|1599|Dr GIRAUD Laura
+1|Région Ile de France|21|Saint-Louis|1894|Dr GIROUD Marion
+1|Région Ile de France|8|Avicenne|1917|Dr GIROUX LEPRIEUR Benedicte
+1|Région Ile de France|3|Pitié-Salpêtrière|831|Dr GLASMAN Pauline
+1|Région Ile de France|13|St Antoine|419|Dr GOBERT Delphine
+1|Région Ile de France|3|Pitié-Salpêtrière|20|Dr GOBILLOT Heloise
+1|Région Ile de France|13|St Antoine|1782|Dr GODART Camille
+1|Région Ile de France|10|Henri Mondor|1420|Dr GODEAU Bertrand
+1|Région Ile de France|3|Pitié-Salpêtrière|21|Dr GODEFROY Nagisa
+1|Région Ile de France|13|St Antoine|379|Dr GOEAU-BRISSONNIERE Marc
+1|Région Ile de France|13|St Antoine|381|Dr GOETSCHEL Agnes
+1|Région Ile de France|10|Henri Mondor|1605|Dr GOGLIN Louise
+1|Région Ile de France|10|Henri Mondor|1607|Dr GOHIER Lucas
+1|Région Ile de France|10|Henri Mondor|1088|Dr GOLDMAN William
+1|Région Ile de France|4|Médecins généralistes|962|Dr GOLFIER Eve
+1|Région Ile de France|10|Henri Mondor|448|Dr GOMART Camille
+1|Région Ile de France|9|Cochin|983|Dr GOMES Tania
+1|Région Ile de France|9|Cochin|984|Dr GOMEZ RODRIGUEZ Eduard
+1|Région Ile de France|11|Lariboisière|111|Dr GONDE Antoine
+1|Région Ile de France|3|Pitié-Salpêtrière|832|Dr GONZALEZ Jesus
+1|Région Ile de France|8|Avicenne|1790|Dr GORLICKI Judith
+1|Région Ile de France|24|Bicêtre|1040|Dr GOTTLIEB Jeremy
+1|Région Ile de France|15|Jean Verdier|493|Dr GOUAMI Imad
+1|Région Ile de France|5|HEGP|1193|Dr GOUDOT Guillaume
+1|Région Ile de France|24|Bicêtre|1041|Dr GOUJARD Cecile
+1|Région Ile de France|17|Tenon|722|Dr GOULET Helene
+1|Région Ile de France|36|Hôpital Louis Mourier|1750|Dr GOUNANE Rafik
+1|Région Ile de France|10|Henri Mondor|1378|Dr GOUNOU MOTCHOFO Adrien
+1|Région Ile de France|8|Avicenne|1263|Dr GOUPIL DE BOUILLE Jeanne
+1|Région Ile de France|18|Beaujon|1540|Dr GOUTAGNY Stephane
+1|Région Ile de France|21|Saint-Louis|1896|Dr GOUTAL Simon
+1|Région Ile de France|10|Henri Mondor|1429|Dr GOUVERNEUR Capucine
+1|Région Ile de France|3|Pitié-Salpêtrière|833|Dr GRABLI David
+1|Région Ile de France|||428|Dr GRANOTIER Fanny
+1|Région Ile de France|11|Lariboisière|102|Dr GRANT Caroline
+1|Région Ile de France|20|SAMU 75|928|Dr GRAPPE Priscille
+1|Région Ile de France|5|HEGP|549|Dr GRAS Emmanuelle
+1|Région Ile de France|17|Tenon|723|Dr GRATEAU Gilles
+1|Région Ile de France|6|Ambroise Paré|581|Dr GREFFE Segolene
+1|Région Ile de France|18|Beaujon|1433|Dr GREGORY Jules
+1|Région Ile de France|6|Ambroise Paré|585|Dr GRENET Julie
+1|Région Ile de France|4|Médecins généralistes|685|Dr GRENIER Alexandre
+1|Région Ile de France|11|Lariboisière|108|Dr GRIENAY Marion
+1|Région Ile de France|13|St Antoine|417|Dr GRIGNON Clarisse
+1|Région Ile de France|10|Henri Mondor|1666|Dr GRIMBERT Philippe
+1|Région Ile de France|3|Pitié-Salpêtrière|22|Dr GRIVOIS Jean-Philippe
+1|Région Ile de France|20|SAMU 75|929|Dr GROGNARD Gwenaelle
+1|Région Ile de France|29|SAMU 92|1240|Dr GROIZARD Charles
+1|Région Ile de France|1|Bichat|23|Dr GRUMEL Golriz
+1|Région Ile de France|1|Bichat|1736|Dr GUECHI Hadelhakim
+1|Région Ile de France|18|Beaujon|1481|Dr GUEDJ Nathalie
+1|Région Ile de France|24|Bicêtre|1846|Dr GUEDJ Thierry
+1|Région Ile de France|5|HEGP|1203|Dr GUEDON Alexis
+1|Région Ile de France|10|Henri Mondor|1675|Dr GUELIMI Robin
+1|Région Ile de France|8|Avicenne|1807|Dr GUENIN Aurélien
+1|Région Ile de France|1|Bichat|1737|Dr GUERICOLAS Maximilien
+1|Région Ile de France|17|Tenon|724|Dr GUERIF DUBREUCQ Evelyne
+1|Région Ile de France|||1950|Dr GUERNIOU Caroline
+1|Région Ile de France|3|Pitié-Salpêtrière|834|Dr GUETTA Michael
+1|Région Ile de France|9|Cochin|1155|Dr GUETTROT IMBERT Gaelle
+1|Région Ile de France|3|Pitié-Salpêtrière|835|Dr GUGLIELMETTI Lorenzo
+1|Région Ile de France|6|Ambroise Paré|561|Dr GUICHOUX Nathalie
+1|Région Ile de France|17|Tenon|725|Dr GUILGAUD Francois
+1|Région Ile de France|5|HEGP|660|Dr GUILLAUD Marie
+1|Région Ile de France|||1377|Dr GUILLAUD DANIS Abdeslame
+1|Région Ile de France|10|Henri Mondor|1376|Dr GUILLAUD DANIS Constance
+1|Région Ile de France|10|Henri Mondor|1565|Dr GUILLET Henri
+1|Région Ile de France|10|Henri Mondor|1685|Dr GUILLET Stephanie
+1|Région Ile de France|10|Henri Mondor|1706|Dr GUILLET Henri
+1|Région Ile de France|9|Cochin|1156|Dr GUILLEVIN Loïc
+1|Région Ile de France|33|Centre Richerand|1486|Dr GUILLO Vincent
+1|Région Ile de France|18|Beaujon|1416|Dr GUILLOU Floride
+1|Région Ile de France|5|HEGP|647|Dr GUINCESTRE Anais
+1|Région Ile de France|8|Avicenne|1808|Dr GUINEMER Sabine
+1|Région Ile de France|9|Cochin|985|Dr GULIAN Tim
+1|Région Ile de France|10|Henri Mondor|1667|Dr GUOI Philippe
+1|Région Ile de France|24|Bicêtre|1829|Dr HA Emilie
+1|Région Ile de France|21|Saint-Louis|1891|Dr HAAS Laurent
+1|Région Ile de France|9|Cochin|1157|Dr HABIB MAILLARD Stéfanie
+1|Région Ile de France|17|Tenon|726|Dr HACIL Abdelhakim
+1|Région Ile de France|16|Hôtel Dieu|1617|Dr HADACEK Maria-Blanca
+1|Région Ile de France|24|Bicêtre|1847|Dr HADDAD Zouhair
+1|Région Ile de France|6|Ambroise Paré|614|Dr HADDADI Soumaya
+1|Région Ile de France|8|Avicenne|1809|Dr HADJEM Ali
+1|Région Ile de France|20|SAMU 75|930|Dr HAEGEL Annie
+1|Région Ile de France|1|Bichat|1903|Dr HAJOUJI Linda
+1|Région Ile de France|21|Saint-Louis|1873|Dr HAKIM Nicolas
+1|Région Ile de France|3|Pitié-Salpêtrière|836|Dr HALBRON GUENANCIA Marine
+1|Région Ile de France|17|Tenon|727|Dr HALITIM Pierre
+1|Région Ile de France|5|HEGP|1186|Dr HALLADE RASQUIN Helene
+1|Région Ile de France|15|Jean Verdier|494|Dr HAMADEH Hikmat
+1|Région Ile de France|15|Jean Verdier|496|Dr HAMMAD Kahina
+1|Région Ile de France|11|Lariboisière|183|Dr HAMMOUM Pierre
+1|Région Ile de France|8|Avicenne|1791|Dr HAMZA Lilia
+1|Région Ile de France|4|Médecins généralistes|624|Dr HANDSCHUH Richard
+1|Région Ile de France|11|Lariboisière|272|Dr HANSCONRAD Erwin
+1|Région Ile de France|6|Ambroise Paré|563|Dr HANSLIK Thomas
+1|Région Ile de France|6|Ambroise Paré|602|Dr HANSLIK Adriana
+1|Région Ile de France|||160|Dr HARIM Rabha Magda
+1|Région Ile de France|11|Lariboisière|168|Dr HARLE Theophile
+1|Région Ile de France|36|Hôpital Louis Mourier|1751|Dr HARRACH Oussama
+1|Région Ile de France|3|Pitié-Salpêtrière|837|Dr HARTEMANN Agnès
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1927|Dr HASCOET Sebastien
+1|Région Ile de France|3|Pitié-Salpêtrière|24|Dr HASSANE Yannis
+1|Région Ile de France|7|Antoine Béclère|1328|Dr HASSEN Raouia
+1|Région Ile de France|3|Pitié-Salpêtrière|896|Dr HAUSFATER Pierre
+1|Région Ile de France|5|HEGP|1208|Dr HAUTIN Ryan
+1|Région Ile de France|18|Beaujon|1339|Dr HEDJOUDJE Abdellah
+1|Région Ile de France|2|Necker|1281|Dr HEID Benoît
+1|Région Ile de France|10|Henri Mondor|1089|Dr HEIDET Matthieu
+1|Région Ile de France|1|Bichat|1738|Dr HELLMANN Romain
+1|Région Ile de France|10|Henri Mondor|1462|Dr HENEGAR Corneliu
+1|Région Ile de France|3|Pitié-Salpêtrière|25|Dr HENRIET Anais
+1|Région Ile de France|24|Bicêtre|1042|Dr HENRIQUEZ Soledad
+1|Région Ile de France|18|Beaujon|1489|Dr HENTIC Olivia
+1|Région Ile de France|10|Henri Mondor|1684|Dr HERBAUD Stephane
+1|Région Ile de France|20|SAMU 75|931|Dr HERBEPIN Audrey
+1|Région Ile de France|13|St Antoine|383|Dr HERMAND Christelle
+1|Région Ile de France|17|Tenon|728|Dr HERROU Anne-Flore
+1|Région Ile de France|3|Pitié-Salpêtrière|838|Dr HERTIG Alexandre
+1|Région Ile de France|8|Avicenne|1298|Dr HERVE Aurélie
+1|Région Ile de France|9|Cochin|1158|Dr HESHMATI Farhad
+1|Région Ile de France|3|Pitié-Salpêtrière|839|Dr HIDDEN LUCET Françoise
+1|Région Ile de France|13|St Antoine|408|Dr HIESSE Isabelle
+1|Région Ile de France|1|Bichat|1739|Dr HIJAZI Maher
+1|Région Ile de France|5|HEGP|668|Dr HINDY Ryan
+1|Région Ile de France|24|Bicêtre|1832|Dr HINGLAIS Etienne
+1|Région Ile de France|10|Henri Mondor|1542|Dr HIRSCH Gaelle
+1|Région Ile de France|21|Saint-Louis|1874|Dr HIRSH Sylvain
+1|Région Ile de France|3|Pitié-Salpêtrière|890|Dr HO Sylvie
+1|Région Ile de France|4|Médecins généralistes|687|Dr HODY Julien
+1|Région Ile de France|11|Lariboisière|134|Dr HONG Alex
+1|Région Ile de France|9|Cochin|1159|Dr HONORE Isabelle
+1|Région Ile de France|18|Beaujon|1538|Dr HONSEL Vasco
+1|Région Ile de France|10|Henri Mondor|1090|Dr HOOKER Corinne
+1|Région Ile de France|3|Pitié-Salpêtrière|849|Dr HORIA Michaela
+1|Région Ile de France|10|Henri Mondor|1091|Dr HORIOT Alexandre
+1|Région Ile de France|9|Cochin|1160|Dr HOSSEINI Roxana
+1|Région Ile de France|10|Henri Mondor|1458|Dr HOTZ Claire
+1|Région Ile de France|8|Avicenne|1792|Dr HSING Priscilia
+1|Région Ile de France|3|Pitié-Salpêtrière|26|Dr HU Alice
+1|Région Ile de France|10|Henri Mondor|1428|Dr HUA Camille
+1|Région Ile de France|9|Cochin|1161|Dr HUBERT Dominique
+1|Région Ile de France|9|Cochin|986|Dr HUET Stéphanie
+1|Région Ile de France|20|SAMU 75|932|Dr HUET Christian
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1936|Dr HUET Thomas
+1|Région Ile de France|24|Bicêtre|1043|Dr HUMBERT Marc
+1|Région Ile de France|||120|Dr HUOT Benjamin
+1|Région Ile de France|10|Henri Mondor|463|Dr HURIEZ Pauline
+1|Région Ile de France|10|Henri Mondor|453|Dr HUSSLER Sophie
+1|Région Ile de France|20|SAMU 75|933|Dr HUTIN Alice
+1|Région Ile de France|10|Henri Mondor|1683|Dr HUYNH QUAN TRUNG Solene
+1|Région Ile de France|18|Beaujon|1423|Dr IAKOVLEV Gueorgui
+1|Région Ile de France|17|Tenon|729|Dr IBN-SAID Wafa
+1|Région Ile de France|15|Jean Verdier|497|Dr IDDAHAMOU Moussa
+1|Région Ile de France|11|Lariboisière|170|Dr IDIR-GRUBO Imene
+1|Région Ile de France|1|Bichat|1740|Dr ING Vittiaroat
+1|Région Ile de France|13|St Antoine|387|Dr INGILIZ Patrick
+1|Région Ile de France|8|Avicenne|1793|Dr IONESCU Roxana
+1|Région Ile de France|||146|Dr IORDACHE Ileana
+1|Région Ile de France|||147|Dr IORDACHE Ileana
+1|Région Ile de France|1|Bichat|27|Dr ISERNIA Valentina
+1|Région Ile de France|1|Bichat|28|Dr ISMAEL Sophie
+1|Région Ile de France|1|Bichat|1741|Dr ISMAIL Myriam
+1|Région Ile de France|5|HEGP|538|Dr ISRAEL BIET Dominique
+1|Région Ile de France|||1961|Dr ISSAD Belkacem
+1|Région Ile de France|24|Bicêtre|1822|Dr ISSILAME Yasser
+1|Région Ile de France|3|Pitié-Salpêtrière|29|Dr ITANI Oula
+1|Région Ile de France|||1957|Dr IZZEDINE Hassan
+1|Région Ile de France|31|CHIV|1356|Dr JAAFAR Daniella
+1|Région Ile de France|9|Cochin|987|Dr JABALLAH Ilies
+1|Région Ile de France|10|Henri Mondor|1679|Dr JABER Samy
+1|Région Ile de France|20|SAMU 75|934|Dr JABRE Patricia
+1|Région Ile de France|13|St Antoine|434|Dr JACHIET Vincent
+1|Région Ile de France|10|Henri Mondor|465|Dr JAFFAL Karim
+1|Région Ile de France|24|Bicêtre|1044|Dr JAIS Xavier
+1|Région Ile de France|17|Tenon|730|Dr JAMI Ilan
+1|Région Ile de France|7|Antoine Béclère|1329|Dr JAMIN Astrid Angele
+1|Région Ile de France|4|Médecins généralistes|1506|Dr JAMMERON Veronique
+1|Région Ile de France|10|Henri Mondor|1403|Dr JANNIC Arnaud
+1|Région Ile de France|18|Beaujon|1532|Dr JANNY Sylvie
+1|Région Ile de France|24|Bicêtre|1045|Dr JAUREGUIBERRY Stephane
+1|Région Ile de France|16|Hôtel Dieu|1620|Dr JAYLE Didier Max
+1|Région Ile de France|10|Henri Mondor|1092|Dr JBEILI Chadi
+1|Région Ile de France|1|Bichat|1774|Dr JEANSON Cecile
+1|Région Ile de France|10|Henri Mondor|1391|Dr JEBALI Amna
+1|Région Ile de France|10|Henri Mondor|1596|Dr JELTI Lamia
+1|Région Ile de France|8|Avicenne|1289|Dr JENY Florence
+1|Région Ile de France|1|Bichat|30|Dr JESTIN Christine
+1|Région Ile de France|9|Cochin|1162|Dr JIMENEZ David
+1|Région Ile de France|||149|Dr JOACHIM Jona
+1|Région Ile de France|15|Jean Verdier|499|Dr JOBEZ Emmanuel
+1|Région Ile de France|1|Bichat|31|Dr JOLY Veronique
+1|Région Ile de France|18|Beaujon|1418|Dr JOLY Francoise
+1|Région Ile de France|20|SAMU 75|935|Dr JOLY Camille
+1|Région Ile de France|24|Bicêtre|1848|Dr JOMO Patience
+1|Région Ile de France|6|Ambroise Paré|566|Dr JONDEAU Katayoun
+1|Région Ile de France|3|Pitié-Salpêtrière|878|Dr JOSSE Marie-Odile
+1|Région Ile de France|||1909|Dr JOSSERAN Loic
+1|Région Ile de France|11|Lariboisière|273|Dr JOUABLI Moenes
+1|Région Ile de France|5|HEGP|678|Dr JOUCLAS Diane
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1945|Dr JOUFFROY Pomme
+1|Région Ile de France|9|Cochin|1163|Dr JOUMAA Hassan
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1944|Dr JOUVESHOMME Stephane
+1|Région Ile de France|35|Hôpital Américain|1721|Dr JOZA Nicholas
+1|Région Ile de France|||1336|Dr JUTANT Etienne-Marie
+1|Région Ile de France|5|HEGP|536|Dr JUVIN Karine
+1|Région Ile de France|5|HEGP|666|Dr JUVIN Philippe
+1|Région Ile de France|4|Médecins généralistes|1511|Dr KADRI Sabrina
+1|Région Ile de France|6|Ambroise Paré|554|Dr KAHN Jean Emmanuel
+1|Région Ile de France|18|Beaujon|1526|Dr KALAMARIDES Sophie
+1|Région Ile de France|11|Lariboisière|274|Dr KALAYAN Camille
+1|Région Ile de France|1|Bichat|1775|Dr KALKA Kadir
+1|Région Ile de France|10|Henri Mondor|1544|Dr KALMI Galith
+1|Région Ile de France|24|Bicêtre|1849|Dr KAMBOUA Mounir
+1|Région Ile de France|9|Cochin|1169|Dr KANAAN Reem
+1|Région Ile de France|6|Ambroise Paré|586|Dr KANJRAWI Pierre
+1|Région Ile de France|9|Cochin|988|Dr KANSAO Jamal
+1|Région Ile de France|7|Antoine Béclère|1324|Dr KANSAU Imad
+1|Région Ile de France|5|HEGP|650|Dr KANTE Fatoumata
+1|Région Ile de France|13|St Antoine|407|Dr KAOUTAR Bacha
+1|Région Ile de France|18|Beaujon|1411|Dr KARGOUGOU Eric
+1|Région Ile de France|16|Hôtel Dieu|631|Dr KARMOCHKINE Marina
+1|Région Ile de France|10|Henri Mondor|1453|Dr KASSASSEYA Christian
+1|Région Ile de France|13|St Antoine|411|Dr KASSER Camille
+1|Région Ile de France|11|Lariboisière|129|Dr KATIMS Mathilde
+1|Région Ile de France|3|Pitié-Salpêtrière|32|Dr KATLAMA Christine
+1|Région Ile de France|15|Jean Verdier|518|Dr KAUFFMANN Jennifer
+1|Région Ile de France|10|Henri Mondor|1576|Dr KAYAT Jeremy
+1|Région Ile de France|24|Bicêtre|1850|Dr KAZKAZ Firas
+1|Région Ile de France|11|Lariboisière|107|Dr KECHICHE Abdelhakim
+1|Région Ile de France|10|Henri Mondor|1588|Dr KEMACHE Kenza
+1|Région Ile de France|11|Lariboisière|188|Dr KEMOUN Gabriel
+1|Région Ile de France|1|Bichat|1776|Dr KENWAY Philippe
+1|Région Ile de France|11|Lariboisière|125|Dr KERDJANA Lamia
+1|Région Ile de France|3|Pitié-Salpêtrière|840|Dr KEREN Boris
+1|Région Ile de France|9|Cochin|1164|Dr KERNEIS Solen
+1|Région Ile de France|15|Jean Verdier|503|Dr KHALAF Hussam
+1|Région Ile de France|10|Henri Mondor|1093|Dr KHALID Mohamed
+1|Région Ile de France|10|Henri Mondor|1464|Dr KHALIL Dania
+1|Région Ile de France|1|Bichat|1905|Dr KHELIFAOUI Lysa
+1|Région Ile de France|20|SAMU 75|936|Dr KHELIFI Gregory
+1|Région Ile de France|10|Henri Mondor|1650|Dr KHELLAF Mehdi
+1|Région Ile de France|13|St Antoine|389|Dr KHIARI Mehdi
+1|Région Ile de France|5|HEGP|1200|Dr KHIDER Lina
+1|Région Ile de France|10|Henri Mondor|1399|Dr KHOSROWSHAHI Anoosha
+1|Région Ile de France|17|Tenon|731|Dr KIEFFER Etienne
+1|Région Ile de France|9|Cochin|989|Dr KIERZEK Gerald
+1|Région Ile de France|11|Lariboisière|95|Dr KIMMOUN Antoine
+1|Région Ile de France|3|Pitié-Salpêtrière|33|Dr KLEMENT Elise Marie
+1|Région Ile de France|20|SAMU 75|937|Dr KLENKLE Laurence
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1924|Dr KLOECKNER Martin
+1|Région Ile de France|8|Avicenne|1268|Dr KOLAKOWSKA Agnieszka
+1|Région Ile de France|7|Antoine Béclère|1332|Dr KONKINA MILLET Maria
+1|Région Ile de France|3|Pitié-Salpêtrière|34|Dr KORNBLUM Dimitri
+1|Région Ile de France|8|Avicenne|1292|Dr KORT Fatma
+1|Région Ile de France|1|Bichat|1743|Dr KOUADIO Parfait
+1|Région Ile de France|10|Henri Mondor|1351|Dr KOUBY Florianne
+1|Région Ile de France|31|CHIV|1351|Dr KOUBY Florianne
+1|Région Ile de France|29|SAMU 92|1248|Dr KOUNG Nancya
+1|Région Ile de France|16|Hôtel Dieu|1621|Dr KOUSIGNIAN Pascale
+1|Région Ile de France|5|HEGP|676|Dr KOZULINA Tatiana
+1|Région Ile de France|13|St Antoine|391|Dr KRAUSE Jessica
+1|Région Ile de France|6|Ambroise Paré|607|Dr KRIEF Leslie
+1|Région Ile de France|10|Henri Mondor|1682|Dr KRYPCIAK Sebastien
+1|Région Ile de France|3|Pitié-Salpêtrière|35|Dr KTORZA Nadine
+1|Région Ile de France|10|Henri Mondor|452|Dr LA MARTIRE Giulia
+1|Région Ile de France|9|Cochin|1165|Dr LAABAN Jean-Pierre
+1|Région Ile de France|8|Avicenne|1271|Dr LABAN Thibault
+1|Région Ile de France|9|Cochin|990|Dr LABITRIE Pierre
+1|Région Ile de France|6|Ambroise Paré|619|Dr LABRUNE Sylvie
+1|Région Ile de France|18|Beaujon|1527|Dr LACAILLE Sophie
+1|Région Ile de France|13|St Antoine|964|Dr LACCHEB Mariem
+1|Région Ile de France|6|Ambroise Paré|615|Dr LACHIEZE Marine
+1|Région Ile de France|13|St Antoine|323|Dr LACOMBE Karine
+1|Région Ile de France|10|Henri Mondor|1094|Dr LACROZE Marie
+1|Région Ile de France|10|Henri Mondor|1095|Dr LADKA Agnes
+1|Région Ile de France|21|Saint-Louis|769|Dr LAFAURIE Matthieu
+1|Région Ile de France|21|Saint-Louis|1337|Dr LAFAURIE Matthieu
+1|Région Ile de France|29|SAMU 92|1241|Dr LAFFRAT Isabelle
+1|Région Ile de France|9|Cochin|1166|Dr LAFOESTE Hélène
+1|Région Ile de France|2|Necker|1180|Dr LAFONT Emmanuel
+1|Région Ile de France|10|Henri Mondor|1577|Dr LAGARDE Jessica
+1|Région Ile de France|11|Lariboisière|275|Dr LAHAYE Claire
+1|Région Ile de France|11|Lariboisière|175|Dr LAJOUANIE Paul
+1|Région Ile de France|9|Cochin|991|Dr LAKHLIFI Marie-Ines
+1|Région Ile de France|13|St Antoine|325|Dr LALLEMAND Francis
+1|Région Ile de France|4|Médecins généralistes|552|Dr LAMACHE Pierre
+1|Région Ile de France|24|Bicêtre|1046|Dr LAMBOTTE Olivier
+1|Région Ile de France|4|Médecins généralistes|1704|Dr LAMBRON Julien
+1|Région Ile de France|||940|Dr LAMHAUT Lionel
+1|Région Ile de France|20|SAMU 75|940|Dr LAMHAUT Lionel
+1|Région Ile de France|18|Beaujon|1435|Dr LAMIAUX Lea
+1|Région Ile de France|11|Lariboisière|198|Dr LAMORE Mathilde
+1|Région Ile de France|1|Bichat|36|Dr LANDMAN Roland
+1|Région Ile de France|13|St Antoine|1887|Dr LANDMAN Cécilia
+1|Région Ile de France|18|Beaujon|1357|Dr LANDRIEUX Amandine
+1|Région Ile de France|10|Henri Mondor|1668|Dr LANG Philippe
+1|Région Ile de France|15|Jean Verdier|504|Dr LANQUE Juliette
+1|Région Ile de France|2|Necker|1275|Dr LANTERNIER Fanny
+1|Région Ile de France|||656|Dr LAPAQUE Jean Sebastien
+1|Région Ile de France|24|Bicêtre|1047|Dr LAPARRA Ariane
+1|Région Ile de France|23|Paul Brousse |1283|Dr LARBI Abdelaziz
+1|Région Ile de France|1|Bichat|37|Dr LARIVEN Sylvie
+1|Région Ile de France|35|Hôpital Américain|1722|Dr LARSY Stephane
+1|Région Ile de France|8|Avicenne|1794|Dr LASCAR Justine
+1|Région Ile de France|10|Henri Mondor|455|Dr LASCAUX CAMETZ Anne Sophie
+1|Région Ile de France|21|Saint-Louis|770|Dr LASCOUX COMBE Caroline
+1|Région Ile de France|13|St Antoine|327|Dr LASNE Vincent
+1|Région Ile de France|17|Tenon|732|Dr LASSEL Ludovic
+1|Région Ile de France|10|Henri Mondor|1096|Dr LATERRADE Mathias
+1|Région Ile de France|10|Henri Mondor|1097|Dr LAURENT Gabriel
+1|Région Ile de France|10|Henri Mondor|1619|Dr LAURENT Marie Jeanine
+1|Région Ile de France|18|Beaujon|1442|Dr LAURENT Lucie
+1|Région Ile de France|3|Pitié-Salpêtrière|38|Dr LAVAGNA Pauline
+1|Région Ile de France|17|Tenon|733|Dr LAVOLE Armelle
+1|Région Ile de France|13|St Antoine|329|Dr LAZERGUES Clara
+1|Région Ile de France|24|Bicêtre|1256|Dr LE BRAS Philippe
+1|Région Ile de France|10|Henri Mondor|1602|Dr LE CLEACH Laurence
+1|Région Ile de France|6|Ambroise Paré|564|Dr LE CORRE Andre
+1|Région Ile de France|10|Henri Mondor|1098|Dr LE CORRE Melanie
+1|Région Ile de France|||115|Dr LE DORZE Matthieu
+1|Région Ile de France|12|Raymond Poincaré|568|Dr LE GAL Aurelie
+1|Région Ile de France|||142|Dr LE GALL Arthur
+1|Région Ile de France|5|HEGP|684|Dr LE GUEN Julien
+1|Région Ile de France|10|Henri Mondor|450|Dr LE GUEN Ronan
+1|Région Ile de France|9|Cochin|1167|Dr LE GUERN Véronique
+1|Région Ile de France|||1168|Dr LE JEUNNE Claire
+1|Région Ile de France|8|Avicenne|1266|Dr LE JOUBIOUX Clemence
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1937|Dr LE MONNIER Alban
+1|Région Ile de France|11|Lariboisière|204|Dr LE PAGE Reginald
+1|Région Ile de France|15|Jean Verdier|505|Dr LE PENNEC Nolwenne
+1|Région Ile de France|20|SAMU 75|938|Dr LE PENNETIER Olivier
+1|Région Ile de France|33|Centre Richerand|1488|Dr LE ROLLAND Isabelle
+1|Région Ile de France|10|Henri Mondor|1118|Dr LE ROUX Bertrand
+1|Région Ile de France|10|Henri Mondor|1380|Dr LE SEAC'H Agathe
+1|Région Ile de France|9|Cochin|992|Dr LE VAN Fabien
+1|Région Ile de France|10|Henri Mondor|1417|Dr LE VAVASSEUR Benjamin
+1|Région Ile de France|29|SAMU 92|1242|Dr LEBAIL Gaelle
+1|Région Ile de France|5|HEGP|547|Dr LEBEAUX David
+1|Région Ile de France|4|Médecins généralistes|85|Dr LEBEL Josselin
+1|Région Ile de France|3|Pitié-Salpêtrière|841|Dr LEBLOND Véronique
+1|Région Ile de France|10|Henri Mondor|1436|Dr LEBRE D ANTHOUARD DE VRAI Cécile
+1|Région Ile de France|13|St Antoine|332|Dr LEBRETTE Marie-Gisele
+1|Région Ile de France|10|Henri Mondor|1099|Dr LECARPENTIER Eric
+1|Région Ile de France|6|Ambroise Paré|606|Dr LECLAIR Bathilde
+1|Région Ile de France|9|Cochin|993|Dr LECOMTE François
+1|Région Ile de France|9|Cochin|1170|Dr LEFEBVRE Aurélie
+1|Région Ile de France|13|St Antoine|334|Dr LEFEBVRE Benedicte
+1|Région Ile de France|18|Beaujon|1343|Dr LEFORT DES YLOUSES Agnes
+1|Région Ile de France|21|Saint-Louis|1875|Dr LEGAY Léa
+1|Région Ile de France|9|Cochin|1171|Dr LEGENDRE Paul
+1|Région Ile de France|13|St Antoine|336|Dr LEGENDRE Nicolas
+1|Région Ile de France|21|Saint-Louis|901|Dr LEGUEN Pierre
+1|Région Ile de France|4|Médecins généralistes|1508|Dr LEJEUNE Pauline
+1|Région Ile de France|5|HEGP|667|Dr LEJEUNE Quentin
+1|Région Ile de France|13|St Antoine|339|Dr LEJEUNE Celine
+1|Région Ile de France|15|Jean Verdier|506|Dr LEKOUARA Daniel
+1|Région Ile de France|1|Bichat|1752|Dr LELEU Agathe
+1|Région Ile de France|8|Avicenne|1801|Dr LELIEVRE Christine
+1|Région Ile de France|10|Henri Mondor|456|Dr LELIEVRE Jean Daniel
+1|Région Ile de France|17|Tenon|734|Dr LEMARIE Nadege
+1|Région Ile de France|||1954|Dr LENGLINE Helene
+1|Région Ile de France|15|Jean Verdier|520|Dr LENOIR Gilles
+1|Région Ile de France|||276|Dr LEONARD COLLADO Arthur
+1|Région Ile de France|11|Lariboisière|276|Dr LEONARD COLLADO Arthur
+1|Région Ile de France|33|Centre Richerand|276|Dr LEONARD COLLADO Arthur
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1923|Dr LEPAVEC Jerome
+1|Région Ile de France|10|Henri Mondor|444|Dr LEPEULE Raphael
+1|Région Ile de France|3|Pitié-Salpêtrière|39|Dr LEPORT Catherine
+1|Région Ile de France|1|Bichat|40|Dr LEPRETRE Annie
+1|Région Ile de France|24|Bicêtre|1048|Dr LEROLLE Nathalie
+1|Région Ile de France|3|Pitié-Salpêtrière|842|Dr LEROUX Gaëlle
+1|Région Ile de France|20|SAMU 75|939|Dr LEROUX Claire
+1|Région Ile de France|11|Lariboisière|277|Dr LEROY Pierre
+1|Région Ile de France|24|Bicêtre|1851|Dr LEROY Christophe
+1|Région Ile de France|1|Bichat|41|Dr LESCURE Xavier
+1|Région Ile de France|18|Beaujon|1476|Dr LESPAGNOL Morgane
+1|Région Ile de France|10|Henri Mondor|1664|Dr LESTANG Paul
+1|Région Ile de France|17|Tenon|735|Dr LETELLIER Alice
+1|Région Ile de France|16|Hôtel Dieu|632|Dr LETEMBET-IPPET Valerie-Anne
+1|Région Ile de France|13|St Antoine|340|Dr LEUNG Ines
+1|Région Ile de France|6|Ambroise Paré|589|Dr LEVASSEUR Anne Sophie
+1|Région Ile de France|11|Lariboisière|135|Dr LEVE Charlotte
+1|Région Ile de France|11|Lariboisière|136|Dr LEVE Charlotte
+1|Région Ile de France|13|St Antoine|342|Dr LEVECQUE Karine
+1|Région Ile de France|9|Cochin|994|Dr LEVET Eléonore
+1|Région Ile de France|10|Henri Mondor|457|Dr LEVY Yves
+1|Région Ile de France|18|Beaujon|1505|Dr LEVY Philippe
+1|Région Ile de France|3|Pitié-Salpêtrière|843|Dr LEVY SOUSSAN Michèle
+1|Région Ile de France|10|Henri Mondor|1398|Dr LEYS Annick
+1|Région Ile de France|10|Henri Mondor|1696|Dr LIDOU-RENAULT Valentine
+1|Région Ile de France|21|Saint-Louis|772|Dr LIEGEON Geoffroy
+1|Région Ile de France|17|Tenon|736|Dr LIEVRE Thomas
+1|Région Ile de France|10|Henri Mondor|1655|Dr LIMAL Nicolas
+1|Région Ile de France|||737|Dr LIONNET Francois
+1|Région Ile de France|29|SAMU 92|1272|Dr LOEB Thomas
+1|Région Ile de France|11|Lariboisière|278|Dr LOEUNG Hoang Uyen
+1|Région Ile de France|3|Pitié-Salpêtrière|844|Dr LONDNER Cécile
+1|Région Ile de France|9|Cochin|995|Dr LOPES Anne-Sophie
+1|Région Ile de France|11|Lariboisière|151|Dr LOPES Jean-Paul
+1|Région Ile de France|11|Lariboisière|279|Dr LOPES Amanda
+1|Région Ile de France|5|HEGP|539|Dr LOPEZ Ilaine
+1|Région Ile de France|10|Henri Mondor|1119|Dr LOPEZ Lou
+1|Région Ile de France|8|Avicenne|1916|Dr LOPEZ SUBLET Marilucy
+1|Région Ile de France|10|Henri Mondor|462|Dr LOPEZ ZARAGOZA Jose Luis
+1|Région Ile de France|11|Lariboisière|177|Dr LOREAU Chine
+1|Région Ile de France|21|Saint-Louis|1865|Dr LORILLON Gwenael
+1|Région Ile de France|9|Cochin|1172|Dr LORUT Christine
+1|Région Ile de France|10|Henri Mondor|1100|Dr LOUCHENE Latifa
+1|Région Ile de France|18|Beaujon|1557|Dr LOUIS Zeina
+1|Région Ile de France|7|Antoine Béclère|1317|Dr LUCAS AMICHI Axelle
+1|Région Ile de France|7|Antoine Béclère|1325|Dr LUCENAY Sonia
+1|Région Ile de France|8|Avicenne|523|Dr LUK SAONA Helen
+1|Région Ile de France|15|Jean Verdier|523|Dr LUK SAONA Helen
+1|Région Ile de France|9|Cochin|1173|Dr LURIE Alain
+1|Région Ile de France|10|Henri Mondor|1419|Dr LY Benoit
+1|Région Ile de France|11|Lariboisière|280|Dr LY Axelle
+1|Région Ile de France|11|Lariboisière|529|Dr LY Axelle
+1|Région Ile de France|16|Hôtel Dieu|1622|Dr L'YAVANC Thomas
+1|Région Ile de France|1|Bichat|1778|Dr MACAUX Michelle
+1|Région Ile de France|10|Henri Mondor|1120|Dr MACON Constance
+1|Région Ile de France|15|Jean Verdier|507|Dr MADI Soumayat
+1|Région Ile de France|11|Lariboisière|106|Dr MAGALHAES Adele
+1|Région Ile de France|10|Henri Mondor|1405|Dr MAGEAU Arthur
+1|Région Ile de France|18|Beaujon|1437|Dr MAGGIORI Leon
+1|Région Ile de France|5|HEGP|1207|Dr MAGNAN Benjamin
+1|Région Ile de France|8|Avicenne|1810|Dr MAHADEVAN Pranesh
+1|Région Ile de France|11|Lariboisière|527|Dr MAHE Véronique
+1|Région Ile de France|10|Henri Mondor|1647|Dr MAHEVAS Matthieu
+1|Région Ile de France|9|Cochin|1174|Dr MAILLARD Nathalie
+1|Région Ile de France|3|Pitié-Salpêtrière|42|Dr MAILLET Mathurin
+1|Région Ile de France|9|Cochin|1175|Dr MAILLEY Ombeline
+1|Région Ile de France|18|Beaujon|1422|Dr MAIRE Frederique
+1|Région Ile de France|14|Trousseau|1064|Dr MAISONNEUVE Emeline
+1|Région Ile de France|11|Lariboisière|216|Dr MAJDLING Alena
+1|Région Ile de France|11|Lariboisière|281|Dr MAJDLING Alena
+1|Région Ile de France|9|Cochin|1176|Dr MAJERSDORF-SOTTO Marion
+1|Région Ile de France|3|Pitié-Salpêtrière|43|Dr MAKHLOUFI Sabrina
+1|Région Ile de France|20|SAMU 75|941|Dr MALARTIC Mireille
+1|Région Ile de France|||942|Dr MALET V
+1|Région Ile de France|5|HEGP|671|Dr MALET Valentine
+1|Région Ile de France|20|SAMU 75|671|Dr MALET Valentine
+1|Région Ile de France|11|Lariboisière|94|Dr MALISSIN Isabelle
+1|Région Ile de France|15|Jean Verdier|508|Dr MALKA Alexandra
+1|Région Ile de France|9|Cochin|996|Dr MALLERET Léa
+1|Région Ile de France|8|Avicenne|1269|Dr MAMONA KILU Christel
+1|Région Ile de France|8|Avicenne|509|Dr MAMPOUYA Davy
+1|Région Ile de France|13|St Antoine|344|Dr MANAMANI Jaffar
+1|Région Ile de France|5|HEGP|677|Dr MANAR Dalinda
+1|Région Ile de France|11|Lariboisière|283|Dr MANDA Victoria
+1|Région Ile de France|10|Henri Mondor|1393|Dr MANESCAU BAZILLAC Anh Thu
+1|Région Ile de France|6|Ambroise Paré|603|Dr MANGILI Anaelle
+1|Région Ile de France|6|Ambroise Paré|1659|Dr MANSENCAL Nicolas
+1|Région Ile de France|10|Henri Mondor|1101|Dr MANSOURI Nadia
+1|Région Ile de France|4|Médecins généralistes|1257|Dr MAO Celina
+1|Région Ile de France|||510|Dr MARADJI Johanna
+1|Région Ile de France|21|Saint-Louis|1900|Dr MARBEUF-GUEYE Carole
+1|Région Ile de France|||1951|Dr MARCHAY Nathalie
+1|Région Ile de France|6|Ambroise Paré|590|Dr MARCIANO Eva
+1|Région Ile de France|9|Cochin|1177|Dr MAREY Jonathan
+1|Région Ile de France|10|Henri Mondor|1102|Dr MARGENET BAUDRY Alain
+1|Région Ile de France|5|HEGP|550|Dr MARIE AUDE Penet
+1|Région Ile de France|12|Raymond Poincaré|558|Dr MARIGOT OUTTANDY Dhiba
+1|Région Ile de France|24|Bicêtre|1852|Dr MARINEAU Maryvonne
+1|Région Ile de France|6|Ambroise Paré|525|Dr MARKABAWI Sharif
+1|Région Ile de France|15|Jean Verdier|525|Dr MARKABAWI Sharif
+1|Région Ile de France|11|Lariboisière|173|Dr MAROSELLI Hugo
+1|Région Ile de France|3|Pitié-Salpêtrière|44|Dr MARQUES Elodie
+1|Région Ile de France|18|Beaujon|1461|Dr MARQUES DE SANTOS Angelique
+1|Région Ile de France|7|Antoine Béclère|1311|Dr MARTIN Yann
+1|Région Ile de France|9|Cochin|1178|Dr MARTIN Clémence
+1|Région Ile de France|13|St Antoine|347|Dr MARTIN Camille
+1|Région Ile de France|13|St Antoine|350|Dr MARTIN DE VAUXMORET Claire
+1|Région Ile de France|||1953|Dr MARTINEZ-VINSON Christine
+1|Région Ile de France|17|Tenon|738|Dr MARTINS-GONCALVES Filipa
+1|Région Ile de France|10|Henri Mondor|1103|Dr MARTY Jean Louis
+1|Région Ile de France|20|SAMU 75|943|Dr MARX Jean Sebastien
+1|Région Ile de France|17|Tenon|739|Dr MARZOUK Nessrine
+1|Région Ile de France|10|Henri Mondor|1563|Dr MASBOU Helene
+1|Région Ile de France|12|Raymond Poincaré|570|Dr MASCITTI Helene Tiphaine
+1|Région Ile de France|3|Pitié-Salpêtrière|45|Dr MASGNAUX Carole
+1|Région Ile de France|1|Bichat|46|Dr MASSE Virginie
+1|Région Ile de France|10|Henri Mondor|1584|Dr MASSIAS Josephine
+1|Région Ile de France|11|Lariboisière|87|Dr MATEO Joaquim
+1|Région Ile de France|1|Bichat|47|Dr MATHERON Sophie
+1|Région Ile de France|10|Henri Mondor|1641|Dr MATIGNON Marie Benedicte
+1|Région Ile de France|1|Bichat|48|Dr MATRA Robert
+1|Région Ile de France|12|Raymond Poincaré|470|Dr MATT Morgan
+1|Région Ile de France|17|Tenon|740|Dr MATTIONI Sarah
+1|Région Ile de France|17|Tenon|741|Dr MATTON Lise
+1|Région Ile de France|10|Henri Mondor|454|Dr MAURAND Audrey
+1|Région Ile de France|10|Henri Mondor|1661|Dr MAUROU Olivier
+1|Région Ile de France|10|Henri Mondor|1406|Dr MAUSOLEO Aude
+1|Région Ile de France|11|Lariboisière|1012|Dr MAWET Jerome
+1|Région Ile de France|5|HEGP|649|Dr MAYAUD Clarice
+1|Région Ile de France|3|Pitié-Salpêtrière|49|Dr MAYER Emilie
+1|Région Ile de France|3|Pitié-Salpêtrière|845|Dr MAZDA WALTER Brice
+1|Région Ile de France|17|Tenon|1011|Dr MBAPPE Pauline
+1|Région Ile de France|24|Bicêtre|1853|Dr MBEDE Yves
+1|Région Ile de France|11|Lariboisière|89|Dr MEBAZAA Alexandre
+1|Région Ile de France|8|Avicenne|1259|Dr MECHAI Frederic
+1|Région Ile de France|17|Tenon|742|Dr MECHAI Soufiane
+1|Région Ile de France|31|CHIV|1353|Dr MEDINA Fernanda
+1|Région Ile de France|11|Lariboisière|93|Dr MEGARBANE Bruno
+1|Région Ile de France|10|Henri Mondor|461|Dr MEHAWEJ Hanane
+1|Région Ile de France|17|Tenon|743|Dr MEJEAN Elodie
+1|Région Ile de France|4|Médecins généralistes|1701|Dr MEKHANEG Lina
+1|Région Ile de France|13|St Antoine|404|Dr MEKINIAN Arsene
+1|Région Ile de France|||512|Dr MEKSEM MELLAZ Fatima
+1|Région Ile de France|10|Henri Mondor|459|Dr MELICA Giovanna
+1|Région Ile de France|10|Henri Mondor|1407|Dr MELIN Audrey
+1|Région Ile de France|3|Pitié-Salpêtrière|50|Dr MENEL Margaux
+1|Région Ile de France|||513|Dr MERAH Ines
+1|Région Ile de France|||1965|Dr MERAZGA Sihem
+1|Région Ile de France|3|Pitié-Salpêtrière|846|Dr MERCADAL Lucile
+1|Région Ile de France|7|Antoine Béclère|1322|Dr MERCADIER-RIAZ Elise
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1926|Dr MERCIER Olaf
+1|Région Ile de France|9|Cochin|1179|Dr MERIA Augustin
+1|Région Ile de France|3|Pitié-Salpêtrière|51|Dr MERIC Vincent
+1|Région Ile de France|5|HEGP|645|Dr MERZOUKI Abdellah
+1|Région Ile de France|11|Lariboisière|217|Dr MESNIL Celine
+1|Région Ile de France|8|Avicenne|1915|Dr MESSAOUDI Chanaz
+1|Région Ile de France|5|HEGP|1198|Dr MESSAS Emmanuel
+1|Région Ile de France|6|Ambroise Paré|572|Dr METAYER ROUSSEAU Catherine
+1|Région Ile de France|7|Antoine Béclère|1330|Dr METZGER Marie-Hélène
+1|Région Ile de France|13|St Antoine|352|Dr MEUNIER Emilie
+1|Région Ile de France|17|Tenon|744|Dr MEWASING Baboo Irwinsingh
+1|Région Ile de France|5|HEGP|541|Dr MEYER Guy
+1|Région Ile de France|11|Lariboisière|285|Dr MEYER Marie
+1|Région Ile de France|13|St Antoine|354|Dr MEYNARD Jean-Luc
+1|Région Ile de France|21|Saint-Louis|1892|Dr MEYNIEUX Ulysse
+1|Région Ile de France|13|St Antoine|356|Dr MEYOHAS Marie-Caroline
+1|Région Ile de France|18|Beaujon|1516|Dr MEZIANE Sarrah
+1|Région Ile de France|11|Lariboisière|286|Dr MEZRAANI Julian
+1|Région Ile de France|10|Henri Mondor|1381|Dr MHALLA Alaa
+1|Région Ile de France|1|Bichat|52|Dr MICHARD Florence
+1|Région Ile de France|5|HEGP|543|Dr MICHARD Philippe
+1|Région Ile de France|17|Tenon|907|Dr MICHAUX Lionel
+1|Région Ile de France|10|Henri Mondor|1616|Dr MICHEL Marc
+1|Région Ile de France|6|Ambroise Paré|588|Dr MICHELON JOUNEAUX Marlene
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1946|Dr MICHON Ulrique
+1|Région Ile de France|9|Cochin|1212|Dr MIGNARD Xavier
+1|Région Ile de France|18|Beaujon|1487|Dr MIKAIL Nidaa
+1|Région Ile de France|21|Saint-Louis|1876|Dr MILACIC Hélène
+1|Région Ile de France|10|Henri Mondor|1671|Dr MILED Rabeb
+1|Région Ile de France|13|St Antoine|358|Dr MILLE Clemence
+1|Région Ile de France|17|Tenon|745|Dr MILLET Floriane
+1|Région Ile de France|11|Lariboisière|218|Dr MIMOUNI Mohamed Karim
+1|Région Ile de France|17|Tenon|746|Dr MIMRAM Leo
+1|Région Ile de France|1|Bichat|1744|Dr MINKA Sally
+1|Région Ile de France|24|Bicêtre|1714|Dr MINKA Caroline
+1|Région Ile de France|7|Antoine Béclère|1312|Dr MION Mathieu
+1|Région Ile de France|24|Bicêtre|1823|Dr MIR Claudia
+1|Région Ile de France|20|SAMU 75|944|Dr MIRAT Pierre
+1|Région Ile de France|5|HEGP|1184|Dr MIRAULT Tristan
+1|Région Ile de France|11|Lariboisière|190|Dr MIRY Loic
+1|Région Ile de France|24|Bicêtre|1828|Dr MISSUD David
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1938|Dr MIZRAHI Assaf
+1|Région Ile de France|3|Pitié-Salpêtrière|53|Dr MOAL Lallie
+1|Région Ile de France|18|Beaujon|1443|Dr MOGA Lucile
+1|Région Ile de France|4|Médecins généralistes|644|Dr MOGNON Kore
+1|Région Ile de France|||1969|Dr MOHAMADOU Inna
+1|Région Ile de France|5|HEGP|1205|Dr MOHAMEDI Nassim
+1|Région Ile de France|24|Bicêtre|1824|Dr MOINARD Charlotte
+1|Région Ile de France|18|Beaujon|1402|Dr MOISAN Delphine
+1|Région Ile de France|21|Saint-Louis|778|Dr MOLINA Jean-Michel
+1|Région Ile de France|7|Antoine Béclère|1313|Dr MOLITOR Jean Luc
+1|Région Ile de France|13|St Antoine|416|Dr MOLLIERE Chloe
+1|Région Ile de France|11|Lariboisière|206|Dr MONESTIER Emma
+1|Région Ile de France|33|Centre Richerand|1480|Dr MONNET Margaux
+1|Région Ile de France|3|Pitié-Salpêtrière|54|Dr MONSEL Gentiane
+1|Région Ile de France|24|Bicêtre|1049|Dr MONTANI David
+1|Région Ile de France|3|Pitié-Salpêtrière|873|Dr MONTOUT Anne-Lise
+1|Région Ile de France|11|Lariboisière|208|Dr MOOKHERJEE Hari
+1|Région Ile de France|9|Cochin|1213|Dr MORBIEU Caroline
+1|Région Ile de France|10|Henri Mondor|1570|Dr MORENO Jean-Christophe
+1|Région Ile de France|1|Bichat|1908|Dr MORER Lise
+1|Région Ile de France|11|Lariboisière|91|Dr MORET Catherine
+1|Région Ile de France|18|Beaujon|1529|Dr MORGANT Stephanie
+1|Région Ile de France|||515|Dr MORIN Anne Sophie
+1|Région Ile de France|10|Henri Mondor|1104|Dr MOTYKA Benjamin
+1|Région Ile de France|37|Centres Marie Thérèse|1928|Dr MOUGEOT Christine
+1|Région Ile de France|38|Hôpital Marie Lannelongue|1928|Dr MOUGEOT Christine
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1928|Dr MOUGEOT Christine
+1|Région Ile de France|1|Bichat|1777|Dr MOUJAOUI Philippe
+1|Région Ile de France|6|Ambroise Paré|622|Dr MOULLIAS Sophie
+1|Région Ile de France|11|Lariboisière|219|Dr MOULY Stephane
+1|Région Ile de France|8|Avicenne|1795|Dr MOURAD Jérôme
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1939|Dr MOURAD Jean Jacques
+1|Région Ile de France|8|Avicenne|1293|Dr MOUREN Domitille
+1|Région Ile de France|9|Cochin|1214|Dr MOUSSAOUI Hanafi
+1|Région Ile de France|9|Cochin|1215|Dr MOUTHON Luc
+1|Région Ile de France|11|Lariboisière|207|Dr MUHAMMAD Kushf
+1|Région Ile de France|18|Beaujon|1482|Dr MULLER Nelly
+1|Région Ile de France|20|SAMU 75|945|Dr MUNGUR Akshay
+1|Région Ile de France|11|Lariboisière|394|Dr MUNIER Anne-Lise
+1|Région Ile de France|10|Henri Mondor|1656|Dr MUNOS Nicolas
+1|Région Ile de France|11|Lariboisière|289|Dr MURALEETHARAN Nilakshini
+1|Région Ile de France|13|St Antoine|360|Dr MURET Alexandre
+1|Région Ile de France|10|Henri Mondor|1434|Dr MUSSET Caroline
+1|Région Ile de France|24|Bicêtre|1854|Dr MZOUGHI Tarek
+1|Région Ile de France|3|Pitié-Salpêtrière|908|Dr NA Na
+1|Région Ile de France|4|Médecins généralistes|1627|Dr NABET Luc
+1|Région Ile de France|10|Henri Mondor|1587|Dr NABID Karima
+1|Région Ile de France|17|Tenon|747|Dr NADAL Marine
+1|Région Ile de France|11|Lariboisière|124|Dr NAIM Giulia
+1|Région Ile de France|16|Hôtel Dieu|1623|Dr NAIT-IGHIL Lella
+1|Région Ile de France|9|Cochin|997|Dr NAJAFI Aida
+1|Région Ile de France|10|Henri Mondor|1603|Dr NAKAD Lionel
+1|Région Ile de France|10|Henri Mondor|1105|Dr NAKLE Nicolas
+1|Région Ile de France|11|Lariboisière|126|Dr NANAI Oussama
+1|Région Ile de France|24|Bicêtre|1825|Dr NAPOLI Aurélien
+1|Région Ile de France|10|Henri Mondor|1427|Dr NENERT Brigitte
+1|Région Ile de France|9|Cochin|946|Dr NERAAL Stefan
+1|Région Ile de France|20|SAMU 75|946|Dr NERAAL Stefan
+1|Région Ile de France|18|Beaujon|1518|Dr NEROME Simone
+1|Région Ile de France|11|Lariboisière|293|Dr NEXON Anne-Laure
+1|Région Ile de France|9|Cochin|998|Dr NGAKO DEUGOUE Alfred
+1|Région Ile de France|||1551|Dr NGUYEN Yann
+1|Région Ile de France|1|Bichat|1753|Dr NGUYEN Romain
+1|Région Ile de France|3|Pitié-Salpêtrière|847|Dr NGUYEN Yann
+1|Région Ile de France|9|Cochin|1216|Dr NGUYEN Khoa Luat
+1|Région Ile de France|10|Henri Mondor|1106|Dr NGUYEN Antoine
+1|Région Ile de France|13|St Antoine|402|Dr NGUYEN Alexandre
+1|Région Ile de France|16|Hôtel Dieu|1624|Dr NGUYEN Thu Huyen
+1|Région Ile de France|18|Beaujon|847|Dr NGUYEN Yann
+1|Région Ile de France|24|Bicêtre|1855|Dr NGUYEN Xuan Dung
+1|Région Ile de France|3|Pitié-Salpêtrière|848|Dr NGUYEN KHAC Florence
+1|Région Ile de France|24|Bicêtre|1856|Dr NGUYEN-THÉ Lydie
+1|Région Ile de France|9|Cochin|999|Dr NICAISE Flora
+1|Région Ile de France|6|Ambroise Paré|555|Dr NICOD-TRAN Agnes
+1|Région Ile de France|18|Beaujon|1499|Dr NICOL Pauline
+1|Région Ile de France|17|Tenon|748|Dr NICOLAS Frederic
+1|Région Ile de France|24|Bicêtre|1857|Dr NIKPAY Farah
+1|Région Ile de France|11|Lariboisière|114|Dr NITENBERG Kiyoko
+1|Région Ile de France|13|St Antoine|363|Dr NOEL Florent
+1|Région Ile de France|24|Bicêtre|1050|Dr NOEL Nicolas
+1|Région Ile de France|11|Lariboisière|209|Dr NOUBISSIE Orianne
+1|Région Ile de France|3|Pitié-Salpêtrière|55|Dr NOUCHI Agathe
+1|Région Ile de France|8|Avicenne|1284|Dr NUNES Hilario
+1|Région Ile de France|18|Beaujon|1349|Dr NUZZO Alexandre
+1|Région Ile de France|21|Saint-Louis|1886|Dr OGEREAU Carl
+1|Région Ile de France|11|Lariboisière|220|Dr OHANA Benjamin
+1|Région Ile de France|3|Pitié-Salpêtrière|57|Dr OHAYON Johanna
+1|Région Ile de France|10|Henri Mondor|1693|Dr OHNONA Tristan
+1|Région Ile de France|18|Beaujon|1410|Dr OLIOSI Emma
+1|Région Ile de France|18|Beaujon|1375|Dr OLLENDE Crepin
+1|Région Ile de France|6|Ambroise Paré|617|Dr OMONT Domitille
+1|Région Ile de France|3|Pitié-Salpêtrière|58|Dr ONG Valentin
+1|Région Ile de France|21|Saint-Louis|1897|Dr ONG You Yong
+1|Région Ile de France|10|Henri Mondor|1585|Dr ONISZCZUK Julie
+1|Région Ile de France|||1877|Dr ORGEREAU Carl
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1932|Dr ORIEZ Constance
+1|Région Ile de France|10|Henri Mondor|1681|Dr ORO Saskia
+1|Région Ile de France|8|Avicenne|1796|Dr ORSINI Charlotte
+1|Région Ile de France|20|SAMU 75|947|Dr ORSINI Jean Pierre
+1|Région Ile de France|18|Beaujon|1341|Dr ORTIZ-CARLE Adrien
+1|Région Ile de France|24|Bicêtre|1858|Dr OSMAN Sayed
+1|Région Ile de France|10|Henri Mondor|1384|Dr OSTOJIC Alexandre
+1|Région Ile de France|16|Hôtel Dieu|1633|Dr OTMESGUINE Philippe
+1|Région Ile de France|13|St Antoine|366|Dr OUAZENE Zineb
+1|Région Ile de France|8|Avicenne|1265|Dr OUEDRAOGO Elise
+1|Région Ile de France|11|Lariboisière|297|Dr OUHAB Illies
+1|Région Ile de France|11|Lariboisière|222|Dr OULED Nora
+1|Région Ile de France|18|Beaujon|1515|Dr OUMRANI Sarra
+1|Région Ile de France|11|Lariboisière|172|Dr OUVRAT Margot
+1|Région Ile de France|10|Henri Mondor|1560|Dr OVASKA Hanna
+1|Région Ile de France|13|St Antoine|367|Dr PACANOWSKI Jerome
+1|Région Ile de France|3|Pitié-Salpêtrière|59|Dr PACCOUD Olivier
+1|Région Ile de France|5|HEGP|680|Dr PAILLAUD LAURENT PUIG Elena
+1|Région Ile de France|3|Pitié-Salpêtrière|60|Dr PAJAUD PASSE-COUTRIN Priscila
+1|Région Ile de France|21|Saint-Louis|1878|Dr PAK Alireza
+1|Région Ile de France|18|Beaujon|1359|Dr PALEN Anais
+1|Région Ile de France|3|Pitié-Salpêtrière|61|Dr PALICH Romain
+1|Région Ile de France|13|St Antoine|436|Dr PANAYOTOPOULOS Virginie
+1|Région Ile de France|18|Beaujon|1555|Dr PANIS Yves
+1|Région Ile de France|||164|Dr PAPAPANAYOTOU Ioannis
+1|Région Ile de France|1|Bichat|62|Dr PAPAZIAN Patrick
+1|Région Ile de France|3|Pitié-Salpêtrière|874|Dr PAQUET Anne-Laure
+1|Région Ile de France|24|Bicêtre|1051|Dr PARENT Florence
+1|Région Ile de France|10|Henri Mondor|1107|Dr PARIN Roxane
+1|Région Ile de France|3|Pitié-Salpêtrière|63|Dr PARIS Melodie
+1|Région Ile de France|||64|Dr PARISEY Marion
+1|Région Ile de France|1|Bichat|64|Dr PARISEY Marion
+1|Région Ile de France|2|Necker|1276|Dr PARIZE Perrine
+1|Région Ile de France|17|Tenon|749|Dr PARROT Antoine
+1|Région Ile de France|6|Ambroise Paré|601|Dr PARTOUCHE Bethsabee
+1|Région Ile de France|9|Cochin|1217|Dr PASCAL Sophie
+1|Région Ile de France|||1754|Dr PASOTTI Caroline
+1|Région Ile de France|18|Beaujon|1513|Dr PASSOT Raphaelle
+1|Région Ile de France|5|HEGP|674|Dr PATAS D'ILLIERS Clemence Marie
+1|Région Ile de France|13|St Antoine|370|Dr PATERON Dominique
+1|Région Ile de France|||1755|Dr PAUBERT Estelle
+1|Région Ile de France|15|Jean Verdier|478|Dr PAUL Rajneesh
+1|Région Ile de France|5|HEGP|679|Dr PAULET Hayat
+1|Région Ile de France|6|Ambroise Paré|616|Dr PAVAGEAU Laure
+1|Région Ile de France|16|Hôtel Dieu|633|Dr PAVIE Juliette
+1|Région Ile de France|||1756|Dr PAVLOSKY Thomas
+1|Région Ile de France|18|Beaujon|1362|Dr PAYANCE Audrey
+1|Région Ile de France|8|Avicenne|519|Dr PECH Georges
+1|Région Ile de France|34|Begin|1583|Dr PELLET Elodie
+1|Région Ile de France|20|SAMU 75|948|Dr PELLOUX Patrick
+1|Région Ile de France|4|Médecins généralistes|686|Dr PENN Thomas
+1|Région Ile de France|10|Henri Mondor|1108|Dr PENTIER Camille
+1|Région Ile de France|11|Lariboisière|104|Dr PEPIN LEHALLEUR Adrien
+1|Région Ile de France|11|Lariboisière|112|Dr PERAULT Arthur
+1|Région Ile de France|11|Lariboisière|223|Dr PERCIE DU SERT Marie France
+1|Région Ile de France|||1757|Dr PEREIRA Laurent
+1|Région Ile de France|9|Cochin|1000|Dr PEREIRA Denis
+1|Région Ile de France|10|Henri Mondor|1109|Dr PEREIRA Jean Michel
+1|Région Ile de France|13|St Antoine|433|Dr PEREZ Sorelys
+1|Région Ile de France|11|Lariboisière|224|Dr PERIANES PAJARES Carmen
+1|Région Ile de France|7|Antoine Béclère|1331|Dr PERIC Anne Solene
+1|Région Ile de France|3|Pitié-Salpêtrière|1062|Dr PERNET Julie
+1|Région Ile de France|6|Ambroise Paré|604|Dr PERRAY Laura
+1|Région Ile de France|4|Médecins généralistes|787|Dr PERRET Marie-Raphaelle
+1|Région Ile de France|11|Lariboisière|122|Dr PERRIN Lucile
+1|Région Ile de France|12|Raymond Poincaré|556|Dr PERRONNE Christian
+1|Région Ile de France|12|Raymond Poincaré|573|Dr PERRONNE Veronique
+1|Région Ile de France|4|Médecins généralistes|904|Dr PERRUCHE Franck
+1|Région Ile de France|18|Beaujon|1439|Dr PESQUE Louise
+1|Région Ile de France|11|Lariboisière|301|Dr PESTEL Juliette Claire Marie
+1|Région Ile de France|11|Lariboisière|130|Dr PETRE SOLDAN Mihaela Florentina
+1|Région Ile de France|15|Jean Verdier|481|Dr PEVIRERI Florence
+1|Région Ile de France|7|Antoine Béclère|1334|Dr PEYRAC Geoffroy
+1|Région Ile de France|21|Saint-Louis|1879|Dr PEYRONY Olivier
+1|Région Ile de France|15|Jean Verdier|483|Dr PHAM Luu Ly
+1|Région Ile de France|11|Lariboisière|210|Dr PHAN THANH Quoc Bao
+1|Région Ile de France|20|SAMU 75|949|Dr PHILIPPE Pascal
+1|Région Ile de France|3|Pitié-Salpêtrière|872|Dr PHILIPPON Anne-Laure
+1|Région Ile de France|17|Tenon|750|Dr PIALOUX Gilles
+1|Région Ile de France|16|Hôtel Dieu|634|Dr PICHARD Eric
+1|Région Ile de France|||113|Dr PIGNATARO Claudia
+1|Région Ile de France|7|Antoine Béclère|1316|Dr PIGNON Carole
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1940|Dr PILMIS Benoit
+1|Région Ile de France|10|Henri Mondor|1392|Dr PIMENTEL Ana
+1|Région Ile de France|5|HEGP|544|Dr PINOT Jerome
+1|Région Ile de France|9|Cochin|1001|Dr PINTO Tiffany
+1|Région Ile de France|6|Ambroise Paré|597|Dr PIOCH Camille
+1|Région Ile de France|20|SAMU 75|597|Dr PIOCH Camille
+1|Région Ile de France|11|Lariboisière|526|Dr PIRON Prescillia
+1|Région Ile de France|11|Lariboisière|306|Dr PITET Ferdinand
+1|Région Ile de France|21|Saint-Louis|1880|Dr PITTI Lionel
+1|Région Ile de France|24|Bicêtre|1052|Dr PLACAIS Leo
+1|Région Ile de France|||228|Dr PLAISANCE Patrick
+1|Région Ile de France|||230|Dr PLAISANCE Robin
+1|Région Ile de France|5|HEGP|546|Dr PLANQUETTE Benjamin
+1|Région Ile de France|10|Henri Mondor|1572|Dr PLAQUET Jean Luc
+1|Région Ile de France|18|Beaujon|1364|Dr PLESSIER Aurelie
+1|Région Ile de France|1|Bichat|65|Dr POEY Nora
+1|Région Ile de France|||1966|Dr POIGNET Jean Louis
+1|Région Ile de France|11|Lariboisière|92|Dr POIRIER-GLANDIER Nathalie
+1|Région Ile de France|20|SAMU 75|950|Dr POIROT Nicolas
+1|Région Ile de France|20|SAMU 75|951|Dr POITEVIN Eric
+1|Région Ile de France|7|Antoine Béclère|1319|Dr POMEL Anne-Laure
+1|Région Ile de France|||430|Dr POMMIER Francois
+1|Région Ile de France|13|St Antoine|372|Dr PONS Romane
+1|Région Ile de France|21|Saint-Louis|774|Dr PONSCARME Diane
+1|Région Ile de France|3|Pitié-Salpêtrière|850|Dr POPELIER Marc
+1|Région Ile de France|5|HEGP|548|Dr POTENCIER Claire
+1|Région Ile de France|3|Pitié-Salpêtrière|851|Dr POUJADE Julien
+1|Région Ile de France|3|Pitié-Salpêtrière|66|Dr POURCHER Valerie
+1|Région Ile de France|||231|Dr POURQUERY Marina
+1|Région Ile de France|18|Beaujon|1421|Dr PRAT Frederic
+1|Région Ile de France|18|Beaujon|1374|Dr PREVITALI Clelia
+1|Région Ile de France|1|Bichat|67|Dr PREVOT Marie-Hélène
+1|Région Ile de France|10|Henri Mondor|1618|Dr PRICOPI Maria
+1|Région Ile de France|12|Raymond Poincaré|1713|Dr PRIGENT Hélène
+1|Région Ile de France|21|Saint-Louis|1881|Dr PRINCIPE Alessandra
+1|Région Ile de France|3|Pitié-Salpêtrière|852|Dr PSIMARAS Dimitri
+1|Région Ile de France|9|Cochin|1218|Dr PUECHAL Xavier
+1|Région Ile de France|1|Bichat|68|Dr PUGET Sophie
+1|Région Ile de France|5|HEGP|545|Dr PUZIN Claire
+1|Région Ile de France|3|Pitié-Salpêtrière|853|Dr QUEMENEUR Cyril
+1|Région Ile de France|24|Bicêtre|1053|Dr QUERTAINMONT Yann
+1|Région Ile de France|17|Tenon|751|Dr QUILOT Fleur Marie
+1|Région Ile de France|35|Hôpital Américain|1720|Dr QUINT Laurent
+1|Région Ile de France|11|Lariboisière|309|Dr RABANY Julien
+1|Région Ile de France|11|Lariboisière|105|Dr RABUEL Christophe
+1|Région Ile de France|1|Bichat|69|Dr RACHLINE Anne
+1|Région Ile de France|10|Henri Mondor|1652|Dr RAFAA Mostefa
+1|Région Ile de France|20|SAMU 75|953|Dr RAFEI DARMIAN Ivan
+1|Région Ile de France|11|Lariboisière|312|Dr RAFFAELLI Marta
+1|Région Ile de France|31|CHIV|1348|Dr RAFFETIN Alice
+1|Région Ile de France|10|Henri Mondor|1579|Dr RAFFIN-RICARD Joel
+1|Région Ile de France|9|Cochin|1002|Dr RAKOTOARISOA Jenny
+1|Région Ile de France|10|Henri Mondor|1606|Dr RAKOTONARIVO Louva
+1|Région Ile de France|1|Bichat|70|Dr RALAIMAZAVA Pascal
+1|Région Ile de France|10|Henri Mondor|1566|Dr RAMANDIAMANANA Ianay
+1|Région Ile de France|||232|Dr RAMI Agathe
+1|Région Ile de France|10|Henri Mondor|1121|Dr RAMJAUN Yassir Ahmad
+1|Région Ile de France|||1758|Dr RANAIVOSON Michel
+1|Région Ile de France|8|Avicenne|1797|Dr RANAWANA Sujeewa
+1|Région Ile de France|10|Henri Mondor|1654|Dr RANDREMANDRANTO RAZAFIMBE Narindra
+1|Région Ile de France|10|Henri Mondor|1690|Dr RANDRIANANDRASANA Teandraza
+1|Région Ile de France|9|Cochin|1003|Dr RANERISON Roger
+1|Région Ile de France|5|HEGP|551|Dr RANQUE Brigitte
+1|Région Ile de France|24|Bicêtre|1815|Dr RAPHAEL Maurice
+1|Région Ile de France|||233|Dr RASTOIN Anna
+1|Région Ile de France|11|Lariboisière|234|Dr RATNAM Tulasiga
+1|Région Ile de France|18|Beaujon|1507|Dr RAUTOU Pierre Emmanuel
+1|Région Ile de France|18|Beaujon|1500|Dr RAVASSE Perrine
+1|Région Ile de France|||1759|Dr RAVAUT Camille
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1942|Dr RAYMOND Eric
+1|Région Ile de France|13|St Antoine|375|Dr RAYNAL Pierre-Alexis
+1|Région Ile de France|6|Ambroise Paré|582|Dr RAZAZI David
+1|Région Ile de France|||655|Dr REBERT Isabelle
+1|Région Ile de France|1|Bichat|1761|Dr REBERT Sarah
+1|Région Ile de France|10|Henri Mondor|451|Dr REBOUL Martin Hugues
+1|Région Ile de France|18|Beaujon|1545|Dr REBOURS Vinciane
+1|Région Ile de France|17|Tenon|752|Dr RECH Jean Simon
+1|Région Ile de France|7|Antoine Béclère|1314|Dr RECHATIN Bruno
+1|Région Ile de France|4|Médecins généralistes|768|Dr REFABERT Luc
+1|Région Ile de France|9|Cochin|1219|Dr REGARD Lucile
+1|Région Ile de France|9|Cochin|1220|Dr REGENT Alexis
+1|Région Ile de France|10|Henri Mondor|1686|Dr REGNIER Stephanie
+1|Région Ile de France|||431|Dr REINHARD Ingrid
+1|Région Ile de France|15|Jean Verdier|484|Dr REKIK Badreddine
+1|Région Ile de France|10|Henri Mondor|1669|Dr REMY Philippe
+1|Région Ile de France|||235|Dr RENARD Margaux
+1|Région Ile de France|11|Lariboisière|116|Dr RENAUX Maxime
+1|Région Ile de France|10|Henri Mondor|1110|Dr RENOU Maxime
+1|Région Ile de France|||1762|Dr RENOUX Maeva
+1|Région Ile de France|1|Bichat|1760|Dr RENOUX Maéva
+1|Région Ile de France|29|SAMU 92|1243|Dr REUTER Paul-George
+1|Région Ile de France|10|Henri Mondor|1111|Dr REVAUX Francois
+1|Région Ile de France|11|Lariboisière|236|Dr REVUE Eric
+1|Région Ile de France|10|Henri Mondor|1600|Dr RICARD Laure
+1|Région Ile de France|30|SAMU 95|1183|Dr RICARD HIBON Agnes
+1|Région Ile de France|||882|Dr RICHARD Marie-Caroline
+1|Région Ile de France|1|Bichat|1763|Dr RICHARD Arnaud François
+1|Région Ile de France|3|Pitié-Salpêtrière|882|Dr RICHARD Marie-Caroline
+1|Région Ile de France|32|Institut Mutualiste Montsouris|1472|Dr RICHAUD Clemence
+1|Région Ile de France|11|Lariboisière|96|Dr RICHE Florence
+1|Région Ile de France|13|St Antoine|377|Dr RICHIER Quentin
+1|Région Ile de France|10|Henri Mondor|1122|Dr RICHY Clemence
+1|Région Ile de France|17|Tenon|753|Dr RIGAUD Pierre
+1|Région Ile de France|9|Cochin|1004|Dr RIOM Isabelle
+1|Région Ile de France|1|Bichat|71|Dr RIOUX Christophe
+1|Région Ile de France|11|Lariboisière|237|Dr RIPS Nicolas
+1|Région Ile de France|13|St Antoine|432|Dr RIVIERE Sebastien
+1|Région Ile de France|4|Médecins généralistes|1512|Dr RIZET Valentine
+1|Région Ile de France|9|Cochin|1221|Dr ROBERT Anne
+1|Région Ile de France|17|Tenon|1010|Dr ROBERT Anne
+1|Région Ile de France|11|Lariboisière|201|Dr ROBILLIARD Antoinette
+1|Région Ile de France|3|Pitié-Salpêtrière|854|Dr ROCHE Sabine
+1|Région Ile de France|9|Cochin|1222|Dr ROCHE Nicolas
+1|Région Ile de France|5|HEGP|1209|Dr ROFFE Ariel
+1|Région Ile de France|6|Ambroise Paré|1912|Dr ROGER Anissa
+1|Région Ile de France|3|Pitié-Salpêtrière|855|Dr ROHAUT Benjamin
+1|Région Ile de France|10|Henri Mondor|1688|Dr ROISIN Sylvie
+1|Région Ile de France|3|Pitié-Salpêtrière|856|Dr ROJAS Patricia
+1|Région Ile de France|3|Pitié-Salpêtrière|857|Dr ROLLAND DEBORD Camille
+1|Région Ile de France|13|St Antoine|380|Dr RONDEAU Paul
+1|Région Ile de France|11|Lariboisière|1013|Dr ROOS Caroline
+1|Région Ile de France|11|Lariboisière|97|Dr ROSSIGNOL Mathias
+1|Région Ile de France|3|Pitié-Salpêtrière|858|Dr ROSSIGNON Marie-Dominique
+1|Région Ile de France|8|Avicenne|1291|Dr ROTENBERG Cecile
+1|Région Ile de France|10|Henri Mondor|1689|Dr ROTNEMER Tamara
+1|Région Ile de France|13|St Antoine|382|Dr ROUCHE Jessica
+1|Région Ile de France|3|Pitié-Salpêtrière|859|Dr ROUSSEAU Géraldine
+1|Région Ile de France|18|Beaujon|1451|Dr ROUSSEAU Marc Antoine
+1|Région Ile de France|10|Henri Mondor|1595|Dr ROUSSEAUX Laetitia
+1|Région Ile de France|24|Bicêtre|1711|Dr ROUSSEL SIMONIN Cyril
+1|Région Ile de France|16|Hôtel Dieu|1634|Dr ROUSSELOT Helene
+1|Région Ile de France|6|Ambroise Paré|575|Dr ROUVEIX NORDON Elisabeth
+1|Région Ile de France|5|HEGP|661|Dr ROUX Marie
+1|Région Ile de France|18|Beaujon|1493|Dr ROUX Olivier
+1|Région Ile de France|2|Necker|1278|Dr ROUZAUD Claire
+1|Région Ile de France|17|Tenon|754|Dr ROY Jean-Michel
+1|Région Ile de France|10|Henri Mondor|447|Dr ROYER Guilhem
+1|Région Ile de France|3|Pitié-Salpêtrière|860|Dr ROZENBERG Sylvie
+1|Région Ile de France|||755|Dr ROZENSZTAJN Nathalie
+1|Région Ile de France|17|Tenon|755|Dr ROZENSZTAJN Nathalie
+1|Région Ile de France|11|Lariboisière|238|Dr RUBENSTEIN Emma
+1|Région Ile de France|3|Pitié-Salpêtrière|861|Dr RUDLER Marika
+1|Région Ile de France|3|Pitié-Salpêtrière|862|Dr RUFAT Pierre
+1|Région Ile de France|17|Tenon|756|Dr RUPPERT Anne Marie
+1|Région Ile de France|10|Henri Mondor|1651|Dr SAAD Mostafa
+1|Région Ile de France|10|Henri Mondor|1657|Dr SAADA Noemie
+1|Région Ile de France|5|HEGP|662|Dr SAADI Meriem
+1|Région Ile de France|17|Tenon|757|Dr SABET Sheila
+1|Région Ile de France|8|Avicenne|1285|Dr SADOUN DANINO Danielle
+1|Région Ile de France|10|Henri Mondor|1467|Dr SAHALI Djillali
+1|Région Ile de France|3|Pitié-Salpêtrière|863|Dr SAHEB Samir
+1|Région Ile de France|8|Avicenne|1811|Dr SAHLI Firaz
+1|Région Ile de France|15|Jean Verdier|487|Dr SAHLI Feras
+1|Région Ile de France|6|Ambroise Paré|621|Dr SAHUT D'IZARN Marine
+1|Région Ile de France|3|Pitié-Salpêtrière|879|Dr SAIDI Khaled
+1|Région Ile de France|16|Hôtel Dieu|1635|Dr SAIDI Sihem
+1|Région Ile de France|5|HEGP|682|Dr SAINT-JEAN Olivier
+1|Région Ile de France|10|Henri Mondor|1123|Dr SAINT-MARC Brice
+1|Région Ile de France|11|Lariboisière|239|Dr SAKHRI Khalil
+1|Région Ile de France|9|Cochin|1005|Dr SALARD Erwan
+1|Région Ile de France|5|HEGP|1189|Dr SALDMANN Frederic
+1|Région Ile de France|3|Pitié-Salpêtrière|886|Dr SALHI Nawal
+1|Région Ile de France|10|Henri Mondor|1676|Dr SALLE Romain
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1943|Dr SALMERON Sergio
+1|Région Ile de France|16|Hôtel Dieu|629|Dr SALMON Dominique
+1|Région Ile de France|5|HEGP|672|Dr SALTEL FULERO Oriana
+1|Région Ile de France|||143|Dr SAMET Mohamed
+1|Région Ile de France|5|HEGP|533|Dr SANCHEZ Olivier
+1|Région Ile de France|5|HEGP|535|Dr SANDOT Adèle
+1|Région Ile de France|5|HEGP|1196|Dr SANSON Helene
+1|Région Ile de France|17|Tenon|758|Dr SANTIN Aline
+1|Région Ile de France|11|Lariboisière|240|Dr SAPTEFRAT Natalia
+1|Région Ile de France|8|Avicenne|1798|Dr SARKIS AINTABLIAN Gabriel
+1|Région Ile de France|21|Saint-Louis|900|Dr SAUSSEREAU Julien
+1|Région Ile de France|1|Bichat|72|Dr SAUTEREAU Aurélie
+1|Région Ile de France|18|Beaujon|1352|Dr SAUVANET Alain
+1|Région Ile de France|24|Bicêtre|1054|Dr SAVALE Laurent
+1|Région Ile de France|10|Henri Mondor|1386|Dr SAVATTE Alice
+1|Région Ile de France|17|Tenon|759|Dr SAVEY Lea
+1|Région Ile de France|||1910|Dr SAWKA Christelle
+1|Région Ile de France|5|HEGP|1195|Dr SAYS Jerome
+1|Région Ile de France|10|Henri Mondor|1397|Dr SCAIN Anne-Laure
+1|Région Ile de France|9|Cochin|1223|Dr SCAVENNEC Rodolphe
+1|Région Ile de France|5|HEGP|1192|Dr SCHAEFFER Stephanie
+1|Région Ile de France|11|Lariboisière|241|Dr SCHAUPP Pauline
+1|Région Ile de France|13|St Antoine|412|Dr SCHEIFER Carole
+1|Région Ile de France|9|Cochin|1224|Dr SCHLEGEL Hugues
+1|Région Ile de France|13|St Antoine|413|Dr SCHMIDT Julien
+1|Région Ile de France|18|Beaujon|1445|Dr SCHMIDT Madeline
+1|Région Ile de France|3|Pitié-Salpêtrière|82|Dr SCHNEIDER Luminata
+1|Région Ile de France|11|Lariboisière|98|Dr SCHURANDO Patrick
+1|Région Ile de France|11|Lariboisière|242|Dr SCHWARTZ Mathieu
+1|Région Ile de France|3|Pitié-Salpêtrière|73|Dr SEANG Sophie
+1|Région Ile de France|18|Beaujon|1528|Dr SEBAHOUN Stephane
+1|Région Ile de France|24|Bicêtre|1055|Dr SEFERIAN Andrei Horia
+1|Région Ile de France|11|Lariboisière|1061|Dr SEGOUIN Christophe
+1|Région Ile de France|13|St Antoine|384|Dr SEHIMI Fatima
+1|Région Ile de France|13|St Antoine|1888|Dr SEKSIK Philippe
+1|Région Ile de France|11|Lariboisière|243|Dr SELLIER Pierre-Olivier
+1|Région Ile de France|24|Bicêtre|1859|Dr SEMATI Yamina
+1|Région Ile de France|3|Pitié-Salpêtrière|74|Dr SEMENOV Anna
+1|Région Ile de France|18|Beaujon|1346|Dr SEPULVEDA Ailton
+1|Région Ile de France|3|Pitié-Salpêtrière|864|Dr SERGEANT Camille
+1|Région Ile de France|9|Cochin|1225|Dr SERRIER Philippe
+1|Région Ile de France|8|Avicenne|1301|Dr SESE Lucile
+1|Région Ile de France|29|SAMU 92|1249|Dr SESTIER Olivia
+1|Région Ile de France|29|SAMU 92|1181|Dr SEVERIN Armelle
+1|Région Ile de France|21|Saint-Louis|1885|Dr SIBI-DIAKITE Dieyanaba
+1|Région Ile de France|11|Lariboisière|244|Dr SICA Gabriel
+1|Région Ile de France|17|Tenon|760|Dr SIGUIER Martin
+1|Région Ile de France|11|Lariboisière|245|Dr SILAR Camille
+1|Région Ile de France|11|Lariboisière|313|Dr SILIOGKA Elina
+1|Région Ile de France|10|Henri Mondor|1396|Dr SIMANTOV Anne
+1|Région Ile de France|12|Raymond Poincaré|567|Dr SIMEON Soline
+1|Région Ile de France|24|Bicêtre|1860|Dr SIMISDEAN Ciprian
+1|Région Ile de France|10|Henri Mondor|1124|Dr SIMOES Amandine
+1|Région Ile de France|11|Lariboisière|246|Dr SIMONEAU Guy
+1|Région Ile de France|21|Saint-Louis|1882|Dr SIMONETTA Marie
+1|Région Ile de France|22|Robert Debré|782|Dr SIRIEZ Jean-Yves
+1|Région Ile de France|15|Jean Verdier|489|Dr SITBON Muriel
+1|Région Ile de France|24|Bicêtre|1056|Dr SITBON Olivier
+1|Région Ile de France|33|Centre Richerand|1484|Dr SKENDI Mariela
+1|Région Ile de France|16|Hôtel Dieu|635|Dr SLAMA Dorsaf
+1|Région Ile de France|16|Hôtel Dieu|906|Dr SLAMA Laurence
+1|Région Ile de France|13|St Antoine|385|Dr SOBOTKA Jennifer
+1|Région Ile de France|13|St Antoine|386|Dr SOBOTKA Jennifer
+1|Région Ile de France|10|Henri Mondor|1412|Dr SOKAL Aurélien
+1|Région Ile de France|15|Jean Verdier|492|Dr SOOSAIPILLAI Seraphine
+1|Région Ile de France|10|Henri Mondor|1569|Dr SOUARE Issa
+1|Région Ile de France|18|Beaujon|1494|Dr SOUBRANE Olivier
+1|Région Ile de France|18|Beaujon|1400|Dr SOUDAN Damien
+1|Région Ile de France|5|HEGP|247|Dr SOUFANE Hani
+1|Région Ile de France|5|HEGP|654|Dr SOUFANE Hani
+1|Région Ile de France|11|Lariboisière|247|Dr SOUFANE Hani
+1|Région Ile de France|11|Lariboisière|314|Dr SOUMARE Alice
+1|Région Ile de France|10|Henri Mondor|1112|Dr SOUPIZET Francois
+1|Région Ile de France|6|Ambroise Paré|577|Dr SOUSSAN-BANINI Valerie
+1|Région Ile de France|11|Lariboisière|128|Dr SOYER Benjamin
+1|Région Ile de France|16|Hôtel Dieu|1636|Dr SPIRIDON Gabriela
+1|Région Ile de France|13|St Antoine|388|Dr STAMBOUL Sarah
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1948|Dr STANSAL Audrey
+1|Région Ile de France|18|Beaujon|1370|Dr STEFANESCU Carmen
+1|Région Ile de France|10|Henri Mondor|1692|Dr STEHLE Thomas
+1|Région Ile de France|17|Tenon|761|Dr STEICHEN Olivier
+1|Région Ile de France|1|Bichat|1904|Dr STELIANIDES Sandrine
+1|Région Ile de France|24|Bicêtre|1861|Dr STEPHAN Rolz
+1|Région Ile de France|7|Antoine Béclère|1321|Dr STERPU Raluca
+1|Région Ile de France|11|Lariboisière|248|Dr STOCCO Cecile
+1|Région Ile de France|8|Avicenne|1914|Dr SUHL Jaehyo
+1|Région Ile de France|13|St Antoine|390|Dr SURGERS Laure
+1|Région Ile de France|11|Lariboisière|103|Dr SUTTERLIN Laetitia
+1|Région Ile de France|9|Cochin|1226|Dr SWIDERSKI Julien
+1|Région Ile de France|||1963|Dr SZUMILAK Dorota
+1|Région Ile de France|9|Cochin|1227|Dr SZWEBEL Tali Anne
+1|Région Ile de France|15|Jean Verdier|495|Dr TABET GABISON Alexandre
+1|Région Ile de France|21|Saint-Louis|1883|Dr TABOULET Pierre
+1|Région Ile de France|11|Lariboisière|148|Dr TABY Sarah
+1|Région Ile de France|6|Ambroise Paré|591|Dr TADLAOUI OUAFI Abdelilah
+1|Région Ile de France|10|Henri Mondor|1533|Dr TAHMI Fella
+1|Région Ile de France|18|Beaujon|766|Dr TAIEB Carline
+1|Région Ile de France|1|Bichat|1906|Dr TAILLE Camille
+1|Région Ile de France|5|HEGP|670|Dr TAMISIER Thomas
+1|Région Ile de France|13|St Antoine|410|Dr TANG Julie
+1|Région Ile de France|6|Ambroise Paré|584|Dr TANNOUS Imad
+1|Région Ile de France|8|Avicenne|1264|Dr TANTET Claire
+1|Région Ile de France|21|Saint-Louis|1884|Dr TARONI Vanina
+1|Région Ile de France|20|SAMU 75|954|Dr TARTIERE Suzanne
+1|Région Ile de France|21|Saint-Louis|775|Dr TATEO Mariagrazia
+1|Région Ile de France|1|Bichat|1767|Dr TATIN Marion
+1|Région Ile de France|18|Beaujon|1449|Dr TAWFIK Mamhouh
+1|Région Ile de France|15|Jean Verdier|498|Dr TAYBALY Maxime
+1|Région Ile de France|11|Lariboisière|100|Dr TAYLOR William
+1|Région Ile de France|21|Saint-Louis|903|Dr TAZI Abdellatif
+1|Région Ile de France|8|Avicenne|1812|Dr TCHANDJOU Louis Etienne
+1|Région Ile de France|3|Pitié-Salpêtrière|75|Dr TEBANO Gianpiero
+1|Région Ile de France|9|Cochin|1228|Dr TEBOUL Alexandre
+1|Région Ile de France|24|Bicêtre|1057|Dr TEICHER Maria Elina
+1|Région Ile de France|11|Lariboisière|315|Dr TEK Boroddy
+1|Région Ile de France|20|SAMU 75|955|Dr TELION Caroline
+1|Région Ile de France|17|Tenon|762|Dr TENENBAUM Lisa Perl
+1|Région Ile de France|8|Avicenne|1799|Dr TEPPER Sarah
+1|Région Ile de France|9|Cochin|1229|Dr TERRIER Benjamin
+1|Région Ile de France|29|SAMU 92|1250|Dr THARSIS Cedric
+1|Région Ile de France|13|St Antoine|392|Dr THIEBAUD Pierre-Clement
+1|Région Ile de France|13|St Antoine|426|Dr THISSE Marie
+1|Région Ile de France|3|Pitié-Salpêtrière|76|Dr THIZY Guillaume
+1|Région Ile de France|||1768|Dr TIEGHEM Yoann
+1|Région Ile de France|22|Robert Debré|784|Dr TIELLI Alexandra
+1|Région Ile de France|11|Lariboisière|132|Dr TIEPOLO Ambre
+1|Région Ile de France|13|St Antoine|405|Dr TIEU Ashley
+1|Région Ile de France|22|Robert Debré|781|Dr TITOMANLIO Luigi
+1|Région Ile de France|10|Henri Mondor|688|Dr TIXIER Denis
+1|Région Ile de France|3|Pitié-Salpêtrière|865|Dr TOMEO Charlotte
+1|Région Ile de France|||1814|Dr TOSTIVINT Isabelle
+1|Région Ile de France|11|Lariboisière|154|Dr TOUCHARD Cyril
+1|Région Ile de France|8|Avicenne|1919|Dr TOUMI Houda
+1|Région Ile de France|3|Pitié-Salpêtrière|866|Dr TOURAINE Philippe
+1|Région Ile de France|13|St Antoine|393|Dr TOURNON Clement
+1|Région Ile de France|||1959|Dr TOURRET Jerome
+1|Région Ile de France|5|HEGP|653|Dr TOURY Gustave
+1|Région Ile de France|6|Ambroise Paré|576|Dr TRAD Salim
+1|Région Ile de France|5|HEGP|669|Dr TRAN Sophie
+1|Région Ile de France|15|Jean Verdier|500|Dr TRAORE Arabiatou
+1|Région Ile de France|10|Henri Mondor|1113|Dr TRAVERS Nicolas
+1|Région Ile de France|11|Lariboisière|254|Dr TRAVERS Guilhem
+1|Région Ile de France|11|Lariboisière|249|Dr TRECA Pauline
+1|Région Ile de France|18|Beaujon|1550|Dr TRETON Xavier
+1|Région Ile de France|18|Beaujon|1520|Dr TRIALOUP Sarah Laure
+1|Région Ile de France|10|Henri Mondor|1531|Dr TRIBOULET Felicien
+1|Région Ile de France|10|Henri Mondor|1530|Dr TRINH Fanny
+1|Région Ile de France|||250|Dr TRINQUE Baptiste
+1|Région Ile de France|11|Lariboisière|250|Dr TRINQUE Baptiste
+1|Région Ile de France|5|HEGP|658|Dr TRIVINI Juliette
+1|Région Ile de France|21|Saint-Louis|1898|Dr TRUONG Ngoc Vy
+1|Région Ile de France|22|Robert Debré|783|Dr TRUONG Jeanne
+1|Région Ile de France|3|Pitié-Salpêtrière|77|Dr TUBIANA Roland
+1|Région Ile de France|11|Lariboisière|251|Dr TUFFIER Mathilde
+1|Région Ile de France|15|Jean Verdier|501|Dr TUNESI Simone
+1|Région Ile de France|10|Henri Mondor|1523|Dr TURQUIER Erwan
+1|Région Ile de France|29|SAMU 92|1244|Dr URSAT Cecile
+1|Région Ile de France|16|Hôtel Dieu|1639|Dr USUBILLAGA Raphael
+1|Région Ile de France|||1287|Dr UZUNHAN Yurdagul
+1|Région Ile de France|8|Avicenne|1287|Dr UZUNHAN Yurdagul
+1|Région Ile de France|18|Beaujon|1466|Dr UZZAN Mathieu
+1|Région Ile de France|24|Bicêtre|1862|Dr VACARU Mariana
+1|Région Ile de France|18|Beaujon|1372|Dr VACHER Christian
+1|Région Ile de France|6|Ambroise Paré|605|Dr VAGO-ADY Andre
+1|Région Ile de France|18|Beaujon|1495|Dr VAITTINADA AYAR Prabakar
+1|Région Ile de France|3|Pitié-Salpêtrière|78|Dr VALANTIN Marc Antoine
+1|Région Ile de France|5|HEGP|537|Dr VALCKE-BROSSOLLET Judith
+1|Région Ile de France|6|Ambroise Paré|596|Dr VALEAN Andrea Mihaela
+1|Région Ile de France|17|Tenon|763|Dr VALENTIAN Maelle
+1|Région Ile de France|9|Cochin|1230|Dr VALERY Solene
+1|Région Ile de France|13|St Antoine|395|Dr VALIN Nadia
+1|Région Ile de France|18|Beaujon|1408|Dr VALLA Dominique
+1|Région Ile de France|11|Lariboisière|99|Dr VALLEE Fabrice
+1|Région Ile de France|3|Pitié-Salpêtrière|891|Dr VALLI Vanina
+1|Région Ile de France|11|Lariboisière|252|Dr VANNIER Mathilde
+1|Région Ile de France|3|Pitié-Salpêtrière|867|Dr VARGAS CASTRO Alexander
+1|Région Ile de France|1|Bichat|1769|Dr VARTABEDIAN Pierre
+1|Région Ile de France|10|Henri Mondor|1114|Dr VAUX Julien
+1|Région Ile de France|18|Beaujon|1361|Dr VEDIE Anne Laure
+1|Région Ile de France|3|Pitié-Salpêtrière|880|Dr VELLY Laetitia
+1|Région Ile de France|10|Henri Mondor|1448|Dr VELTER Charles
+1|Région Ile de France|||1960|Dr VENDITTO Marcia
+1|Région Ile de France|6|Ambroise Paré|583|Dr VENON Marie-Dominique
+1|Région Ile de France|3|Pitié-Salpêtrière|79|Dr VERGELY Olivier
+1|Région Ile de France|17|Tenon|764|Dr VERNEY Charles
+1|Région Ile de France|18|Beaujon|1373|Dr VERNISSE Chrystelle
+1|Région Ile de France|1|Bichat|1770|Dr VERRY Vanessa
+1|Région Ile de France|13|St Antoine|420|Dr VERSINI Edouard
+1|Région Ile de France|4|Médecins généralistes|1254|Dr VETILLARD Pauline
+1|Région Ile de France|11|Lariboisière|1015|Dr VEVER Ursulla
+1|Région Ile de France|4|Médecins généralistes|1705|Dr VEYLON Pauline
+1|Région Ile de France|16|Hôtel Dieu|636|Dr VIARD Jean-Paul
+1|Région Ile de France|10|Henri Mondor|1387|Dr VIARNAUD Alice
+1|Région Ile de France|10|Henri Mondor|1642|Dr VICIANA Marie
+1|Région Ile de France|3|Pitié-Salpêtrière|868|Dr VIDAILHET Marie
+1|Région Ile de France|20|SAMU 75|956|Dr VIE Anne Cecile
+1|Région Ile de France|7|Antoine Béclère|1320|Dr VIGNES Dorothee
+1|Région Ile de France|13|St Antoine|400|Dr VIGOUROUX Agathe Laure
+1|Région Ile de France|18|Beaujon|1901|Dr VILLEMANT Agnes
+1|Région Ile de France|11|Lariboisière|253|Dr VILLENEUVE Jeanne
+1|Région Ile de France|33|Centre Richerand|253|Dr VILLENEUVE Jeanne
+1|Région Ile de France|9|Cochin|1006|Dr VILLOING Barbara
+1|Région Ile de France|1|Bichat|1779|Dr VINCENDON Nathalie
+1|Région Ile de France|13|St Antoine|396|Dr VINCENSINI Jean-Paul
+1|Région Ile de France|18|Beaujon|1369|Dr VINCENT Bruno
+1|Région Ile de France|24|Bicêtre|1863|Dr VINCENT CASSY Christophe
+1|Région Ile de France|10|Henri Mondor|460|Dr VINDRIOS William
+1|Région Ile de France|10|Henri Mondor|1564|Dr VINOLAS Helene
+1|Région Ile de France|20|SAMU 75|957|Dr VIVIEN Benoit
+1|Région Ile de France|24|Bicêtre|1831|Dr VLEDUTS Seraphima
+1|Région Ile de France|11|Lariboisière|101|Dr VOICU Sebastian
+1|Région Ile de France|9|Cochin|1007|Dr VOISIN Frederic
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1931|Dr VOISIN Olivier
+1|Région Ile de France|11|Lariboisière|86|Dr VUARIN Patricia
+1|Région Ile de France|11|Lariboisière|316|Dr VUILLEMIN Marie
+1|Région Ile de France|18|Beaujon|1457|Dr VUILLERME Marie Pierre
+1|Région Ile de France|9|Cochin|1008|Dr WAINBLUM Anna
+1|Région Ile de France|3|Pitié-Salpêtrière|80|Dr WAKIM Yara
+1|Région Ile de France|11|Lariboisière|317|Dr WALTHER Milena
+1|Région Ile de France|11|Lariboisière|165|Dr WANG Juliette
+1|Région Ile de France|16|Hôtel Dieu|1637|Dr WANG Louise
+1|Région Ile de France|11|Lariboisière|255|Dr WANNEGUE Laura
+1|Région Ile de France|17|Tenon|765|Dr WATTEAU Simon
+1|Région Ile de France|||256|Dr WEIL Alice
+1|Région Ile de France|11|Lariboisière|256|Dr WEIL Alice
+1|Région Ile de France|11|Lariboisière|318|Dr WEILL Sacha
+1|Région Ile de France|3|Pitié-Salpêtrière|869|Dr WEISS Nicolas
+1|Région Ile de France|16|Hôtel Dieu|637|Dr WEISS Laurence
+1|Région Ile de France|10|Henri Mondor|446|Dr WEMMERT Charlotte
+1|Région Ile de France|11|Lariboisière|211|Dr WENTZEL Klara
+1|Région Ile de France|5|HEGP|540|Dr WERMERT Delphine
+1|Région Ile de France|9|Cochin|1231|Dr WESNER Nadège
+1|Région Ile de France|11|Lariboisière|319|Dr WILHELM Jeremie
+1|Région Ile de France|1|Bichat|1780|Dr WILLEFERT Mathilde
+1|Région Ile de France|9|Cochin|909|Dr WISLEZ Marie
+1|Région Ile de France|10|Henri Mondor|443|Dr WOERTHER Paul Louis
+1|Région Ile de France|8|Avicenne|502|Dr WOIMANT Maguy
+1|Région Ile de France|15|Jean Verdier|502|Dr WOIMANT Maguy
+1|Région Ile de France|8|Avicenne|1800|Dr WOLF Yoann
+1|Région Ile de France|10|Henri Mondor|1670|Dr WOLKENSTEIN Pierre
+1|Région Ile de France|11|Lariboisière|257|Dr WORMSER Eleonore
+1|Région Ile de France|11|Lariboisière|530|Dr WORMSER Eléonore
+1|Région Ile de France|24|Bicêtre|1710|Dr WU Sang Song
+1|Région Ile de France|24|Bicêtre|1058|Dr WYPLOSZ Benjamin
+1|Région Ile de France|13|St Antoine|439|Dr XU Pei
+1|Région Ile de France|1|Bichat|1771|Dr YAMEOGO NABONS WINDE Jean
+1|Région Ile de France|1|Bichat|81|Dr YAZDANPANAH Yazdan
+1|Région Ile de France|13|St Antoine|397|Dr YEFSAH Sofiane
+1|Région Ile de France|11|Lariboisière|321|Dr YONG Sindy
+1|Région Ile de France|13|St Antoine|398|Dr YORDANOV Youri
+1|Région Ile de France|10|Henri Mondor|1115|Dr YOUNSI Karim
+1|Région Ile de France|15|Jean Verdier|511|Dr YOUSSEF Youssef
+1|Région Ile de France|10|Henri Mondor|466|Dr YSMAIL DAHLOUK KEDDAM Saliha
+1|Région Ile de France|24|Bicêtre|1864|Dr ZAGHZI Mohand
+1|Région Ile de France|||524|Dr ZAHAR Jean-Ralph
+1|Région Ile de France|6|Ambroise Paré|1626|Dr ZAHARIA Ramona
+1|Région Ile de France|13|St Antoine|423|Dr ZAHZAM Lucie
+1|Région Ile de France|9|Cochin|1232|Dr ZAIEN YOUCEFI Inès
+1|Région Ile de France|13|St Antoine|399|Dr ZAK Cathia
+1|Région Ile de France|17|Tenon|399|Dr ZAK Cathia
+1|Région Ile de France|16|Hôtel Dieu|1638|Dr ZAK DIT ZBAR Olivier
+1|Région Ile de France|10|Henri Mondor|1379|Dr ZAKINE Adrien
+1|Région Ile de France|9|Cochin|1233|Dr ZANCHETTA-BALINT URDANGARAY Fabian Pablo
+1|Région Ile de France|5|HEGP|1199|Dr ZANDI Parissa
+1|Région Ile de France|37|Centres Marie Thérèse|1922|Dr ZANKER Bertrand
+1|Région Ile de France|18|Beaujon|1447|Dr ZAPPA Magaly
+1|Région Ile de France|39|Hôpital Paris Saint-Joseph|1935|Dr ZARAA Ines
+1|Région Ile de France|5|HEGP|1188|Dr ZARKA Samuel
+1|Région Ile de France|13|St Antoine|401|Dr ZARKA Loraine
+1|Région Ile de France|18|Beaujon|1547|Dr ZARROUK Virginie
+1|Région Ile de France|12|Raymond Poincaré|562|Dr ZEDAN Ahed
+1|Région Ile de France|10|Henri Mondor|1662|Dr ZEHOU Ouidad
+1|Région Ile de France|15|Jean Verdier|514|Dr ZEMOUR Kamel
+1|Région Ile de France|9|Cochin|1009|Dr ZEPHIR Solène
+1|Région Ile de France|3|Pitié-Salpêtrière|870|Dr ZERKAK Djamila
+1|Région Ile de France|11|Lariboisière|258|Dr ZERROUKI Heidy
+1|Région Ile de France|13|St Antoine|427|Dr ZIANI Mohamed
+1|Région Ile de France|10|Henri Mondor|1597|Dr ZIDI Lamine
+1|Région Ile de France|15|Jean Verdier|516|Dr ZIEDAN Kamal
+1|Région Ile de France|11|Lariboisière|259|Dr ZIENKIEWICZ Matthieu
+1|Région Ile de France|8|Avicenne|1286|Dr ZILBER Diane
+1|Région Ile de France|18|Beaujon|1475|Dr ZOGHLAMI Mohamed
+1|Région Ile de France|8|Avicenne|1297|Dr ZROUNBA Mathilde Anouche
+1|Région Ile de France|20|SAMU 75|952|Pr CARLI Pierre

@@ -1,0 +1,10 @@
+SurveyCode,SurveyVersion,ItemNo,QuestionText,QuestionDescription,IsMandatory,IsConditional,AnswerType,MinValue,MaxValue,Step,DefaultValue,Reference
+SUIVI_COVID_ADULTE,1,1,Prenez votre température (en °C) :,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,2,Cochez la case décrivant le mieux votre gêne respiratoire (dyspnée) :,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,3,Mesurez votre fréquence cardiaque (en battements par minute ou bpm) :,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,4,Mesurez votre fréquence respiratoire (en cycles par minutes) :,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,5,Disposez-vous d'un saturomètre ?,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,6,Mesurez votre saturation (exprimée en pourcentage) :,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,7,Avez-vous eu des frissons depuis que vous avez rempli le dernier questionnaire ou depuis le dernier contact médical ?,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,8,Avez-vous fait un malaise depuis que vous avez rempli le dernier questionnaire ou depuis le dernier contact médical ?,,1,,,,,,,
+SUIVI_COVID_ADULTE,1,9,Vous sentez vous capable de continuer à respecter les conditions de confinement ?,,1,,,,,,,

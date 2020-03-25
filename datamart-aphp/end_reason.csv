@@ -1,0 +1,6 @@
+Id,Reason,ForceComments,UserChoice,LimitedToPhaseDefinitionId,UseNotification,ForceClosing
+1,Clôture automatique,0,0,0,1,0
+4,Non-participation du patient,0,1,0,0,1
+5,Autres,1,1,0,1,0
+6,Patient décédé,0,1,0,0,1
+7,Fin du suivi par application,0,1,0,1,0
