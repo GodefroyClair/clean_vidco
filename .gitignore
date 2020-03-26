@@ -12,3 +12,6 @@ python*
 .env
 .aws
 *.csv
+*.zip
+input/*
+zip_files/*

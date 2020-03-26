@@ -1,2 +1,0 @@
-SurveyCode|SurveyVersion|Title|PublishedOn|NumberOfResult
-SUIVI_COVID_ADULTE|1|Questionnaire de surveillance|2020-03-09 18:03:11.457|4650

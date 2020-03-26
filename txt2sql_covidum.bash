@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # convert pipe delimited csv files to comma delimited
-for filepath in ./datamart-aphp/*.txt; do
+for filepath in ./input/*.txt; do
     filename="$(basename -- $filepath)"
     if [[ ! $filename == *"metadata.txt" ]]
     then
