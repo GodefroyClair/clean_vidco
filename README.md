@@ -1,12 +1,13 @@
 # Dependencies
 
-install docker
+Install docker
 https://docs.docker.com/install/
 
-create env if necessary & install libraries
+Create env if necessary & install libraries
 ```
 # install python>=3.3
 $ conda create -n covidom python=3.7
+$ conda activate covidom
 # install csvkit
 $ pip install csvkit
 ```
@@ -20,12 +21,11 @@ export PG_PASSWORD=YYYYY
 export DB=ZZZZ
 ```
 
-Execute the .env
+Execute the .env & prepare
 ```
-$ mkdir zip_files
-$ mkdir input
-$ mkdir covidom_csv
 $ source .env
+$ mkdir zip_files
+$ mkdir covidom_csv
 ```
 
 # Put zip file in zip_files folder
@@ -40,7 +40,8 @@ FYI, if necessary /!\, to delete postgres the container: $ docker rm -f covidom
 
 # Execute bash script to generate csv files & table create cmd from txt file
 ```
-$ source txt2sql_covidom.bash
+# put the name of the zip file as an argument without the path & the extension
+$ source txt2sql_covidom.bash NAME_OF_THE_FILE
 ```
 
 # TODO
