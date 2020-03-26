@@ -24,8 +24,6 @@ unzip $zip_folder/$zip_filename.zip -d $input_folder/${zip_filename%.zip}/
 nb_files_zip=$(ls -1q $input_folder/* | wc -l)
 echo "unzipped $nb_files files"
 
-mkdir $csv_folder
-
 convert "|" delimited csv files to comma delimited
 for filepath in ./$input_folder/$zip_filename/*.txt; do
     filename="$(basename -- $filepath)"
@@ -51,6 +49,15 @@ for csv in ./$csv_folder/*.csv; do
   echo "COPY $table FROM '/covidom_csv/$table.csv' DELIMITER ',' CSV HEADER;\n" >> $insert_script
 done
 
+# Execute sql files to create tables, create constraint & insert data
+```
+# create tables
+$ psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f covidom_db_create_tbls.sql
+# create constraints
+# $ psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f covidom_db_alter_tbls.sql
+# insert data from csv
+$ psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f covidom_db_insert_tbls.sql
+```
 
-# rm -rf $input_folder
-# rm -rf $csv_folder
+rm -rf $input_folder
+rm -rf $csv_folder/*
