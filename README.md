@@ -22,6 +22,8 @@ export DB=ZZZZ
 
 Execute the .env
 ```
+$ mkdir zip_files
+$ mkdir input
 $ mkdir covidom_csv
 $ source .env
 ```
