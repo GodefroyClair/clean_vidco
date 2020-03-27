@@ -3,6 +3,9 @@
 Install docker
 https://docs.docker.com/install/
 
+Install conda (optional if you don't need or use another kind of pyenv)
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+
 Create env if necessary & install libraries
 ```
 # install python>=3.3
