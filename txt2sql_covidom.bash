@@ -17,6 +17,7 @@ csv_folder=covidom_csv
 insert_script=covidom_db_insert_tbls.sql
 create_script=covidom_db_create_tbls.sql
 alter_script=covidom_db_alter_tbls.sql
+sql_scripts=sql_script
 
 if [[ ! -f $zip_folder/$zip_filename.zip ]] ; then
     echo "No file $zip_filename.zip in $zip_folder, aborting."
@@ -69,15 +70,22 @@ done
 
 echo "insert_script created"
 
+echo "alter_script copied"
+cp $sql_scripts/$alter_script $csv_folder/$alter_script
+
 # Execute sql files to create tables, create constraint & insert data
 # create tables
 echo "execution of scripts in Docker"
 docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$create_script
 # create constraints
 # TODO
-# docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$alter_script
+docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$alter_script
 # insert data from csv
 docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$insert_script
+
+# save sql scripts
+cp $csv_folder/$create_script $sql_scripts/$create_script
+cp $csv_folder/$insert_script $sql_scripts/$insert_script
 
 # Clean
 rm -rf $input_folder
