@@ -47,3 +47,4 @@ $ source txt2sql_covidom.bash NAME_OF_THE_FILE
 # TODO
 generate a dump of the table
 generate a graph of the db
+put table names in camel case?
