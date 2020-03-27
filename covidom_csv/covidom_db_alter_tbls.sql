@@ -10,9 +10,11 @@ ALTER TABLE clinic
     ADD CONSTRAINT PK_clinic
         PRIMARY KEY ("Id");
 
-ALTER TABLE clinic_doctor_hospit_followup
-    ADD CONSTRAINT PK_clinic_doctor_hospit_followup
-        PRIMARY KEY ("#Clinic", "#Doctor", "#Hospitalization reason");
+/* pb with data */
+/* TODO: check what to do */
+/* ALTER TABLE clinic_doctor_hospit_followup */
+/*     ADD CONSTRAINT PK_clinic_doctor_hospit_followup */
+/*         PRIMARY KEY ("#Clinic", "#Doctor", "#Hospitalization reason"); */
 
 ALTER TABLE clinic_followup_reason
     ADD CONSTRAINT PK_clinic_followup_reason

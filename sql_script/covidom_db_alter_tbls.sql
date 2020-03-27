@@ -20,9 +20,9 @@ ALTER TABLE clinic_followup_reason
     ADD CONSTRAINT PK_clinic_followup_reason
         PRIMARY KEY ("#Clinic", "#Follow up reason");
 
-ALTER TABLE doctor
-    ADD CONSTRAINT PK_doctor
-        PRIMARY KEY ("#Clinic", "#Medical Dept", "#Doctor");
+/* ALTER TABLE doctor */
+/*     ADD CONSTRAINT PK_doctor */
+/*         PRIMARY KEY ("#Clinic", "#Medical Dept", "#Doctor"); */
 
 ALTER TABLE doctor_list
     ADD CONSTRAINT PK_doctor_list
@@ -52,6 +52,6 @@ ALTER TABLE patient_stay
 /*     ADD CONSTRAINT UC_patient_stay */
 /*         UNIQUE ("PatientStay_UserProfileUId", "PatientStay_PatientUId"); */
 
-ALTER TABLE survey_answer
-    ADD CONSTRAINT PK_survey_answer
-        PRIMARY KEY ("#Clinique");
+/* ALTER TABLE survey_answer */
+/*     ADD CONSTRAINT PK_survey_answer */
+/*         PRIMARY KEY ("#Clinique"); */
