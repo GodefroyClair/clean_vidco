@@ -40,7 +40,10 @@ echo "created $nb_files files"
 
 # Ouput a script with create table with no constraints
 # Time consuming operation, use "--no-inference" to test quickly
-csvsql -d "," -i postgresql $csv_folder/*.csv > $csv_folder/$create_script
+echo "type inference..."
+csvsql --no-inference -d "," -i postgresql $csv_folder/*.csv > $csv_folder/$create_script
+
+echo "create_script created"
 
 # create insert data sql script
 touch $csv_folder/$insert_script
@@ -51,14 +54,17 @@ for csv in ./$csv_folder/*.csv; do
   echo "COPY $table FROM '/covidom_csv/$table.csv' DELIMITER ',' CSV HEADER;\n" >> $csv_folder/$insert_script
 done
 
+echo "insert_script created"
+
 # Execute sql files to create tables, create constraint & insert data
 # create tables
+echo "execution of scripts in Docker"
 docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$create_script
 # create constraints
 # TODO
 # docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$alter_script
 # insert data from csv
-docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$insert_scriptl
+docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$insert_script
 
 # Clean
 rm -rf $input_folder
