@@ -9,7 +9,7 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/install/
 Create env if necessary & install libraries
 ```
 # install python>=3.3
-$ conda create -n covidom python=3.7
+$ conda create -n covidom python=3.7 -y
 $ conda activate covidom
 # install csvkit
 $ pip install csvkit

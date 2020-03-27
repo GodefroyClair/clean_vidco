@@ -89,4 +89,4 @@ cp $csv_folder/$insert_script $sql_scripts/$insert_script
 
 # Clean
 rm -rf $input_folder
-rm -rf $csv_folder/*.csv
+rm -rf $csv_folder
