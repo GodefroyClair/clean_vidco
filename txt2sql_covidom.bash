@@ -6,6 +6,9 @@ if [[ -z $1 ]] ; then
     return
 fi
 
+no_inference=$2
+echo "no inference $no_inference"
+
 # You have to file the name of the zip file (no path & no extension) as first argument
 zip_filename=$1
 zip_folder=zip_files
@@ -43,8 +46,15 @@ echo "created $nb_files files"
 
 # Ouput a script with create table with no constraints
 # Time consuming operation, use "--no-inference" to test quickly
-echo "type inference..."
-csvsql -d "," -i postgresql $csv_folder/*.csv > $csv_folder/$create_script
+if [ "$no_inference" = true ] ; then
+  noinf_opt="--no-inference"
+  echo "no inference"
+else
+  noinf_opt=""
+  echo "type inference..."
+fi
+csvsql $noinf_opt -d "," -i postgresql $csv_folder/*.csv > $csv_folder/$create_script
+
 
 echo "create_script created"
 
