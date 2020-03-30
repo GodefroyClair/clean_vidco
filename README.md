@@ -37,7 +37,7 @@ $ mkdir covidom_csv
 
 # Create postgres db docker container with a connexion to covidom_csv folder to allow postgres access to the data
 ```
-$ docker run --name covidom -v `pwd`/covidom_csv:/covidom_csv -e POSTGRES_USER=$DB_USER -e POSTGRES_PASSWORD=$DB_PWD -e POSTGRES_DB=$DB -p 5432:5432 -d postgres
+$ docker run --name covidom -v `pwd`/covidom_csv:/covidom_csv -e POSTGRES_USER=$DB_USER -e POSTGRES_PASSWORD=$PG_PASSWORD -e POSTGRES_DB=$DB -p 5432:5432 -d postgres
 ```
 FYI, if necessary /!\, to delete postgres the container: $ docker rm -f covidom
 
