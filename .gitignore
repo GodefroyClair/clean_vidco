@@ -14,3 +14,4 @@ python*
 input/*
 zip_files/*
 *.pem
+.~lock*
