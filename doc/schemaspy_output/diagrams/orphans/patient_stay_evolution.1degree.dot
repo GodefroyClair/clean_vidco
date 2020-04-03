@@ -1,0 +1,46 @@
+digraph "patient_stay_evolution" {
+  graph [
+    rankdir="RL"
+    bgcolor="#ffffff"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+    ration="compress"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "patient_stay_evolution" [
+   label=<
+    <TABLE BORDER="2" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="4"  BGCOLOR="#f5f5f5"><TABLE BORDER="0" CELLSPACING="0"><TR><TD ALIGN="LEFT"><B>patient_stay_evolution</B></TD><TD ALIGN="RIGHT">[table]</TD></TR></TABLE></TD></TR>
+      <TR><TD PORT="Date de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Date de début des symptômes</TD></TR></TABLE></TD><TD PORT="Date de début des symptômes.type" ALIGN="LEFT">date[13]</TD></TR>
+      <TR><TD PORT="Année de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Année de début des symptômes</TD></TR></TABLE></TD><TD PORT="Année de début des symptômes.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Mois de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Mois de début des symptômes</TD></TR></TABLE></TD><TD PORT="Mois de début des symptômes.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="No Semaine de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">No Semaine de début des symptômes</TD></TR></TABLE></TD><TD PORT="No Semaine de début des symptômes.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Quinzaine de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Quinzaine de début des symptômes</TD></TR></TABLE></TD><TD PORT="Quinzaine de début des symptômes.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Jour du mois de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Jour du mois de début des symptômes</TD></TR></TABLE></TD><TD PORT="Jour du mois de début des symptômes.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Jour de l&apos;année de début des symptômes" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Jour de l&apos;année de début des symptômes</TD></TR></TABLE></TD><TD PORT="Jour de l&apos;année de début des symptômes.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Id. Région" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Id. Région</TD></TR></TABLE></TD><TD PORT="Id. Région.type" ALIGN="LEFT">bool[1]</TD></TR>
+      <TR><TD PORT="Région" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Région</TD></TR></TABLE></TD><TD PORT="Région.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
+      <TR><TD PORT="Id. Etablissement" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Id. Etablissement</TD></TR></TABLE></TD><TD PORT="Id. Etablissement.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Etablissement" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Etablissement</TD></TR></TABLE></TD><TD PORT="Etablissement.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
+      <TR><TD PORT="Id. Médecin" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Id. Médecin</TD></TR></TABLE></TD><TD PORT="Id. Médecin.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Id. Type de patient" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Id. Type de patient</TD></TR></TABLE></TD><TD PORT="Id. Type de patient.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Type de patient" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Type de patient</TD></TR></TABLE></TD><TD PORT="Type de patient.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
+      <TR><TD PORT="Id. Type de suivi" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Id. Type de suivi</TD></TR></TABLE></TD><TD PORT="Id. Type de suivi.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD PORT="Type de suivi" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Type de suivi</TD></TR></TABLE></TD><TD PORT="Type de suivi.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
+      <TR><TD PORT="Nombre de suivi" COLSPAN="2" ALIGN="LEFT"><TABLE BORDER="0" CELLSPACING="0" ALIGN="LEFT"><TR ALIGN="LEFT"><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="15" HEIGHT="16"></TD><TD ALIGN="LEFT" FIXEDSIZE="TRUE" WIDTH="234" HEIGHT="16">Nombre de suivi</TD></TR></TABLE></TD><TD PORT="Nombre de suivi.type" ALIGN="LEFT">numeric[131089]</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#ffffff">&lt; 0</TD><TD ALIGN="RIGHT" BGCOLOR="#ffffff">17,821 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#ffffff">0 &gt;</TD></TR>
+    </TABLE>>
+    URL="tables/patient_stay_evolution.html"
+    target="_top"
+    tooltip="patient_stay_evolution"
+  ];
+}

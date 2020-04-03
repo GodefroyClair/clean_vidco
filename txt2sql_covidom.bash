@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This is script to generate files and sql scripts to create tables, constraints & insert data in a sql database (only Postgres tested but should work with other db)
+# This is script to generate files and sql scripts to create tables, constraints in a sql database (only Postgres tested but should work with other db)
 if [[ -z $1 ]] ; then
     echo "You need to give the zip file name as 1st argument, aborting."
     return
@@ -14,7 +14,8 @@ zip_filename=$1
 zip_folder=zip_files
 input_folder=tmp_input
 csv_folder=covidom_csv
-insert_script=covidom_db_insert_tbls.sql
+csv_comp=csv_comp
+# insert_script=covidom_db_insert_tbls.sql
 create_script=covidom_db_create_tbls.sql
 alter_script=covidom_db_alter_tbls.sql
 sql_scripts=sql_script
@@ -59,16 +60,6 @@ csvsql $noinf_opt -d "," -i postgresql $csv_folder/*.csv > $csv_folder/$create_s
 
 echo "create_script created"
 
-# create insert data sql script
-touch $csv_folder/$insert_script
-echo "-- this a script to populate data in db\n" > $csv_folder/$insert_script
-for csv in ./$csv_folder/*.csv; do
-  csv_filename="$(basename -- $csv)"
-  table=${csv_filename%.csv}
-  echo "COPY $table FROM '/covidom_csv/$table.csv' DELIMITER ',' CSV HEADER;\n" >> $csv_folder/$insert_script
-done
-
-echo "insert_script created"
 
 echo "alter_script copied"
 cp $sql_scripts/$alter_script $csv_folder/$alter_script
@@ -80,12 +71,9 @@ docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_
 # create constraints
 # TODO
 docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$alter_script
-# insert data from csv
-docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$insert_script
 
 # save sql scripts
 cp $csv_folder/$create_script $sql_scripts/$create_script
-cp $csv_folder/$insert_script $sql_scripts/$insert_script
 
 # Clean
 rm -rf $input_folder

@@ -11,6 +11,7 @@ zip_filename=$1
 zip_folder=zip_files
 input_folder=tmp_input
 csv_folder=covidom_csv
+csv_comp=csv_comp
 insert_script=covidom_db_insert_tbls.sql
 create_script=covidom_db_create_tbls.sql
 alter_script=covidom_db_alter_tbls.sql
@@ -41,15 +42,35 @@ done
 
 nb_files=$(ls -1q $csv_folder | wc -l)
 
+# add complement csv
+echo "add complementary files in db for specific data (e.g. null values)"
+cp $csv_comp/* $csv_folder/
+
 # create insert data sql script
+echo "-- This a script to populate/renew data in db\n" > $csv_folder/$insert_script
+
 touch $csv_folder/$insert_script
-echo "-- this a script to populate data in db\n" > $csv_folder/$insert_script
+echo "-- Prep: delete all rows in db\n" > $csv_folder/$insert_script
 for csv in ./$csv_folder/*.csv; do
   csv_filename="$(basename -- $csv)"
   table=${csv_filename%.csv}
-  echo "DELETE $table;\n" >> $csv_folder/$insert_script
-  echo "COPY $table FROM '/covidom_csv/$table.csv' DELIMITER ',' CSV HEADER;\n" >> $csv_folder/$insert_script
+  table=${table%_comp}
+  echo "DELETE FROM $table;\n" >> $csv_folder/$insert_script
 done
+
+echo "-- insert new rows in db\n" >> $csv_folder/$insert_script
+# You need to order some files for constraint reason
+ordered_files=$(ls $csv_folder/*.csv | xargs -n 1 basename | cat csv_order - | awk '!x[$0]++')
+while IFS= read -r filename ; do
+  echo "ordered files" $filename;
+  if [[ ! $filename == *"metadata.txt" ]]
+    then
+      table=${filename%.csv}
+      # we need to remove "_comp" suffix from specific cases files (e.g null values)
+      table_nocomp=${table%_comp}
+      echo "COPY $table_nocomp FROM '/covidom_csv/$filename' DELIMITER ',' CSV HEADER;\n" >> $csv_folder/$insert_script
+  fi
+done <<< "$ordered_files"
 
 echo "insert_script created"
 
@@ -58,11 +79,11 @@ echo "insert_script created"
 echo "execution of insert scripts in Docker"
 # create constraints
 # insert data from csv
-docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$insert_script
+# docker exec -it covidom psql -h localhost -p 5432 -U $DB_USER -d $DB -w -f $csv_folder/$insert_script
 
 # save sql scripts
 cp $csv_folder/$insert_script $sql_scripts/$insert_script
 
 # Clean
 rm -rf $input_folder
-rm -rf $csv_folder
+# rm -rf $csv_folder

@@ -2,9 +2,10 @@ ALTER TABLE alert
     ADD CONSTRAINT UC_alert
         UNIQUE ("UId");
 
-ALTER TABLE alert_subitem
-    ADD CONSTRAINT PK_alert_subitem
-        PRIMARY KEY ("UId");
+/* Duplicate keys !*/
+/* ALTER TABLE alert_subitem */
+/*     ADD CONSTRAINT PK_alert_subitem */
+/*         PRIMARY KEY ("UId"); */
 
 ALTER TABLE clinic
     ADD CONSTRAINT PK_clinic
@@ -32,6 +33,10 @@ ALTER TABLE medical_department_list
     ADD CONSTRAINT PK_medical_department_list
         PRIMARY KEY ("#Medical dept");
 
+ALTER TABLE medical_department
+    ADD CONSTRAINT PK_medical_department
+        PRIMARY KEY ("#Medical dept", "#Clinic");
+
 ALTER TABLE patient
     ADD CONSTRAINT PK_patient
         PRIMARY KEY ("#Patient");
@@ -55,3 +60,7 @@ ALTER TABLE patient_stay
 /* ALTER TABLE survey_answer */
 /*     ADD CONSTRAINT PK_survey_answer */
 /*         PRIMARY KEY ("#Clinique"); */
+
+ALTER TABLE end_reason
+    ADD CONSTRAINT PK_end_reason
+        PRIMARY KEY ("Id");

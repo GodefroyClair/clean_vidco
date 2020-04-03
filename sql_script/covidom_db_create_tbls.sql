@@ -98,7 +98,7 @@ CREATE TABLE data_alert_notresponding (
 	"Alerte déclenchée le" TIMESTAMP WITHOUT TIME ZONE, 
 	"Première prise en charge" TIMESTAMP WITHOUT TIME ZONE, 
 	"Alerte close le" TIMESTAMP WITHOUT TIME ZONE, 
-	"Commentiaire de clôture" VARCHAR
+	"Commentiaire de clôture" VARCHAR NOT NULL
 );
 CREATE TABLE data_demography (
 	"Year" DECIMAL NOT NULL, 
@@ -196,7 +196,7 @@ CREATE TABLE patient (
 	"#Patient" VARCHAR NOT NULL, 
 	"#PatientType" BOOLEAN NOT NULL, 
 	"Patient type" VARCHAR NOT NULL, 
-	"#Internal Client" VARCHAR, 
+	"#Internal Client" DECIMAL, 
 	"Patient no" BOOLEAN, 
 	"#Gender" DECIMAL NOT NULL, 
 	"Gender" VARCHAR, 
@@ -420,7 +420,7 @@ CREATE TABLE task_detail (
 	"CorrelationUId" VARCHAR, 
 	"#Alert Type" DECIMAL, 
 	"TaskCompletedByUId" VARCHAR, 
-	"TaskCompletedUserProfileTypeId" DECIMAL
+	"TaskCompletedUserProfileTypeId" BOOLEAN
 );
 CREATE TABLE year (
 	"Year" DECIMAL NOT NULL

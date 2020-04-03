@@ -8,8 +8,8 @@ from functools import reduce
 spec_filepath = "doc/covidom_struc.csv"
 output_filepath = "sql_script/covidom_alter_tbls_fk.sql"
 
-alter_tmplt=Template("""ALTER TABLE $table_dest
-  ADD FOREIGN KEY ("$dest_field") REFERENCES $source_table("$source_field");
+alter_tmplt = Template("""ALTER TABLE $table_dest
+  ADD FOREIGN KEY ($dest_field) REFERENCES $source_table($source_field) ON DELETE CASCADE;
 """)
 
 # json schema
@@ -137,7 +137,7 @@ def main():
     foreign_key_sql = fk_sql_from_tplt_ho(alter_tmplt)
     sql_scripts = fks_merged_cols.apply(foreign_key_sql)
     with open(output_filepath, "w") as text_file:
-        text_file.write(sql_scripts.str.cat(sep='\n'))
+        text_file.write(sql_scripts.str.cat())
 
 if __name__ == "__main__":
     # execute only if run as a script

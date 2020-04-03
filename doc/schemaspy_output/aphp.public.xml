@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="aphp" schema="public" type="PostgreSQL - 12.0 (Debian 12.0-2.pgdg100+1)">
+   <tables>
+      <table name="alert" numRows="102344" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="UId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="UId" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="patient_note"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="ClinicId" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="Id" foreignKey="alert_ClinicId_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="PatientStayUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="PatientStay_UId" foreignKey="alert_PatientStayUId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="PatientPhaseUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="AlertTypeId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="AlertLevel" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="AlertStatusId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="IsActive" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="NumberOfOpening" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="9" name="CreatedOn" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="10" name="FirstOpenedAt" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="11" name="LastOpenedAt" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="12" name="SuspendedAt" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="13" name="ClosedAt" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="LastOpenedByUId" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="SuspendedByUId" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="ClosedByUId" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="SuspendComments" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="CorrelationEntity" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="CorrelationUId" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="20" name="LastChangeDate" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="AlertMessage" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="22" name="Comments" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <index name="uc_alert" unique="true">
+            <column ascending="true" name="UId"/>
+         </index>
+      </table>
+      <table name="alert_subitem" numRows="45562" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="UId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="UId" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="patient_note"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="EntityType" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="CorrelationUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="ItemNo" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="AlertTypeId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="AlertMessage" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="ThresholdOnly" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+      </table>
+      <table name="clinic" numRows="1" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Id" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <child column="ClinicId" foreignKey="alert_ClinicId_fkey" implied="false" onDeleteCascade="true" schema="public" table="alert"/>
+            <child column="#Clinic" foreignKey="clinic_followup_reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+            <child column="#Clinic" foreignKey="medical_department_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department"/>
+            <child column="#Clinique" foreignKey="patient_mapping_#Clinique_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_mapping"/>
+            <child column="#Clinique" foreignKey="survey_answer_#Clinique_fkey1" implied="false" onDeleteCascade="true" schema="public" table="survey_answer"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinic name" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Has medical department" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <primaryKey column="Id" sequenceNumberInPK="1"/>
+         <index name="pk_clinic" unique="true">
+            <column ascending="true" name="Id"/>
+         </index>
+      </table>
+      <table name="clinic_doctor_hospit_followup" numRows="48591" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinic" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Doctor" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Hospitalization reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="Hospitalization reason" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Follow up reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="Follow up reason" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+      </table>
+      <table name="clinic_followup_reason" numRows="3" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <child column="#Clinic" foreignKey="data_demography_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_demography"/>
+            <child column="#Clinic" foreignKey="data_stay_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_stay"/>
+            <child column="#Clinic" foreignKey="data_user_account_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_user_account"/>
+            <child column="PatientStay_ClinicId" foreignKey="patient_stay_PatientStay_FollowUpReasonId_PatientStay_Clin_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+            <child column="#Clinic" foreignKey="task_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="task"/>
+            <parent column="Id" foreignKey="clinic_followup_reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinic" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="#Follow up reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <child column="#Follow Up Reason" foreignKey="data_demography_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_demography"/>
+            <child column="#Follow Up Reason" foreignKey="data_stay_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_stay"/>
+            <child column="#Follow Up Reason" foreignKey="data_user_account_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_user_account"/>
+            <child column="PatientStay_FollowUpReasonId" foreignKey="patient_stay_PatientStay_FollowUpReasonId_PatientStay_Clin_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+            <child column="#Follow Up Reason" foreignKey="task_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="task"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Follow up reason code" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="Follow up reason" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="#Clinic" sequenceNumberInPK="1"/>
+         <primaryKey column="#Follow up reason" sequenceNumberInPK="2"/>
+         <index name="pk_clinic_followup_reason" unique="true">
+            <column ascending="true" name="#Clinic"/>
+            <column ascending="true" name="#Follow up reason"/>
+         </index>
+      </table>
+      <table name="data_alert_delay" numRows="20758" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Alert" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Week" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Medical Dept" nullable="true" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Alert Type" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="#Hospitalization Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="#Follow Up Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="11" name="Alert Raised At" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="12" name="Alert First Openning At" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="13" name="Alert Last Openning At" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="14" name="Alert Closed At" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Number Of Openning" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Take In Charge Time (second)" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="Treatment Time (second)" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="Total Treatment Time (second)" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="Total Active Time (second)" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="data_alert_notresponding" numRows="2019" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Alert" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Clinique" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="#Medical Dept" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="Service" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="Médecin" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Patient" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="#Patient" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="patient"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Séjour" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="Séjour no" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="10" name="Date d'intervention" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="#HospitalizationReason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Motif d'hospitalisation" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="#FollowUpReason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Motif de suivi" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Phase" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Evènement à I+X" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="Evènement à S+X" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="18" name="Alerte déclenchée le" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="19" name="Première prise en charge" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="20" name="Alerte close le" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="Commentiaire de clôture" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+      </table>
+      <table name="data_demography" numRows="15854" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="WeekNumber" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="#Clinic" foreignKey="data_demography_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#MedicalDepartment" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="data_demography_#MedicalDepartment_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="data_demography_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Hospitalization Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Follow Up Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Follow up reason" foreignKey="data_demography_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="#Gender" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="Age Gone" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="Age Distribution" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Number" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="data_preadmission" numRows="1" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Month" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="WeekNumber" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Fortnight" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Clinic" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#MedicalDepartment" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Doctor" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Hospitalization Reason" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Follow Up Reason" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="FormCode" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="FormStatusId" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="ForcedValidation" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="NumberOfPread" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+      </table>
+      <table name="data_stay" numRows="6275" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="WeekNumber" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="#Clinic" foreignKey="data_stay_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#MedicalDepartment" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="data_stay_#MedicalDepartment_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="data_stay_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Hospitalization Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Follow Up Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Follow up reason" foreignKey="data_stay_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="NumberOfStay" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="data_user_account" numRows="6257" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="WeekNumber" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="#Clinic" foreignKey="data_user_account_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#MedicalDepartment" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="data_user_account_#MedicalDepartment_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="data_user_account_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Hospitalization Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Follow Up Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Follow up reason" foreignKey="data_user_account_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="Created by user himself" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="First Login" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="NumberOfAccount" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="doctor" numRows="5869" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="#Clinic" foreignKey="doctor_#Medical Dept_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinic" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="#Medical Dept" nullable="true" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="doctor_#Medical Dept_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Medical Dept" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="doctor_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="Doctor Full Name" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+      </table>
+      <table name="doctor_list" numRows="5610" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <child column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="clinic_doctor_hospit_followup"/>
+            <child column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="data_alert_delay"/>
+            <child column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="data_alert_notresponding"/>
+            <child column="#Doctor" foreignKey="data_demography_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_demography"/>
+            <child column="#Doctor" foreignKey="data_stay_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_stay"/>
+            <child column="#Doctor" foreignKey="data_user_account_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_user_account"/>
+            <child column="#Doctor" foreignKey="doctor_#Doctor_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor"/>
+            <child column="#Médecin" foreignKey="patient_mapping_#Médecin_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_mapping"/>
+            <child column="PatientStay_DoctorId" foreignKey="patient_stay_PatientStay_DoctorId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+            <child column="#Médecin" foreignKey="survey_answer_#Médecin_fkey1" implied="false" onDeleteCascade="true" schema="public" table="survey_answer"/>
+            <child column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="task"/>
+            <child column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="task_detail"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Doctor Full Name" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="DoctorTitle" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="DoctorLastname" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="DoctorFirstname" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="#Doctor" sequenceNumberInPK="1"/>
+         <index name="pk_doctor_list" unique="true">
+            <column ascending="true" name="#Doctor"/>
+         </index>
+      </table>
+      <table name="end_reason" numRows="5" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="﻿Id" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Reason" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="ForceComments" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="UserChoice" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="LimitedToPhaseDefinitionId" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="UseNotification" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="ForceClosing" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+      </table>
+      <table name="medical_department" numRows="84" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <child column="#Clinic" foreignKey="doctor_#Medical Dept_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor"/>
+            <parent column="Id" foreignKey="medical_department_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinic" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="#Medical dept" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <child column="#Medical Dept" foreignKey="doctor_#Medical Dept_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor"/>
+            <parent column="#Medical dept" foreignKey="medical_department_#Medical dept_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Medical dept" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="Medical dept code" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="#Medical dept" sequenceNumberInPK="1"/>
+         <primaryKey column="#Clinic" sequenceNumberInPK="2"/>
+         <index name="pk_medical_department" unique="true">
+            <column ascending="true" name="#Medical dept"/>
+            <column ascending="true" name="#Clinic"/>
+         </index>
+      </table>
+      <table name="medical_department_list" numRows="85" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Medical dept" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <child column="#Medical Dept" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="data_alert_delay"/>
+            <child column="#Medical Dept" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="data_alert_notresponding"/>
+            <child column="#MedicalDepartment" foreignKey="data_demography_#MedicalDepartment_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_demography"/>
+            <child column="#MedicalDepartment" foreignKey="data_stay_#MedicalDepartment_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_stay"/>
+            <child column="#MedicalDepartment" foreignKey="data_user_account_#MedicalDepartment_fkey" implied="false" onDeleteCascade="true" schema="public" table="data_user_account"/>
+            <child column="#Medical dept" foreignKey="medical_department_#Medical dept_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department"/>
+            <child column="PatientStay_MedicalDepartmentId" foreignKey="patient_stay_PatientStay_MedicalDepartmentId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Medical dept" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Medical dept code" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="#Medical dept" sequenceNumberInPK="1"/>
+         <index name="pk_medical_department_list" unique="true">
+            <column ascending="true" name="#Medical dept"/>
+         </index>
+      </table>
+      <table name="patient" numRows="17145" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Patient" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <child column="#Patient" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="data_alert_notresponding"/>
+            <child column="#Patient" foreignKey="patient_mapping_#Patient_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_mapping"/>
+            <child column="PatientUId" foreignKey="patient_note_PatientUId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_note"/>
+            <child column="PatientStay_PatientUId" foreignKey="patient_stay_PatientStay_PatientUId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+            <child column="#Patient" foreignKey="survey_answer_#Patient_fkey1" implied="false" onDeleteCascade="true" schema="public" table="survey_answer"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="#PatientType" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Patient type" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="#Internal Client" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="Patient no" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Gender" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="Gender" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="Birth lastname" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="Birth firstname" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="Lastname" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="Firstname" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="Birthdate" nullable="false" remarks="" size="13" type="date" typeCode="91"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Age gone" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="Age distribution" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Medical Information" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="#Patient" sequenceNumberInPK="1"/>
+         <index name="pk_patient" unique="true">
+            <column ascending="true" name="#Patient"/>
+         </index>
+      </table>
+      <table name="patient_mapping" numRows="17821" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Clinique" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="Id" foreignKey="patient_mapping_#Clinique_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinique" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="#Médecin" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="patient_mapping_#Médecin_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Médecin" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Patient" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="#Patient" foreignKey="patient_mapping_#Patient_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Séjour" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="PatientStay_UId" foreignKey="patient_mapping_#Séjour_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="No séjour" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="7" name="Séjour créé le" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="8" name="Date d'intervention" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="Informations médicales" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="10" name="Séjour clos le" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="Type de clôture" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Motif de clôture" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="Commentaire de clôture" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Nom" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Nom de naissance" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Prénom" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="Prénom de naissance" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="Date de naissance" nullable="false" remarks="" size="13" type="date" typeCode="91"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="Age révolu" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="20" name="#Genre" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="Genre" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+      </table>
+      <table name="patient_note" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="UId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <child column="UId" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="alert"/>
+            <child column="UId" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="alert_subitem"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="PatientUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="#Patient" foreignKey="patient_note_PatientUId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="AuthorUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Comments" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="4" name="CreatedOn" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="Author" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="UId" sequenceNumberInPK="1"/>
+         <index name="pk_patient_note" unique="true">
+            <column ascending="true" name="UId"/>
+         </index>
+      </table>
+      <table name="patient_stay" numRows="17821" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="PatientStay_UId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <child column="PatientStayUId" foreignKey="alert_PatientStayUId_fkey" implied="false" onDeleteCascade="true" schema="public" table="alert"/>
+            <child column="#Séjour" foreignKey="patient_mapping_#Séjour_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient_mapping"/>
+            <child column="#Séjour" foreignKey="survey_answer_#Séjour_fkey1" implied="false" onDeleteCascade="true" schema="public" table="survey_answer"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="PatientStay_UserProfileUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="PatientStay_PatientUId" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="#Patient" foreignKey="patient_stay_PatientStay_PatientUId_fkey" implied="false" onDeleteCascade="true" schema="public" table="patient"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="PatientStay_PatientStayNo" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="PatientStay_ClinicId" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="#Clinic" foreignKey="patient_stay_PatientStay_FollowUpReasonId_PatientStay_Clin_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="5" name="PatientStay_SurgeryDate" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="6" name="PatientStay_OutingDate" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="PatientStay_DoctorId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="patient_stay_PatientStay_DoctorId_fkey" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="PatientStay_FollowUpReasonId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Follow up reason" foreignKey="patient_stay_PatientStay_FollowUpReasonId_PatientStay_Clin_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="PatientStay_HospitalizationReasonId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="10" name="PatientStay_CreatedOn" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="11" name="PatientStay_EndedOn" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="PatientStay_IsActive" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="PatientStay_DefaultSurveyCode" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="PatientStay_EmergencySurveyCode" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="PatientStay_EndReasonId" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="PatientStay_Comments" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="PatientStay_ProcessTypeId" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="PatientStay_MatchedHospitalizationRequestUId" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="PatientStay_HasMatchingErrors" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="20" name="PatientStay_Tags" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="PatientStay_IterationPeriod" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="22" name="PatientStay_CurrentAppointmentUId" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="23" name="PatientStay_NextAppointmentStartDate" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="24" name="PatientStay_NextAppointmentDate" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="25" name="PatientStay_AppointmentSpacing" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="26" name="PatientStay_MedicationProtocolId" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="27" name="PatientStay_EntryDate" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="28" name="PatientStay_Duration" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="29" name="PatientStay_HandlingMode" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="30" name="PatientStay_Confirmed" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="31" name="PatientStay_SSR" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="32" name="PatientStay_SurgicalStay" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="33" name="PatientStay_PassiveMode" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="34" name="PatientStay_SurgeryConfirmationRequired" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="35" name="PatientStay_PatientStatus" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="36" name="PatientStay_CompanionStatus" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="37" name="PatientStay_CompanionInformation" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="38" name="PatientStay_CompanionCode" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="39" name="PatientStay_FormStatus" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="40" name="PatientStay_ForceCloseMessaging" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="41" name="PatientStay_MedicalDepartmentId" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Medical dept" foreignKey="patient_stay_PatientStay_MedicalDepartmentId_fkey" implied="false" onDeleteCascade="true" schema="public" table="medical_department_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="42" name="PatientStay_InteropMedicalDepartmentCode" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="43" name="PatientStay_Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="44" name="PatientStay_Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="45" name="PatientStay_Week" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="46" name="PatientStay_Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="47" name="PatientStay_HospitalizationNumber" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="48" name="PatientStay_FollowUpReasonName" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="49" name="PatientStay_HospitalizationReasonName" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="50" name="PatientStay_MedicalDepartmentName" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <primaryKey column="PatientStay_UId" sequenceNumberInPK="1"/>
+         <index name="pk_patient_stay" unique="true">
+            <column ascending="true" name="PatientStay_UId"/>
+         </index>
+      </table>
+      <table name="patient_stay_evolution" numRows="17821" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Date de début des symptômes" nullable="false" remarks="" size="13" type="date" typeCode="91"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Année de début des symptômes" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Mois de début des symptômes" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="No Semaine de début des symptômes" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="Quinzaine de début des symptômes" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="Jour du mois de début des symptômes" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="Jour de l'année de début des symptômes" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="Id. Région" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="Région" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="Id. Etablissement" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="Etablissement" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="Id. Médecin" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Id. Type de patient" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="Type de patient" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Id. Type de suivi" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Type de suivi" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Nombre de suivi" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="survey_answer" numRows="392148" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="#Clinique" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="Id" foreignKey="survey_answer_#Clinique_fkey1" implied="false" onDeleteCascade="true" schema="public" table="clinic"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Clinique" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="#Médecin" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="survey_answer_#Médecin_fkey1" implied="false" onDeleteCascade="true" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Médecin" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Patient" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="#Patient" foreignKey="survey_answer_#Patient_fkey1" implied="false" onDeleteCascade="true" schema="public" table="patient"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Séjour" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12">
+            <parent column="PatientStay_UId" foreignKey="survey_answer_#Séjour_fkey1" implied="false" onDeleteCascade="true" schema="public" table="patient_stay"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="6" name="Date création séjour" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="7" name="Date d'intervention" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="No séjour" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="#Résultat" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="Phase" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="11" name="Date de réponse" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Répondu par le patient" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="Code du questionnaire" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Titre du questionnaire" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Version du questionnaire" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Identifiant de la question" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="Identifiant de la réponse" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="Réponse à la question" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="Questionnaire d'urgence" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="20" name="Questionnaire à S+X" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="Questionnaire à I+X" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="22" name="Motif d'hospitalisation" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="23" name="Motif de suivi" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="24" name="#Alert Type" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="25" name="Alerte déclenchée le" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="26" name="Première prise en charge" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="27" name="Dernière prise en charge" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="28" name="Nombre de prise en charge" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="29" name="Alerte clos le" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="30" name="Commentaire de clôture" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="31" name="Message d'alerte" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="32" name="#Service" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="33" name="Service" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+      </table>
+      <table name="survey_definition" numRows="2" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="SurveyCode" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="SurveyVersion" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Title" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="6" id="3" name="PublishedOn" nullable="true" remarks="" size="29" type="timestamp" typeCode="93"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="NumberOfResult" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="survey_item" numRows="18" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="SurveyCode" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="SurveyVersion" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="ItemNo" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="QuestionText" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="QuestionDescription" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="IsMandatory" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="IsConditional" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="AnswerType" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="MinValue" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="MaxValue" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="Step" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="DefaultValue" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Reference" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+      </table>
+      <table name="task" numRows="20391" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Week" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7">
+            <parent column="#Clinic" foreignKey="task_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Medical Department" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Hospitalization Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Follow Up Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Follow up reason" foreignKey="task_#Follow Up Reason_#Clinic_fkey" implied="false" onDeleteCascade="true" schema="public" table="clinic_followup_reason"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="#Task Type Id" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="Task code" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="Task title" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Task is active" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="Task is for patient" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Task is mandatory" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Task is manual" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Task completed by patient" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="Is Satisfaction Survey" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="CorrelationEntity" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="#Alert Type" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="20" name="Number of tasks" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="Number of response" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="22" name="Number of alert" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+      <table name="task_detail" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="Month" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="Week" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="Fortnight" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="#Task" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="#Clinic" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="6" name="#Medical Department" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="7" name="#Doctor" nullable="false" remarks="" size="131089" type="numeric" typeCode="2">
+            <parent column="#Doctor" foreignKey="Implied Constraint" implied="true" onDeleteCascade="false" schema="public" table="doctor_list"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="8" name="#Hospitalization Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="9" name="#Follow Up Reason" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="10" name="#Task Type Id" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="11" name="Task code" nullable="false" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="12" name="Task title" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="13" name="Task is active" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="14" name="Task is for patient" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="15" name="Task is mandatory" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="16" name="Task is manual" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="17" name="Task completed by patient" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="18" name="Is Satisfaction Survey" nullable="false" remarks="" size="1" type="bool" typeCode="-7"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="19" name="CorrelationEntity" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="20" name="CorrelationUId" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="21" name="#Alert Type" nullable="true" remarks="" size="131089" type="numeric" typeCode="2"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="22" name="TaskCompletedByUId" nullable="true" remarks="" size="2147483647" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="23" name="TaskCompletedUserProfileTypeId" nullable="true" remarks="" size="1" type="bool" typeCode="-7"/>
+      </table>
+      <table name="year" numRows="9" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="null" digits="0" id="0" name="Year" nullable="false" remarks="" size="131089" type="numeric" typeCode="2"/>
+      </table>
+   </tables>
+</database>
